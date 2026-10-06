@@ -1,0 +1,133 @@
+{
+  "Z-Index": {
+    "hide": {
+      "$type": "number",
+      "$value": -1,
+      "$description": "Tuck behind a positioned parent without display: none",
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:119",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true
+        }
+      }
+    },
+    "base": {
+      "$type": "number",
+      "$value": 0,
+      "$description": "Document flow; no stacking intent",
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:120",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true
+        }
+      }
+    },
+    "raised": {
+      "$type": "number",
+      "$value": 1,
+      "$description": "Local lift, e.g. card hover, selected row",
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:121",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true
+        }
+      }
+    },
+    "dropdown": {
+      "$type": "number",
+      "$value": 1000,
+      "$description": "First overlay tier; 999 slots available below for product use",
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:122",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true
+        }
+      }
+    },
+    "sticky": {
+      "$type": "number",
+      "$value": 1100,
+      "$description": "Sticky headers and pinned rows",
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:123",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true
+        }
+      }
+    },
+    "fixed": {
+      "$type": "number",
+      "$value": 1200,
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:124",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true
+        }
+      }
+    },
+    "modal": {
+      "$type": "number",
+      "$value": 1300,
+      "$description": "Blocking overlay tier; shared by panel and backdrop",
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:125",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true
+        }
+      }
+    },
+    "popover": {
+      "$type": "number",
+      "$value": 1400,
+      "$description": "Above modal so popovers inside dialogs clear the surface",
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:126",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true
+        }
+      }
+    },
+    "tooltip": {
+      "$type": "number",
+      "$value": 1500,
+      "$description": "Always on top of interactive overlays",
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:127",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true
+        }
+      }
+    },
+    "max": {
+      "$type": "number",
+      "$value": 9999,
+      "$description": "Cookie banners, dev overlays, third-party widgets",
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:128",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true
+        }
+      }
+    }
+  }
+}

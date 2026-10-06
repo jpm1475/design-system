@@ -1,0 +1,64 @@
+{
+  "Breakpoint": {
+    "100": {
+      "$type": "dimension",
+      "$value": "440px",
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:15",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true
+        }
+      }
+    },
+    "200": {
+      "$type": "dimension",
+      "$value": "600px",
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:16",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true
+        }
+      }
+    },
+    "300": {
+      "$type": "dimension",
+      "$value": "834px",
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:17",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true
+        }
+      }
+    },
+    "400": {
+      "$type": "dimension",
+      "$value": "1200px",
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:18",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true
+        }
+      }
+    },
+    "500": {
+      "$type": "dimension",
+      "$value": "1440px",
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:19",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "Opacity": {
+    "0": {
+      "$type": "number",
+      "$value": 0,
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:52",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "figmaUnit": "percent"
+        }
+      }
+    },
+    "50": {
+      "$type": "number",
+      "$value": 0.05,
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:53",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "figmaUnit": "percent"
+        }
+      }
+    },
+    "100": {
+      "$type": "number",
+      "$value": 0.1,
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:54",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "figmaUnit": "percent"
+        }
+      }
+    },
+    "120": {
+      "$type": "number",
+      "$value": 0.12,
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:55",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "figmaUnit": "percent"
+        }
+      }
+    },
+    "200": {
+      "$type": "number",
+      "$value": 0.2,
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:56",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "figmaUnit": "percent"
+        }
+      }
+    },
+    "250": {
+      "$type": "number",
+      "$value": 0.25,
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:57",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "figmaUnit": "percent"
+        }
+      }
+    },
+    "300": {
+      "$type": "number",
+      "$value": 0.3,
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:58",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "figmaUnit": "percent"
+        }
+      }
+    },
+    "400": {
+      "$type": "number",
+      "$value": 0.4,
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:59",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "figmaUnit": "percent"
+        }
+      }
+    },
+    "500": {
+      "$type": "number",
+      "$value": 0.5,
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:60",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "figmaUnit": "percent"
+        }
+      }
+    },
+    "600": {
+      "$type": "number",
+      "$value": 0.6,
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:61",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "figmaUnit": "percent"
+        }
+      }
+    },
+    "700": {
+      "$type": "number",
+      "$value": 0.7,
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:62",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "figmaUnit": "percent"
+        }
+      }
+    },
+    "750": {
+      "$type": "number",
+      "$value": 0.75,
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:63",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "figmaUnit": "percent"
+        }
+      }
+    },
+    "800": {
+      "$type": "number",
+      "$value": 0.8,
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:64",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "figmaUnit": "percent"
+        }
+      }
+    },
+    "900": {
+      "$type": "number",
+      "$value": 0.9,
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:65",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "figmaUnit": "percent"
+        }
+      }
+    },
+    "950": {
+      "$type": "number",
+      "$value": 0.95,
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:66",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "figmaUnit": "percent"
+        }
+      }
+    },
+    "1000": {
+      "$type": "number",
+      "$value": 1,
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:67",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "figmaUnit": "percent"
+        }
+      }
+    }
+  }
+}

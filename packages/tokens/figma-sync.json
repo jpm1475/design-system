@@ -1,0 +1,6764 @@
+{
+  "fileKey": "5ENR2HqVuz9Nlf9Q4NmehH",
+  "syncedAt": "2026-10-06T17:29:59.316Z",
+  "sourceHash": "9a1ad2be63f9e97d6e571226a61745ee8f04e8f8b3683935b022da59a47b7bd6",
+  "collections": {
+    "primitives": {
+      "id": "VariableCollectionId:1:2",
+      "defaultModeId": "1:0",
+      "modes": {
+        "1:0": "Mode 1"
+      }
+    },
+    "typography-primitives": {
+      "id": "VariableCollectionId:93:9",
+      "defaultModeId": "93:0",
+      "modes": {
+        "93:0": "Mode 1"
+      }
+    },
+    "semantics": {
+      "id": "VariableCollectionId:156:7474",
+      "defaultModeId": "156:3",
+      "modes": {
+        "156:3": "Mode 1"
+      }
+    },
+    "typography-semantics": {
+      "id": "VariableCollectionId:110:873",
+      "defaultModeId": "110:0",
+      "modes": {
+        "110:0": "Desktop",
+        "110:1": "Tablet",
+        "110:2": "Mobile"
+      }
+    },
+    "icon-context": {
+      "id": "VariableCollectionId:380:2281",
+      "defaultModeId": "380:0",
+      "modes": {
+        "380:0": "Primary",
+        "380:1": "Inverse",
+        "380:2": "Secondary",
+        "380:3": "Brand",
+        "380:4": "Disabled",
+        "380:5": "Error"
+      }
+    }
+  },
+  "breakpoints": {
+    "mobile": "VariableID:417:326",
+    "tablet": "VariableID:417:327",
+    "desktop": "VariableID:417:328"
+  },
+  "variables": {
+    "VariableID:26:190": {
+      "name": "Color/White/500",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:69:2071": {
+      "name": "Radius/0",
+      "collection": "primitives",
+      "values": {
+        "1:0": 0
+      }
+    },
+    "VariableID:69:2072": {
+      "name": "Radius/50",
+      "collection": "primitives",
+      "values": {
+        "1:0": 2
+      }
+    },
+    "VariableID:69:2073": {
+      "name": "Radius/100",
+      "collection": "primitives",
+      "values": {
+        "1:0": 4
+      }
+    },
+    "VariableID:69:2074": {
+      "name": "Radius/200",
+      "collection": "primitives",
+      "values": {
+        "1:0": 8
+      }
+    },
+    "VariableID:69:2075": {
+      "name": "Radius/300",
+      "collection": "primitives",
+      "values": {
+        "1:0": 12
+      }
+    },
+    "VariableID:69:2076": {
+      "name": "Radius/400",
+      "collection": "primitives",
+      "values": {
+        "1:0": 16
+      }
+    },
+    "VariableID:69:2077": {
+      "name": "Radius/500",
+      "collection": "primitives",
+      "values": {
+        "1:0": 24
+      }
+    },
+    "VariableID:69:2078": {
+      "name": "Radius/600",
+      "collection": "primitives",
+      "values": {
+        "1:0": 32
+      }
+    },
+    "VariableID:69:2079": {
+      "name": "Radius/700",
+      "collection": "primitives",
+      "values": {
+        "1:0": 40
+      }
+    },
+    "VariableID:69:2080": {
+      "name": "Radius/800",
+      "collection": "primitives",
+      "values": {
+        "1:0": 48
+      }
+    },
+    "VariableID:69:2081": {
+      "name": "Radius/900",
+      "collection": "primitives",
+      "values": {
+        "1:0": 56
+      }
+    },
+    "VariableID:69:2082": {
+      "name": "Radius/1000",
+      "collection": "primitives",
+      "values": {
+        "1:0": 100
+      }
+    },
+    "VariableID:69:2083": {
+      "name": "Radius/1100",
+      "collection": "primitives",
+      "values": {
+        "1:0": 1000
+      }
+    },
+    "VariableID:26:13": {
+      "name": "Color/Blue/50",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.9019607901573181,
+          "g": 0.9411764740943909,
+          "b": 1,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:26:12": {
+      "name": "Color/Blue/100",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.658823549747467,
+          "g": 0.7960784435272217,
+          "b": 0.9960784316062927,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:26:11": {
+      "name": "Color/Blue/200",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.5058823823928833,
+          "g": 0.7058823704719543,
+          "b": 0.9960784316062927,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:26:10": {
+      "name": "Color/Blue/300",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.3529411852359772,
+          "g": 0.6117647290229797,
+          "b": 0.9960784316062927,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:26:9": {
+      "name": "Color/Blue/400",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.20392157137393951,
+          "g": 0.5215686559677124,
+          "b": 0.9921568632125854,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:26:8": {
+      "name": "Color/Blue/500",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.05098039284348488,
+          "g": 0.4313725531101227,
+          "b": 0.9921568632125854,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:26:7": {
+      "name": "Color/Blue/600",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.04313725605607033,
+          "g": 0.3607843220233917,
+          "b": 0.8352941274642944,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:26:6": {
+      "name": "Color/Blue/700",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.03529411926865578,
+          "g": 0.29411765933036804,
+          "b": 0.6745098233222961,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:26:5": {
+      "name": "Color/Blue/800",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.027450980618596077,
+          "g": 0.2235294133424759,
+          "b": 0.5176470875740051,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:26:4": {
+      "name": "Color/Blue/900",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.019607843831181526,
+          "g": 0.1568627506494522,
+          "b": 0.35686275362968445,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:56:343": {
+      "name": "Color/Blue-Black/50",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.9764705896377563,
+          "g": 0.9803921580314636,
+          "b": 0.9843137264251709,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:56:344": {
+      "name": "Color/Blue-Black/100",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.9490196108818054,
+          "g": 0.95686274766922,
+          "b": 0.9686274528503418,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:56:345": {
+      "name": "Color/Blue-Black/200",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.9176470637321472,
+          "g": 0.9254902005195618,
+          "b": 0.9411764740943909,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:56:346": {
+      "name": "Color/Blue-Black/300",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.8156862854957581,
+          "g": 0.8352941274642944,
+          "b": 0.8666666746139526,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:56:347": {
+      "name": "Color/Blue-Black/400",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.5529412031173706,
+          "g": 0.5921568870544434,
+          "b": 0.6745098233222961,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:56:348": {
+      "name": "Color/Blue-Black/500",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.37254902720451355,
+          "g": 0.4117647111415863,
+          "b": 0.501960813999176,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:56:349": {
+      "name": "Color/Blue-Black/600",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.27843138575553894,
+          "g": 0.3294117748737335,
+          "b": 0.40392157435417175,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:56:350": {
+      "name": "Color/Blue-Black/700",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.250980406999588,
+          "g": 0.2823529541492462,
+          "b": 0.3529411852359772,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:56:351": {
+      "name": "Color/Blue-Black/800",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.20392157137393951,
+          "g": 0.22745098173618317,
+          "b": 0.2823529541492462,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:56:352": {
+      "name": "Color/Blue-Black/900",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.14509804546833038,
+          "g": 0.16078431904315948,
+          "b": 0.20000000298023224,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:158:873": {
+      "name": "Color/Black/50",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.9764705896377563,
+          "g": 0.9764705896377563,
+          "b": 0.9764705896377563,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:158:874": {
+      "name": "Color/Black/100",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.9490196108818054,
+          "g": 0.9490196108818054,
+          "b": 0.9490196108818054,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:158:875": {
+      "name": "Color/Black/200",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.8666666746139526,
+          "g": 0.8666666746139526,
+          "b": 0.8666666746139526,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:158:876": {
+      "name": "Color/Black/300",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.7411764860153198,
+          "g": 0.7411764860153198,
+          "b": 0.7411764860153198,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:158:877": {
+      "name": "Color/Black/400",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.615686297416687,
+          "g": 0.6235294342041016,
+          "b": 0.6313725709915161,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:158:878": {
+      "name": "Color/Black/500",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.29411765933036804,
+          "g": 0.29411765933036804,
+          "b": 0.29411765933036804,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:158:879": {
+      "name": "Color/Black/600",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.21960784494876862,
+          "g": 0.21960784494876862,
+          "b": 0.21960784494876862,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:158:880": {
+      "name": "Color/Black/700",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.1568627506494522,
+          "g": 0.1568627506494522,
+          "b": 0.1568627506494522,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:158:881": {
+      "name": "Color/Black/800",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.06666667014360428,
+          "g": 0.06666667014360428,
+          "b": 0.06666667014360428,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:158:882": {
+      "name": "Color/Black/900",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:26:22": {
+      "name": "Color/Midnight/100",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.9764705896377563,
+          "g": 0.9803921580314636,
+          "b": 0.9843137264251709,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:26:21": {
+      "name": "Color/Midnight/200",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.9490196108818054,
+          "g": 0.95686274766922,
+          "b": 0.9686274528503418,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:26:20": {
+      "name": "Color/Midnight/300",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.9176470637321472,
+          "g": 0.9254902005195618,
+          "b": 0.9411764740943909,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:26:19": {
+      "name": "Color/Midnight/400",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.615686297416687,
+          "g": 0.6235294342041016,
+          "b": 0.6313725709915161,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:26:18": {
+      "name": "Color/Midnight/500",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.37254902720451355,
+          "g": 0.4117647111415863,
+          "b": 0.501960813999176,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:26:17": {
+      "name": "Color/Midnight/600",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.27843138575553894,
+          "g": 0.3294117748737335,
+          "b": 0.40392157435417175,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:26:16": {
+      "name": "Color/Midnight/700",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.29411765933036804,
+          "g": 0.29411765933036804,
+          "b": 0.29411765933036804,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:26:15": {
+      "name": "Color/Midnight/800",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.21960784494876862,
+          "g": 0.21960784494876862,
+          "b": 0.21960784494876862,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:26:14": {
+      "name": "Color/Midnight/900",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.1568627506494522,
+          "g": 0.1568627506494522,
+          "b": 0.1568627506494522,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:27:2": {
+      "name": "Color/Indigo/50",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.9137254953384399,
+          "g": 0.8666666746139526,
+          "b": 0.9921568632125854,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:27:3": {
+      "name": "Color/Indigo/100",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.7843137383460999,
+          "g": 0.6627451181411743,
+          "b": 0.9803921580314636,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:27:4": {
+      "name": "Color/Indigo/200",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.686274528503418,
+          "g": 0.5137255191802979,
+          "b": 0.9725490212440491,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:27:5": {
+      "name": "Color/Indigo/300",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.5921568870544434,
+          "g": 0.3607843220233917,
+          "b": 0.9647058844566345,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:27:6": {
+      "name": "Color/Indigo/400",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.4941176474094391,
+          "g": 0.21176470816135406,
+          "b": 0.95686274766922,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:27:7": {
+      "name": "Color/Indigo/500",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.4000000059604645,
+          "g": 0.062745101749897,
+          "b": 0.9490196108818054,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:27:8": {
+      "name": "Color/Indigo/600",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.33725491166114807,
+          "g": 0.05098039284348488,
+          "b": 0.7960784435272217,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:27:9": {
+      "name": "Color/Indigo/700",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.2705882489681244,
+          "g": 0.04313725605607033,
+          "b": 0.6470588445663452,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:27:10": {
+      "name": "Color/Indigo/800",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.2078431397676468,
+          "g": 0.0313725508749485,
+          "b": 0.4941176474094391,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:27:11": {
+      "name": "Color/Indigo/900",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.14509804546833038,
+          "g": 0.0235294122248888,
+          "b": 0.34117648005485535,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:31:2": {
+      "name": "Color/Pink/50",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 1,
+          "g": 0.8666666746139526,
+          "b": 0.9333333373069763,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:31:3": {
+      "name": "Color/Pink/100",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.9411764740943909,
+          "g": 0.7137255072593689,
+          "b": 0.8274509906768799,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:31:4": {
+      "name": "Color/Pink/200",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.9176470637321472,
+          "g": 0.5843137502670288,
+          "b": 0.7490196228027344,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:31:5": {
+      "name": "Color/Pink/300",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.8901960849761963,
+          "g": 0.45490196347236633,
+          "b": 0.6705882549285889,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:31:6": {
+      "name": "Color/Pink/400",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.8666666746139526,
+          "g": 0.3294117748737335,
+          "b": 0.5960784554481506,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:31:7": {
+      "name": "Color/Pink/500",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.7019608020782471,
+          "g": 0.21176470816135406,
+          "b": 0.45490196347236633,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:31:8": {
+      "name": "Color/Pink/600",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.6313725709915161,
+          "g": 0.1568627506494522,
+          "b": 0.3921568691730499,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:31:9": {
+      "name": "Color/Pink/700",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.572549045085907,
+          "g": 0.13725490868091583,
+          "b": 0.3529411852359772,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:31:10": {
+      "name": "Color/Pink/800",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.43529412150382996,
+          "g": 0.10588235408067703,
+          "b": 0.2705882489681244,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:31:11": {
+      "name": "Color/Pink/900",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.3019607961177826,
+          "g": 0.07058823853731155,
+          "b": 0.1882352977991104,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:2": {
+      "name": "Color/Purple/900",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.1568627506494522,
+          "g": 0.0941176488995552,
+          "b": 0.2705882489681244,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:3": {
+      "name": "Color/Purple/800",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.22745098173618317,
+          "g": 0.13333334028720856,
+          "b": 0.3921568691730499,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:4": {
+      "name": "Color/Purple/700",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.29411765933036804,
+          "g": 0.1764705926179886,
+          "b": 0.5137255191802979,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:5": {
+      "name": "Color/Purple/600",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.364705890417099,
+          "g": 0.21568627655506134,
+          "b": 0.6352941393852234,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:6": {
+      "name": "Color/Purple/500",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.43529412150382996,
+          "g": 0.25882354378700256,
+          "b": 0.7568627595901489,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:7": {
+      "name": "Color/Purple/400",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.5254902243614197,
+          "g": 0.3764705955982208,
+          "b": 0.7960784435272217,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:8": {
+      "name": "Color/Purple/300",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.615686297416687,
+          "g": 0.4941176474094391,
+          "b": 0.8352941274642944,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:9": {
+      "name": "Color/Purple/200",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.7058823704719543,
+          "g": 0.615686297416687,
+          "b": 0.8745098114013672,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:10": {
+      "name": "Color/Purple/100",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.7960784435272217,
+          "g": 0.7333333492279053,
+          "b": 0.9137254953384399,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:11": {
+      "name": "Color/Purple/50",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.9137254953384399,
+          "g": 0.8666666746139526,
+          "b": 1,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:12": {
+      "name": "Color/Cyan/50",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.8549019694328308,
+          "g": 0.9843137264251709,
+          "b": 1,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:13": {
+      "name": "Color/Cyan/100",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.658823549747467,
+          "g": 0.9254902005195618,
+          "b": 0.9803921580314636,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:14": {
+      "name": "Color/Cyan/200",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.5058823823928833,
+          "g": 0.8901960849761963,
+          "b": 0.9686274528503418,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:15": {
+      "name": "Color/Cyan/300",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.3529411852359772,
+          "g": 0.8588235378265381,
+          "b": 0.9607843160629272,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:16": {
+      "name": "Color/Cyan/400",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.20392157137393951,
+          "g": 0.8235294222831726,
+          "b": 0.9490196108818054,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:17": {
+      "name": "Color/Cyan/500",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.05098039284348488,
+          "g": 0.7921568751335144,
+          "b": 0.9411764740943909,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:18": {
+      "name": "Color/Cyan/600",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.04313725605607033,
+          "g": 0.6666666865348816,
+          "b": 0.7921568751335144,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:19": {
+      "name": "Color/Cyan/700",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.03529411926865578,
+          "g": 0.5372549295425415,
+          "b": 0.6392157077789307,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:20": {
+      "name": "Color/Cyan/800",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.027450980618596077,
+          "g": 0.4117647111415863,
+          "b": 0.4901960790157318,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:21": {
+      "name": "Color/Cyan/900",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.019607843831181526,
+          "g": 0.2862745225429535,
+          "b": 0.33725491166114807,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:22": {
+      "name": "Color/Teal/50",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.8627451062202454,
+          "g": 1,
+          "b": 0.9607843160629272,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:23": {
+      "name": "Color/Teal/100",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.686274528503418,
+          "g": 0.9254902005195618,
+          "b": 0.8549019694328308,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:24": {
+      "name": "Color/Teal/200",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.545098066329956,
+          "g": 0.8901960849761963,
+          "b": 0.7882353067398071,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:25": {
+      "name": "Color/Teal/300",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.40392157435417175,
+          "g": 0.8549019694328308,
+          "b": 0.7215686440467834,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:26": {
+      "name": "Color/Teal/400",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.2666666805744171,
+          "g": 0.8235294222831726,
+          "b": 0.658823549747467,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:27": {
+      "name": "Color/Teal/500",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.125490203499794,
+          "g": 0.7882353067398071,
+          "b": 0.5921568870544434,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:28": {
+      "name": "Color/Teal/600",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.10588235408067703,
+          "g": 0.6627451181411743,
+          "b": 0.49803921580314636,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:29": {
+      "name": "Color/Teal/700",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.08627451211214066,
+          "g": 0.5372549295425415,
+          "b": 0.40392157435417175,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:30": {
+      "name": "Color/Teal/800",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.06666667014360428,
+          "g": 0.4117647111415863,
+          "b": 0.30980393290519714,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:31": {
+      "name": "Color/Teal/900",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.0470588244497776,
+          "g": 0.2823529541492462,
+          "b": 0.21176470816135406,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:32": {
+      "name": "Color/Green/50",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.8627451062202454,
+          "g": 0.95686274766922,
+          "b": 0.8823529481887817,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:33": {
+      "name": "Color/Green/100",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.6745098233222961,
+          "g": 0.8313725590705872,
+          "b": 0.7568627595901489,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:34": {
+      "name": "Color/Green/200",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.529411792755127,
+          "g": 0.7568627595901489,
+          "b": 0.6509804129600525,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:35": {
+      "name": "Color/Green/300",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.38823530077934265,
+          "g": 0.6784313917160034,
+          "b": 0.545098066329956,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:36": {
+      "name": "Color/Green/400",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.24313725531101227,
+          "g": 0.6039215922355652,
+          "b": 0.43529412150382996,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:37": {
+      "name": "Color/Green/500",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.09803921729326248,
+          "g": 0.529411792755127,
+          "b": 0.3294117748737335,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:38": {
+      "name": "Color/Green/600",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.08235294371843338,
+          "g": 0.4431372582912445,
+          "b": 0.27843138575553894,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:39": {
+      "name": "Color/Green/700",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.06666667014360428,
+          "g": 0.3607843220233917,
+          "b": 0.2235294133424759,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:40": {
+      "name": "Color/Green/800",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.05098039284348488,
+          "g": 0.27450981736183167,
+          "b": 0.1725490242242813,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:41": {
+      "name": "Color/Green/900",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.03529411926865578,
+          "g": 0.1921568661928177,
+          "b": 0.11764705926179886,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:42": {
+      "name": "Color/Yellow/50",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.9843137264251709,
+          "g": 0.9411764740943909,
+          "b": 0.8039215803146362,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:43": {
+      "name": "Color/Yellow/100",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 1,
+          "g": 0.9137254953384399,
+          "b": 0.6509804129600525,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:44": {
+      "name": "Color/Yellow/200",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 1,
+          "g": 0.8745098114013672,
+          "b": 0.4941176474094391,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:45": {
+      "name": "Color/Yellow/300",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 1,
+          "g": 0.8352941274642944,
+          "b": 0.33725491166114807,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:46": {
+      "name": "Color/Yellow/400",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 1,
+          "g": 0.7960784435272217,
+          "b": 0.18431372940540314,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:47": {
+      "name": "Color/Yellow/500",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 1,
+          "g": 0.7568627595901489,
+          "b": 0.027450980618596077,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:48": {
+      "name": "Color/Yellow/600",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.8392156958580017,
+          "g": 0.6352941393852234,
+          "b": 0.0235294122248888,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:49": {
+      "name": "Color/Yellow/700",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.6784313917160034,
+          "g": 0.5137255191802979,
+          "b": 0.019607843831181526,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:50": {
+      "name": "Color/Yellow/800",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.5215686559677124,
+          "g": 0.3921568691730499,
+          "b": 0.01568627543747425,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:51": {
+      "name": "Color/Yellow/900",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.3607843220233917,
+          "g": 0.2705882489681244,
+          "b": 0.0117647061124444,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:52": {
+      "name": "Color/Orange/50",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 1,
+          "g": 0.9176470637321472,
+          "b": 0.8470588326454163,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:53": {
+      "name": "Color/Orange/100",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.9960784316062927,
+          "g": 0.8196078538894653,
+          "b": 0.6666666865348816,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:54": {
+      "name": "Color/Orange/200",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.9960784316062927,
+          "g": 0.7372549176216125,
+          "b": 0.5215686559677124,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:55": {
+      "name": "Color/Orange/300",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.9960784316062927,
+          "g": 0.6549019813537598,
+          "b": 0.37254902720451355,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:56": {
+      "name": "Color/Orange/400",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.9921568632125854,
+          "g": 0.5764706134796143,
+          "b": 0.22745098173618317,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:57": {
+      "name": "Color/Orange/500",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.9921568632125854,
+          "g": 0.4941176474094391,
+          "b": 0.0784313753247261,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:58": {
+      "name": "Color/Orange/600",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.8352941274642944,
+          "g": 0.4156862795352936,
+          "b": 0.06666667014360428,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:59": {
+      "name": "Color/Orange/700",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.6745098233222961,
+          "g": 0.33725491166114807,
+          "b": 0.054901961237192154,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:60": {
+      "name": "Color/Orange/800",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.5176470875740051,
+          "g": 0.25882354378700256,
+          "b": 0.03921568766236305,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:61": {
+      "name": "Color/Orange/900",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.35686275362968445,
+          "g": 0.1764705926179886,
+          "b": 0.027450980618596077,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:62": {
+      "name": "Color/Red/50",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 1,
+          "g": 0.8784313797950745,
+          "b": 0.8901960849761963,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:63": {
+      "name": "Color/Red/100",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.9490196108818054,
+          "g": 0.7137255072593689,
+          "b": 0.7372549176216125,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:64": {
+      "name": "Color/Red/200",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.929411768913269,
+          "g": 0.5882353186607361,
+          "b": 0.6196078658103943,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:65": {
+      "name": "Color/Red/300",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.9058823585510254,
+          "g": 0.4627451002597809,
+          "b": 0.5058823823928833,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:66": {
+      "name": "Color/Red/400",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.886274516582489,
+          "g": 0.3333333432674408,
+          "b": 0.38823530077934265,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:67": {
+      "name": "Color/Red/500",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.8627451062202454,
+          "g": 0.2078431397676468,
+          "b": 0.2705882489681244,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:68": {
+      "name": "Color/Red/600",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.7254902124404907,
+          "g": 0.1764705926179886,
+          "b": 0.22745098173618317,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:69": {
+      "name": "Color/Red/700",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.5882353186607361,
+          "g": 0.1411764770746231,
+          "b": 0.18431372940540314,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:70": {
+      "name": "Color/Red/800",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.4470588266849518,
+          "g": 0.10980392247438431,
+          "b": 0.1411764770746231,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:42:71": {
+      "name": "Color/Red/900",
+      "collection": "primitives",
+      "values": {
+        "1:0": {
+          "r": 0.30980393290519714,
+          "g": 0.07450980693101883,
+          "b": 0.09803921729326248,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:86:9": {
+      "name": "Border-Width/0",
+      "collection": "primitives",
+      "values": {
+        "1:0": 0
+      }
+    },
+    "VariableID:86:10": {
+      "name": "Border-Width/25",
+      "collection": "primitives",
+      "values": {
+        "1:0": 1
+      }
+    },
+    "VariableID:86:11": {
+      "name": "Border-Width/50",
+      "collection": "primitives",
+      "values": {
+        "1:0": 2
+      }
+    },
+    "VariableID:86:12": {
+      "name": "Border-Width/100",
+      "collection": "primitives",
+      "values": {
+        "1:0": 4
+      }
+    },
+    "VariableID:86:13": {
+      "name": "Border-Width/150",
+      "collection": "primitives",
+      "values": {
+        "1:0": 6
+      }
+    },
+    "VariableID:86:14": {
+      "name": "Border-Width/200",
+      "collection": "primitives",
+      "values": {
+        "1:0": 8
+      }
+    },
+    "VariableID:86:15": {
+      "name": "Breakpoint/100",
+      "collection": "primitives",
+      "values": {
+        "1:0": 440
+      }
+    },
+    "VariableID:86:16": {
+      "name": "Breakpoint/200",
+      "collection": "primitives",
+      "values": {
+        "1:0": 600
+      }
+    },
+    "VariableID:86:17": {
+      "name": "Breakpoint/300",
+      "collection": "primitives",
+      "values": {
+        "1:0": 834
+      }
+    },
+    "VariableID:86:18": {
+      "name": "Breakpoint/400",
+      "collection": "primitives",
+      "values": {
+        "1:0": 1200
+      }
+    },
+    "VariableID:86:19": {
+      "name": "Breakpoint/500",
+      "collection": "primitives",
+      "values": {
+        "1:0": 1440
+      }
+    },
+    "VariableID:86:20": {
+      "name": "Elevation/X-Offset/0",
+      "collection": "primitives",
+      "values": {
+        "1:0": 0
+      }
+    },
+    "VariableID:86:21": {
+      "name": "Elevation/X-Offset/25",
+      "collection": "primitives",
+      "values": {
+        "1:0": 1
+      }
+    },
+    "VariableID:86:22": {
+      "name": "Elevation/X-Offset/50",
+      "collection": "primitives",
+      "values": {
+        "1:0": 2
+      }
+    },
+    "VariableID:86:23": {
+      "name": "Elevation/X-Offset/100",
+      "collection": "primitives",
+      "values": {
+        "1:0": 4
+      }
+    },
+    "VariableID:86:24": {
+      "name": "Elevation/X-Offset/150",
+      "collection": "primitives",
+      "values": {
+        "1:0": 6
+      }
+    },
+    "VariableID:86:25": {
+      "name": "Elevation/X-Offset/200",
+      "collection": "primitives",
+      "values": {
+        "1:0": 8
+      }
+    },
+    "VariableID:86:26": {
+      "name": "Elevation/X-Offset/250",
+      "collection": "primitives",
+      "values": {
+        "1:0": 10
+      }
+    },
+    "VariableID:86:27": {
+      "name": "Elevation/X-Offset/300",
+      "collection": "primitives",
+      "values": {
+        "1:0": 12
+      }
+    },
+    "VariableID:86:28": {
+      "name": "Elevation/Y-Offset/0",
+      "collection": "primitives",
+      "values": {
+        "1:0": 0
+      }
+    },
+    "VariableID:86:29": {
+      "name": "Elevation/Y-Offset/25",
+      "collection": "primitives",
+      "values": {
+        "1:0": 1
+      }
+    },
+    "VariableID:86:30": {
+      "name": "Elevation/Y-Offset/50",
+      "collection": "primitives",
+      "values": {
+        "1:0": 2
+      }
+    },
+    "VariableID:86:31": {
+      "name": "Elevation/Y-Offset/100",
+      "collection": "primitives",
+      "values": {
+        "1:0": 4
+      }
+    },
+    "VariableID:86:32": {
+      "name": "Elevation/Y-Offset/150",
+      "collection": "primitives",
+      "values": {
+        "1:0": 6
+      }
+    },
+    "VariableID:86:33": {
+      "name": "Elevation/Y-Offset/200",
+      "collection": "primitives",
+      "values": {
+        "1:0": 8
+      }
+    },
+    "VariableID:86:34": {
+      "name": "Elevation/Y-Offset/250",
+      "collection": "primitives",
+      "values": {
+        "1:0": 10
+      }
+    },
+    "VariableID:86:35": {
+      "name": "Elevation/Y-Offset/300",
+      "collection": "primitives",
+      "values": {
+        "1:0": 16
+      }
+    },
+    "VariableID:86:36": {
+      "name": "Elevation/Blur/0",
+      "collection": "primitives",
+      "values": {
+        "1:0": 0
+      }
+    },
+    "VariableID:86:37": {
+      "name": "Elevation/Blur/25",
+      "collection": "primitives",
+      "values": {
+        "1:0": 1
+      }
+    },
+    "VariableID:86:38": {
+      "name": "Elevation/Blur/50",
+      "collection": "primitives",
+      "values": {
+        "1:0": 2
+      }
+    },
+    "VariableID:86:39": {
+      "name": "Elevation/Blur/100",
+      "collection": "primitives",
+      "values": {
+        "1:0": 4
+      }
+    },
+    "VariableID:86:40": {
+      "name": "Elevation/Blur/150",
+      "collection": "primitives",
+      "values": {
+        "1:0": 6
+      }
+    },
+    "VariableID:86:41": {
+      "name": "Elevation/Blur/200",
+      "collection": "primitives",
+      "values": {
+        "1:0": 8
+      }
+    },
+    "VariableID:86:42": {
+      "name": "Elevation/Blur/250",
+      "collection": "primitives",
+      "values": {
+        "1:0": 10
+      }
+    },
+    "VariableID:86:43": {
+      "name": "Elevation/Blur/300",
+      "collection": "primitives",
+      "values": {
+        "1:0": 16
+      }
+    },
+    "VariableID:186:14459": {
+      "name": "Elevation/Blur/350",
+      "collection": "primitives",
+      "values": {
+        "1:0": 24
+      }
+    },
+    "VariableID:186:14460": {
+      "name": "Elevation/Blur/400",
+      "collection": "primitives",
+      "values": {
+        "1:0": 32
+      }
+    },
+    "VariableID:186:14461": {
+      "name": "Elevation/Blur/450",
+      "collection": "primitives",
+      "values": {
+        "1:0": 40
+      }
+    },
+    "VariableID:186:14462": {
+      "name": "Elevation/Blur/500",
+      "collection": "primitives",
+      "values": {
+        "1:0": 50
+      }
+    },
+    "VariableID:186:14463": {
+      "name": "Elevation/Blur/550",
+      "collection": "primitives",
+      "values": {
+        "1:0": 60
+      }
+    },
+    "VariableID:86:44": {
+      "name": "Elevation/Spread/0",
+      "collection": "primitives",
+      "values": {
+        "1:0": 0
+      }
+    },
+    "VariableID:86:45": {
+      "name": "Elevation/Spread/25",
+      "collection": "primitives",
+      "values": {
+        "1:0": 1
+      }
+    },
+    "VariableID:86:46": {
+      "name": "Elevation/Spread/50",
+      "collection": "primitives",
+      "values": {
+        "1:0": 2
+      }
+    },
+    "VariableID:86:47": {
+      "name": "Elevation/Spread/100",
+      "collection": "primitives",
+      "values": {
+        "1:0": 4
+      }
+    },
+    "VariableID:86:48": {
+      "name": "Elevation/Spread/150",
+      "collection": "primitives",
+      "values": {
+        "1:0": 6
+      }
+    },
+    "VariableID:86:49": {
+      "name": "Elevation/Spread/200",
+      "collection": "primitives",
+      "values": {
+        "1:0": 8
+      }
+    },
+    "VariableID:86:50": {
+      "name": "Elevation/Spread/250",
+      "collection": "primitives",
+      "values": {
+        "1:0": 10
+      }
+    },
+    "VariableID:86:51": {
+      "name": "Elevation/Spread/300",
+      "collection": "primitives",
+      "values": {
+        "1:0": 12
+      }
+    },
+    "VariableID:86:52": {
+      "name": "Opacity/0",
+      "collection": "primitives",
+      "values": {
+        "1:0": 0
+      }
+    },
+    "VariableID:86:53": {
+      "name": "Opacity/50",
+      "collection": "primitives",
+      "values": {
+        "1:0": 5
+      }
+    },
+    "VariableID:86:54": {
+      "name": "Opacity/100",
+      "collection": "primitives",
+      "values": {
+        "1:0": 10
+      }
+    },
+    "VariableID:86:55": {
+      "name": "Opacity/120",
+      "collection": "primitives",
+      "values": {
+        "1:0": 12
+      }
+    },
+    "VariableID:86:56": {
+      "name": "Opacity/200",
+      "collection": "primitives",
+      "values": {
+        "1:0": 20
+      }
+    },
+    "VariableID:86:57": {
+      "name": "Opacity/250",
+      "collection": "primitives",
+      "values": {
+        "1:0": 25
+      }
+    },
+    "VariableID:86:58": {
+      "name": "Opacity/300",
+      "collection": "primitives",
+      "values": {
+        "1:0": 30
+      }
+    },
+    "VariableID:86:59": {
+      "name": "Opacity/400",
+      "collection": "primitives",
+      "values": {
+        "1:0": 40
+      }
+    },
+    "VariableID:86:60": {
+      "name": "Opacity/500",
+      "collection": "primitives",
+      "values": {
+        "1:0": 50
+      }
+    },
+    "VariableID:86:61": {
+      "name": "Opacity/600",
+      "collection": "primitives",
+      "values": {
+        "1:0": 60
+      }
+    },
+    "VariableID:86:62": {
+      "name": "Opacity/700",
+      "collection": "primitives",
+      "values": {
+        "1:0": 70
+      }
+    },
+    "VariableID:86:63": {
+      "name": "Opacity/750",
+      "collection": "primitives",
+      "values": {
+        "1:0": 75
+      }
+    },
+    "VariableID:86:64": {
+      "name": "Opacity/800",
+      "collection": "primitives",
+      "values": {
+        "1:0": 80
+      }
+    },
+    "VariableID:86:65": {
+      "name": "Opacity/900",
+      "collection": "primitives",
+      "values": {
+        "1:0": 90
+      }
+    },
+    "VariableID:86:66": {
+      "name": "Opacity/950",
+      "collection": "primitives",
+      "values": {
+        "1:0": 95
+      }
+    },
+    "VariableID:86:67": {
+      "name": "Opacity/1000",
+      "collection": "primitives",
+      "values": {
+        "1:0": 100
+      }
+    },
+    "VariableID:86:68": {
+      "name": "Sizing-Scale/0",
+      "collection": "primitives",
+      "values": {
+        "1:0": 0
+      }
+    },
+    "VariableID:86:69": {
+      "name": "Sizing-Scale/25",
+      "collection": "primitives",
+      "values": {
+        "1:0": 1
+      }
+    },
+    "VariableID:86:70": {
+      "name": "Sizing-Scale/50",
+      "collection": "primitives",
+      "values": {
+        "1:0": 2
+      }
+    },
+    "VariableID:86:71": {
+      "name": "Sizing-Scale/100",
+      "collection": "primitives",
+      "values": {
+        "1:0": 4
+      }
+    },
+    "VariableID:86:72": {
+      "name": "Sizing-Scale/150",
+      "collection": "primitives",
+      "values": {
+        "1:0": 6
+      }
+    },
+    "VariableID:86:73": {
+      "name": "Sizing-Scale/200",
+      "collection": "primitives",
+      "values": {
+        "1:0": 8
+      }
+    },
+    "VariableID:86:74": {
+      "name": "Sizing-Scale/250",
+      "collection": "primitives",
+      "values": {
+        "1:0": 10
+      }
+    },
+    "VariableID:86:75": {
+      "name": "Sizing-Scale/300",
+      "collection": "primitives",
+      "values": {
+        "1:0": 12
+      }
+    },
+    "VariableID:86:76": {
+      "name": "Sizing-Scale/400",
+      "collection": "primitives",
+      "values": {
+        "1:0": 16
+      }
+    },
+    "VariableID:86:77": {
+      "name": "Sizing-Scale/500",
+      "collection": "primitives",
+      "values": {
+        "1:0": 20
+      }
+    },
+    "VariableID:86:78": {
+      "name": "Sizing-Scale/600",
+      "collection": "primitives",
+      "values": {
+        "1:0": 24
+      }
+    },
+    "VariableID:86:79": {
+      "name": "Sizing-Scale/700",
+      "collection": "primitives",
+      "values": {
+        "1:0": 32
+      }
+    },
+    "VariableID:86:80": {
+      "name": "Sizing-Scale/800",
+      "collection": "primitives",
+      "values": {
+        "1:0": 40
+      }
+    },
+    "VariableID:346:25470": {
+      "name": "Sizing-Scale/850",
+      "collection": "primitives",
+      "values": {
+        "1:0": 44
+      }
+    },
+    "VariableID:86:81": {
+      "name": "Sizing-Scale/900",
+      "collection": "primitives",
+      "values": {
+        "1:0": 48
+      }
+    },
+    "VariableID:86:82": {
+      "name": "Sizing-Scale/1000",
+      "collection": "primitives",
+      "values": {
+        "1:0": 56
+      }
+    },
+    "VariableID:86:83": {
+      "name": "Sizing-Scale/1100",
+      "collection": "primitives",
+      "values": {
+        "1:0": 64
+      }
+    },
+    "VariableID:86:84": {
+      "name": "Sizing-Scale/1200",
+      "collection": "primitives",
+      "values": {
+        "1:0": 72
+      }
+    },
+    "VariableID:86:85": {
+      "name": "Sizing-Scale/1300",
+      "collection": "primitives",
+      "values": {
+        "1:0": 80
+      }
+    },
+    "VariableID:86:86": {
+      "name": "Sizing-Scale/1400",
+      "collection": "primitives",
+      "values": {
+        "1:0": 96
+      }
+    },
+    "VariableID:86:87": {
+      "name": "Sizing-Scale/1500",
+      "collection": "primitives",
+      "values": {
+        "1:0": 112
+      }
+    },
+    "VariableID:86:88": {
+      "name": "Sizing-Scale/1600",
+      "collection": "primitives",
+      "values": {
+        "1:0": 224
+      }
+    },
+    "VariableID:86:89": {
+      "name": "Sizing-Scale/1700",
+      "collection": "primitives",
+      "values": {
+        "1:0": 320
+      }
+    },
+    "VariableID:86:90": {
+      "name": "Sizing-Scale/1800",
+      "collection": "primitives",
+      "values": {
+        "1:0": 360
+      }
+    },
+    "VariableID:86:91": {
+      "name": "Sizing-Scale/1900",
+      "collection": "primitives",
+      "values": {
+        "1:0": 480
+      }
+    },
+    "VariableID:86:92": {
+      "name": "Sizing-Scale/2000",
+      "collection": "primitives",
+      "values": {
+        "1:0": 544
+      }
+    },
+    "VariableID:86:93": {
+      "name": "Sizing-Scale/2100",
+      "collection": "primitives",
+      "values": {
+        "1:0": 640
+      }
+    },
+    "VariableID:86:94": {
+      "name": "Sizing-Scale/2200",
+      "collection": "primitives",
+      "values": {
+        "1:0": 680
+      }
+    },
+    "VariableID:86:95": {
+      "name": "Sizing-Scale/2300",
+      "collection": "primitives",
+      "values": {
+        "1:0": 840
+      }
+    },
+    "VariableID:86:96": {
+      "name": "Sizing-Scale/2400",
+      "collection": "primitives",
+      "values": {
+        "1:0": 944
+      }
+    },
+    "VariableID:86:97": {
+      "name": "Sizing-Scale/2500",
+      "collection": "primitives",
+      "values": {
+        "1:0": 1184
+      }
+    },
+    "VariableID:86:98": {
+      "name": "Spacing-Scale/0",
+      "collection": "primitives",
+      "values": {
+        "1:0": 0
+      }
+    },
+    "VariableID:86:99": {
+      "name": "Spacing-Scale/25",
+      "collection": "primitives",
+      "values": {
+        "1:0": 1
+      }
+    },
+    "VariableID:86:100": {
+      "name": "Spacing-Scale/50",
+      "collection": "primitives",
+      "values": {
+        "1:0": 2
+      }
+    },
+    "VariableID:86:101": {
+      "name": "Spacing-Scale/100",
+      "collection": "primitives",
+      "values": {
+        "1:0": 4
+      }
+    },
+    "VariableID:86:102": {
+      "name": "Spacing-Scale/150",
+      "collection": "primitives",
+      "values": {
+        "1:0": 6
+      }
+    },
+    "VariableID:86:103": {
+      "name": "Spacing-Scale/200",
+      "collection": "primitives",
+      "values": {
+        "1:0": 8
+      }
+    },
+    "VariableID:86:104": {
+      "name": "Spacing-Scale/250",
+      "collection": "primitives",
+      "values": {
+        "1:0": 10
+      }
+    },
+    "VariableID:86:105": {
+      "name": "Spacing-Scale/300",
+      "collection": "primitives",
+      "values": {
+        "1:0": 12
+      }
+    },
+    "VariableID:86:106": {
+      "name": "Spacing-Scale/400",
+      "collection": "primitives",
+      "values": {
+        "1:0": 16
+      }
+    },
+    "VariableID:86:107": {
+      "name": "Spacing-Scale/500",
+      "collection": "primitives",
+      "values": {
+        "1:0": 20
+      }
+    },
+    "VariableID:86:108": {
+      "name": "Spacing-Scale/600",
+      "collection": "primitives",
+      "values": {
+        "1:0": 24
+      }
+    },
+    "VariableID:86:109": {
+      "name": "Spacing-Scale/700",
+      "collection": "primitives",
+      "values": {
+        "1:0": 32
+      }
+    },
+    "VariableID:86:110": {
+      "name": "Spacing-Scale/800",
+      "collection": "primitives",
+      "values": {
+        "1:0": 40
+      }
+    },
+    "VariableID:86:111": {
+      "name": "Spacing-Scale/900",
+      "collection": "primitives",
+      "values": {
+        "1:0": 48
+      }
+    },
+    "VariableID:86:112": {
+      "name": "Spacing-Scale/1000",
+      "collection": "primitives",
+      "values": {
+        "1:0": 56
+      }
+    },
+    "VariableID:86:113": {
+      "name": "Spacing-Scale/1100",
+      "collection": "primitives",
+      "values": {
+        "1:0": 64
+      }
+    },
+    "VariableID:86:114": {
+      "name": "Spacing-Scale/1200",
+      "collection": "primitives",
+      "values": {
+        "1:0": 72
+      }
+    },
+    "VariableID:86:115": {
+      "name": "Spacing-Scale/1300",
+      "collection": "primitives",
+      "values": {
+        "1:0": 80
+      }
+    },
+    "VariableID:86:116": {
+      "name": "Spacing-Scale/1400",
+      "collection": "primitives",
+      "values": {
+        "1:0": 96
+      }
+    },
+    "VariableID:86:117": {
+      "name": "Spacing-Scale/1500",
+      "collection": "primitives",
+      "values": {
+        "1:0": 112
+      }
+    },
+    "VariableID:86:118": {
+      "name": "Spacing-Scale/1600",
+      "collection": "primitives",
+      "values": {
+        "1:0": 128
+      }
+    },
+    "VariableID:86:119": {
+      "name": "Z-Index/hide",
+      "collection": "primitives",
+      "values": {
+        "1:0": -1
+      }
+    },
+    "VariableID:86:120": {
+      "name": "Z-Index/base",
+      "collection": "primitives",
+      "values": {
+        "1:0": 0
+      }
+    },
+    "VariableID:86:121": {
+      "name": "Z-Index/raised",
+      "collection": "primitives",
+      "values": {
+        "1:0": 1
+      }
+    },
+    "VariableID:86:122": {
+      "name": "Z-Index/dropdown",
+      "collection": "primitives",
+      "values": {
+        "1:0": 1000
+      }
+    },
+    "VariableID:86:123": {
+      "name": "Z-Index/sticky",
+      "collection": "primitives",
+      "values": {
+        "1:0": 1100
+      }
+    },
+    "VariableID:86:124": {
+      "name": "Z-Index/fixed",
+      "collection": "primitives",
+      "values": {
+        "1:0": 1200
+      }
+    },
+    "VariableID:86:125": {
+      "name": "Z-Index/modal",
+      "collection": "primitives",
+      "values": {
+        "1:0": 1300
+      }
+    },
+    "VariableID:86:126": {
+      "name": "Z-Index/popover",
+      "collection": "primitives",
+      "values": {
+        "1:0": 1400
+      }
+    },
+    "VariableID:86:127": {
+      "name": "Z-Index/tooltip",
+      "collection": "primitives",
+      "values": {
+        "1:0": 1500
+      }
+    },
+    "VariableID:86:128": {
+      "name": "Z-Index/max",
+      "collection": "primitives",
+      "values": {
+        "1:0": 9999
+      }
+    },
+    "VariableID:93:10": {
+      "name": "Font-Family/display",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": "THICCCBOI"
+      }
+    },
+    "VariableID:93:11": {
+      "name": "Font-Family/heading",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": "THICCCBOI"
+      }
+    },
+    "VariableID:93:12": {
+      "name": "Font-Family/body",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": "THICCCBOI"
+      }
+    },
+    "VariableID:93:13": {
+      "name": "Font-Weight/Thin",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": "100"
+      }
+    },
+    "VariableID:93:14": {
+      "name": "Font-Weight/Extra Light",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": "200"
+      }
+    },
+    "VariableID:93:15": {
+      "name": "Font-Weight/Light",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": "300"
+      }
+    },
+    "VariableID:93:16": {
+      "name": "Font-Weight/Regular",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": "400"
+      }
+    },
+    "VariableID:93:17": {
+      "name": "Font-Weight/Medium",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": "500"
+      }
+    },
+    "VariableID:93:18": {
+      "name": "Font-Weight/Semi Bold",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": "600"
+      }
+    },
+    "VariableID:93:19": {
+      "name": "Font-Weight/Bold",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": "700"
+      }
+    },
+    "VariableID:93:20": {
+      "name": "Font-Weight/Extra Bold",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": "800"
+      }
+    },
+    "VariableID:93:21": {
+      "name": "Font-Weight/Black",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": "900"
+      }
+    },
+    "VariableID:96:3195": {
+      "name": "Font-Weight/Thicc AF",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": "900"
+      }
+    },
+    "VariableID:93:22": {
+      "name": "Font-Size/11",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 11
+      }
+    },
+    "VariableID:93:23": {
+      "name": "Font-Size/12",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 12
+      }
+    },
+    "VariableID:93:24": {
+      "name": "Font-Size/14",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 14
+      }
+    },
+    "VariableID:93:25": {
+      "name": "Font-Size/16",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 16
+      }
+    },
+    "VariableID:93:26": {
+      "name": "Font-Size/18",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 18
+      }
+    },
+    "VariableID:93:27": {
+      "name": "Font-Size/20",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 20
+      }
+    },
+    "VariableID:93:28": {
+      "name": "Font-Size/24",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 24
+      }
+    },
+    "VariableID:93:29": {
+      "name": "Font-Size/28",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 28
+      }
+    },
+    "VariableID:93:30": {
+      "name": "Font-Size/32",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 32
+      }
+    },
+    "VariableID:93:31": {
+      "name": "Font-Size/36",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 36
+      }
+    },
+    "VariableID:93:32": {
+      "name": "Font-Size/48",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 48
+      }
+    },
+    "VariableID:93:33": {
+      "name": "Font-Size/56",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 56
+      }
+    },
+    "VariableID:93:34": {
+      "name": "Font-Size/72",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 72
+      }
+    },
+    "VariableID:93:35": {
+      "name": "Font-Size/96",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 96
+      }
+    },
+    "VariableID:96:3196": {
+      "name": "Font-Size/112",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 112
+      }
+    },
+    "VariableID:96:3197": {
+      "name": "Font-Size/144",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 144
+      }
+    },
+    "VariableID:93:36": {
+      "name": "Line-Height/1",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 1
+      }
+    },
+    "VariableID:93:37": {
+      "name": "Line-Height/16",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 16
+      }
+    },
+    "VariableID:93:38": {
+      "name": "Line-Height/18",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 18
+      }
+    },
+    "VariableID:93:39": {
+      "name": "Line-Height/20",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 20
+      }
+    },
+    "VariableID:93:40": {
+      "name": "Line-Height/24",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 24
+      }
+    },
+    "VariableID:93:41": {
+      "name": "Line-Height/28",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 28
+      }
+    },
+    "VariableID:93:42": {
+      "name": "Line-Height/36",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 36
+      }
+    },
+    "VariableID:93:43": {
+      "name": "Line-Height/40",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 40
+      }
+    },
+    "VariableID:93:44": {
+      "name": "Line-Height/42",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 42
+      }
+    },
+    "VariableID:93:45": {
+      "name": "Line-Height/56",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 56
+      }
+    },
+    "VariableID:93:46": {
+      "name": "Line-Height/64",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 64
+      }
+    },
+    "VariableID:93:47": {
+      "name": "Line-Height/80",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 80
+      }
+    },
+    "VariableID:93:48": {
+      "name": "Line-Height/104",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 104
+      }
+    },
+    "VariableID:96:3198": {
+      "name": "Line-Height/114",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 114
+      }
+    },
+    "VariableID:96:3199": {
+      "name": "Line-Height/148",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 148
+      }
+    },
+    "VariableID:93:49": {
+      "name": "Letter-Spacing/0",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 0
+      }
+    },
+    "VariableID:93:50": {
+      "name": "Letter-Spacing/25",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 0.03999999910593033
+      }
+    },
+    "VariableID:93:51": {
+      "name": "Letter-Spacing/100",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 0.1599999964237213
+      }
+    },
+    "VariableID:93:52": {
+      "name": "Letter-Spacing/125",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 0.20000000298023224
+      }
+    },
+    "VariableID:93:53": {
+      "name": "Letter-Spacing/200",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 0.3199999928474426
+      }
+    },
+    "VariableID:93:54": {
+      "name": "Letter-Spacing/225",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 0.36000001430511475
+      }
+    },
+    "VariableID:93:55": {
+      "name": "Paragraph-Spacing/0",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 0
+      }
+    },
+    "VariableID:93:56": {
+      "name": "Paragraph-Spacing/8",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 8
+      }
+    },
+    "VariableID:93:57": {
+      "name": "Paragraph-Spacing/16",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 16
+      }
+    },
+    "VariableID:93:58": {
+      "name": "Paragraph-Spacing/24",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 24
+      }
+    },
+    "VariableID:93:59": {
+      "name": "Paragraph-Spacing/32",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 32
+      }
+    },
+    "VariableID:93:60": {
+      "name": "Paragraph-Indent/0",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 0
+      }
+    },
+    "VariableID:93:61": {
+      "name": "Paragraph-Indent/16",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 16
+      }
+    },
+    "VariableID:93:62": {
+      "name": "Paragraph-Indent/24",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 24
+      }
+    },
+    "VariableID:115:866": {
+      "name": "Font-Size/40",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 40
+      }
+    },
+    "VariableID:115:867": {
+      "name": "Font-Size/64",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 64
+      }
+    },
+    "VariableID:115:868": {
+      "name": "Font-Size/88",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 88
+      }
+    },
+    "VariableID:115:869": {
+      "name": "Line-Height/32",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 32
+      }
+    },
+    "VariableID:115:870": {
+      "name": "Line-Height/48",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 48
+      }
+    },
+    "VariableID:115:871": {
+      "name": "Line-Height/72",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 72
+      }
+    },
+    "VariableID:115:872": {
+      "name": "Line-Height/96",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 96
+      }
+    },
+    "VariableID:121:866": {
+      "name": "Line-Height/22",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 22
+      }
+    },
+    "VariableID:128:866": {
+      "name": "Font-Size/22",
+      "collection": "typography-primitives",
+      "values": {
+        "93:0": 22
+      }
+    },
+    "VariableID:156:7853": {
+      "name": "color/brand/primary",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:8"
+        }
+      }
+    },
+    "VariableID:304:22682": {
+      "name": "color/button/primary/default/surface",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:880"
+        }
+      }
+    },
+    "VariableID:304:22691": {
+      "name": "color/button/primary/default/text",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:190"
+        }
+      }
+    },
+    "VariableID:304:22683": {
+      "name": "color/button/primary/hover/surface",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:56:345"
+        }
+      }
+    },
+    "VariableID:304:22692": {
+      "name": "color/button/primary/hover/text",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:880"
+        }
+      }
+    },
+    "VariableID:304:22718": {
+      "name": "color/button/primary/hover/border",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:880"
+        }
+      }
+    },
+    "VariableID:304:22687": {
+      "name": "color/button/secondary/default/surface",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:880",
+          "opacity": 0
+        }
+      }
+    },
+    "VariableID:311:22752": {
+      "name": "color/button/secondary/default/text",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:880"
+        }
+      }
+    },
+    "VariableID:311:22759": {
+      "name": "color/button/secondary/default/border",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:880"
+        }
+      }
+    },
+    "VariableID:304:22689": {
+      "name": "color/button/danger/default/surface",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:42:67"
+        }
+      }
+    },
+    "VariableID:304:22690": {
+      "name": "color/button/danger/hover/surface",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:42:68"
+        }
+      }
+    },
+    "VariableID:316:22815": {
+      "name": "color/button/danger/pressed/surface",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:42:64"
+        }
+      }
+    },
+    "VariableID:316:22816": {
+      "name": "color/button/danger/pressed/text",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:42:69"
+        }
+      }
+    },
+    "VariableID:316:22817": {
+      "name": "color/button/danger/pressed/border",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:42:69"
+        }
+      }
+    },
+    "VariableID:316:22830": {
+      "name": "color/button/danger/focus/surface",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:42:67"
+        }
+      }
+    },
+    "VariableID:316:22819": {
+      "name": "color/button/danger/focus/text",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:190"
+        }
+      }
+    },
+    "VariableID:316:22820": {
+      "name": "color/button/danger/focus/border",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:8"
+        }
+      }
+    },
+    "VariableID:316:22821": {
+      "name": "color/button/danger/inactive/surface",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:56:348"
+        }
+      }
+    },
+    "VariableID:316:22822": {
+      "name": "color/button/danger/inactive/text",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:875"
+        }
+      }
+    },
+    "VariableID:162:1039": {
+      "name": "color/text/primary",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:880"
+        }
+      }
+    },
+    "VariableID:162:1040": {
+      "name": "color/text/heading",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:881"
+        }
+      }
+    },
+    "VariableID:162:1041": {
+      "name": "color/text/secondary",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:56:348"
+        }
+      }
+    },
+    "VariableID:162:1042": {
+      "name": "color/text/tertiary",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:877"
+        }
+      }
+    },
+    "VariableID:162:1043": {
+      "name": "color/text/disabled",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:875"
+        }
+      }
+    },
+    "VariableID:162:1044": {
+      "name": "color/text/inverse",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:190"
+        }
+      }
+    },
+    "VariableID:162:1045": {
+      "name": "color/text/link",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:8"
+        }
+      }
+    },
+    "VariableID:162:1046": {
+      "name": "color/text/error",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:42:67"
+        }
+      }
+    },
+    "VariableID:162:1047": {
+      "name": "color/text/success",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:42:37"
+        }
+      }
+    },
+    "VariableID:162:1048": {
+      "name": "color/text/warning",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:42:50"
+        }
+      }
+    },
+    "VariableID:162:1049": {
+      "name": "color/icon/primary",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:880"
+        }
+      }
+    },
+    "VariableID:162:1050": {
+      "name": "color/icon/secondary",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:56:348"
+        }
+      }
+    },
+    "VariableID:162:1051": {
+      "name": "color/icon/tertiary",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:877"
+        }
+      }
+    },
+    "VariableID:162:1052": {
+      "name": "color/icon/inverse",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:190"
+        }
+      }
+    },
+    "VariableID:162:1053": {
+      "name": "color/icon/disabled",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:876"
+        }
+      }
+    },
+    "VariableID:162:1054": {
+      "name": "color/icon/brand",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:8"
+        }
+      }
+    },
+    "VariableID:162:1055": {
+      "name": "color/icon/error",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:42:67"
+        }
+      }
+    },
+    "VariableID:162:1056": {
+      "name": "color/icon/success",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:42:37"
+        }
+      }
+    },
+    "VariableID:162:1057": {
+      "name": "color/surface/default",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:190"
+        }
+      }
+    },
+    "VariableID:162:1058": {
+      "name": "color/surface/subtle",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:56:344"
+        }
+      }
+    },
+    "VariableID:162:1059": {
+      "name": "color/surface/raised",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:56:343"
+        }
+      }
+    },
+    "VariableID:162:1060": {
+      "name": "color/surface/muted",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:56:345"
+        }
+      }
+    },
+    "VariableID:162:1061": {
+      "name": "color/surface/inverse",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:880"
+        }
+      }
+    },
+    "VariableID:162:1062": {
+      "name": "color/surface/strong",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:882"
+        }
+      }
+    },
+    "VariableID:162:1063": {
+      "name": "color/surface/brand",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:8"
+        }
+      }
+    },
+    "VariableID:162:1064": {
+      "name": "color/surface/overlay",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:882"
+        }
+      }
+    },
+    "VariableID:162:1065": {
+      "name": "color/border/default",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:880"
+        }
+      }
+    },
+    "VariableID:162:1066": {
+      "name": "color/border/subtle",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:56:346"
+        }
+      }
+    },
+    "VariableID:162:1067": {
+      "name": "color/border/light",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:875"
+        }
+      }
+    },
+    "VariableID:162:1068": {
+      "name": "color/border/muted",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:56:345"
+        }
+      }
+    },
+    "VariableID:162:1069": {
+      "name": "color/border/strong",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:882"
+        }
+      }
+    },
+    "VariableID:162:1070": {
+      "name": "color/border/inverse",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:190"
+        }
+      }
+    },
+    "VariableID:162:1071": {
+      "name": "color/border/focus",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:8"
+        }
+      }
+    },
+    "VariableID:162:1072": {
+      "name": "color/border/error",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:42:67"
+        }
+      }
+    },
+    "VariableID:162:1073": {
+      "name": "color/action/primary/default",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:8"
+        }
+      }
+    },
+    "VariableID:162:1074": {
+      "name": "color/action/primary/hover",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:7"
+        }
+      }
+    },
+    "VariableID:162:1075": {
+      "name": "color/action/primary/pressed",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:6"
+        }
+      }
+    },
+    "VariableID:162:1076": {
+      "name": "color/action/primary/disabled",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:11"
+        }
+      }
+    },
+    "VariableID:286:22442": {
+      "name": "color/action/primary/inactive",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:56:348"
+        }
+      }
+    },
+    "VariableID:162:1077": {
+      "name": "color/action/secondary/default",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:880"
+        }
+      }
+    },
+    "VariableID:162:1078": {
+      "name": "color/action/secondary/hover",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:879"
+        }
+      }
+    },
+    "VariableID:162:1079": {
+      "name": "color/action/danger/default",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:42:67"
+        }
+      }
+    },
+    "VariableID:162:1080": {
+      "name": "color/action/danger/hover",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:42:68"
+        }
+      }
+    },
+    "VariableID:162:1081": {
+      "name": "color/feedback/error/surface",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:42:62"
+        }
+      }
+    },
+    "VariableID:162:1082": {
+      "name": "color/feedback/error/text",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:42:69"
+        }
+      }
+    },
+    "VariableID:162:1083": {
+      "name": "color/feedback/error/border",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:42:67"
+        }
+      }
+    },
+    "VariableID:162:1084": {
+      "name": "color/feedback/success/surface",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:42:32"
+        }
+      }
+    },
+    "VariableID:162:1085": {
+      "name": "color/feedback/success/text",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:42:39"
+        }
+      }
+    },
+    "VariableID:162:1086": {
+      "name": "color/feedback/success/border",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:42:37"
+        }
+      }
+    },
+    "VariableID:162:1087": {
+      "name": "color/feedback/warning/surface",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:42:42"
+        }
+      }
+    },
+    "VariableID:162:1088": {
+      "name": "color/feedback/warning/text",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:42:50"
+        }
+      }
+    },
+    "VariableID:162:1089": {
+      "name": "color/feedback/warning/border",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:42:47"
+        }
+      }
+    },
+    "VariableID:162:1090": {
+      "name": "color/feedback/info/surface",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:13"
+        }
+      }
+    },
+    "VariableID:162:1091": {
+      "name": "color/feedback/info/text",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:6"
+        }
+      }
+    },
+    "VariableID:162:1092": {
+      "name": "color/feedback/info/border",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:8"
+        }
+      }
+    },
+    "VariableID:170:46": {
+      "name": "spacing/none",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:98"
+        }
+      }
+    },
+    "VariableID:170:47": {
+      "name": "spacing/3xs",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:99"
+        }
+      }
+    },
+    "VariableID:170:48": {
+      "name": "spacing/2xs",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:100"
+        }
+      }
+    },
+    "VariableID:170:49": {
+      "name": "spacing/xs",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:101"
+        }
+      }
+    },
+    "VariableID:170:50": {
+      "name": "spacing/sm",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:103"
+        }
+      }
+    },
+    "VariableID:170:51": {
+      "name": "spacing/md",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:105"
+        }
+      }
+    },
+    "VariableID:170:52": {
+      "name": "spacing/lg",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:106"
+        }
+      }
+    },
+    "VariableID:170:53": {
+      "name": "spacing/xl",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:107"
+        }
+      }
+    },
+    "VariableID:170:54": {
+      "name": "spacing/2xl",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:108"
+        }
+      }
+    },
+    "VariableID:170:55": {
+      "name": "spacing/3xl",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:109"
+        }
+      }
+    },
+    "VariableID:170:56": {
+      "name": "spacing/4xl",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:110"
+        }
+      }
+    },
+    "VariableID:170:57": {
+      "name": "spacing/5xl",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:111"
+        }
+      }
+    },
+    "VariableID:170:58": {
+      "name": "spacing/6xl",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:113"
+        }
+      }
+    },
+    "VariableID:170:59": {
+      "name": "spacing/7xl",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:115"
+        }
+      }
+    },
+    "VariableID:170:60": {
+      "name": "spacing/8xl",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:116"
+        }
+      }
+    },
+    "VariableID:170:61": {
+      "name": "spacing/9xl",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:117"
+        }
+      }
+    },
+    "VariableID:170:62": {
+      "name": "spacing/10xl",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:118"
+        }
+      }
+    },
+    "VariableID:275:20534": {
+      "name": "size/icon/xxxs",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:72"
+        }
+      }
+    },
+    "VariableID:275:20535": {
+      "name": "size/icon/xxs",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:73"
+        }
+      }
+    },
+    "VariableID:170:1425": {
+      "name": "size/icon/xs",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:75"
+        }
+      }
+    },
+    "VariableID:170:1426": {
+      "name": "size/icon/sm",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:76"
+        }
+      }
+    },
+    "VariableID:170:1427": {
+      "name": "size/icon/md",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:77"
+        }
+      }
+    },
+    "VariableID:170:1428": {
+      "name": "size/icon/lg",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:78"
+        }
+      }
+    },
+    "VariableID:170:1429": {
+      "name": "size/icon/xl",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:79"
+        }
+      }
+    },
+    "VariableID:352:26594": {
+      "name": "size/icon/xxl",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:80"
+        }
+      }
+    },
+    "VariableID:346:25469": {
+      "name": "size/icon/xxxl",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:346:25470"
+        }
+      }
+    },
+    "VariableID:324:22962": {
+      "name": "size/button/xs",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:79"
+        }
+      }
+    },
+    "VariableID:346:25464": {
+      "name": "size/icon-button/xs",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:80"
+        }
+      }
+    },
+    "VariableID:354:27487": {
+      "name": "size/toggle-button/xs",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:79"
+        }
+      }
+    },
+    "VariableID:354:27488": {
+      "name": "size/toggle-button/sm",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:80"
+        }
+      }
+    },
+    "VariableID:354:27489": {
+      "name": "size/toggle-button/md",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:81"
+        }
+      }
+    },
+    "VariableID:354:27490": {
+      "name": "size/toggle-button/lg",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:82"
+        }
+      }
+    },
+    "VariableID:354:27491": {
+      "name": "size/toggle-button/xl",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:83"
+        }
+      }
+    },
+    "VariableID:354:27493": {
+      "name": "size/toggle-button/elements/xl",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:81"
+        }
+      }
+    },
+    "VariableID:354:27494": {
+      "name": "size/toggle-button/elements/lg",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:80"
+        }
+      }
+    },
+    "VariableID:354:27495": {
+      "name": "size/toggle-button/elements/md",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:79"
+        }
+      }
+    },
+    "VariableID:354:27496": {
+      "name": "size/toggle-button/elements/sm",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:79"
+        }
+      }
+    },
+    "VariableID:354:27497": {
+      "name": "size/toggle-button/elements/xs",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:78"
+        }
+      }
+    },
+    "VariableID:346:25465": {
+      "name": "size/icon-button/sm",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:81"
+        }
+      }
+    },
+    "VariableID:346:25466": {
+      "name": "size/icon-button/md",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:82"
+        }
+      }
+    },
+    "VariableID:346:25467": {
+      "name": "size/icon-button/lg",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:83"
+        }
+      }
+    },
+    "VariableID:346:25468": {
+      "name": "size/icon-button/xl",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:84"
+        }
+      }
+    },
+    "VariableID:324:22963": {
+      "name": "size/button/sm",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:80"
+        }
+      }
+    },
+    "VariableID:324:22964": {
+      "name": "size/button/md",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:81"
+        }
+      }
+    },
+    "VariableID:324:22965": {
+      "name": "size/button/lg",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:83"
+        }
+      }
+    },
+    "VariableID:324:22966": {
+      "name": "size/button/xl",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:84"
+        }
+      }
+    },
+    "VariableID:170:1430": {
+      "name": "size/avatar/sm",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:79"
+        }
+      }
+    },
+    "VariableID:170:1431": {
+      "name": "size/avatar/md",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:80"
+        }
+      }
+    },
+    "VariableID:170:1432": {
+      "name": "size/avatar/lg",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:81"
+        }
+      }
+    },
+    "VariableID:170:1433": {
+      "name": "size/avatar/xl",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:83"
+        }
+      }
+    },
+    "VariableID:170:1434": {
+      "name": "size/touch-target",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:81"
+        }
+      }
+    },
+    "VariableID:170:1435": {
+      "name": "size/input/sm",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:79"
+        }
+      }
+    },
+    "VariableID:170:1436": {
+      "name": "size/input/md",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:80"
+        }
+      }
+    },
+    "VariableID:170:1437": {
+      "name": "size/input/lg",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:81"
+        }
+      }
+    },
+    "VariableID:170:1438": {
+      "name": "radius/none",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:69:2071"
+        }
+      }
+    },
+    "VariableID:170:1439": {
+      "name": "radius/xs",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:69:2072"
+        }
+      }
+    },
+    "VariableID:170:1440": {
+      "name": "radius/sm",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:69:2073"
+        }
+      }
+    },
+    "VariableID:170:1441": {
+      "name": "radius/md",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:69:2074"
+        }
+      }
+    },
+    "VariableID:170:1442": {
+      "name": "radius/lg",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:69:2075"
+        }
+      }
+    },
+    "VariableID:272:20": {
+      "name": "radius/xl",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:69:2076"
+        }
+      }
+    },
+    "VariableID:170:1443": {
+      "name": "radius/2xl",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:69:2077"
+        }
+      }
+    },
+    "VariableID:170:1444": {
+      "name": "radius/3xl",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:69:2078"
+        }
+      }
+    },
+    "VariableID:170:1445": {
+      "name": "radius/4xl",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:69:2079"
+        }
+      }
+    },
+    "VariableID:170:1446": {
+      "name": "radius/full",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:69:2082"
+        }
+      }
+    },
+    "VariableID:170:1447": {
+      "name": "radius/pill",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:69:2083"
+        }
+      }
+    },
+    "VariableID:170:1448": {
+      "name": "border-width/none",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:9"
+        }
+      }
+    },
+    "VariableID:170:1449": {
+      "name": "border-width/thin",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:10"
+        }
+      }
+    },
+    "VariableID:170:1450": {
+      "name": "border-width/default",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:11"
+        }
+      }
+    },
+    "VariableID:170:1451": {
+      "name": "border-width/thick",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:12"
+        }
+      }
+    },
+    "VariableID:170:1452": {
+      "name": "border-width/heavy",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:13"
+        }
+      }
+    },
+    "VariableID:170:1453": {
+      "name": "border-width/extra",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:14"
+        }
+      }
+    },
+    "VariableID:170:1454": {
+      "name": "opacity/hidden",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:52"
+        }
+      }
+    },
+    "VariableID:170:1455": {
+      "name": "opacity/ghost",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:53"
+        }
+      }
+    },
+    "VariableID:170:1456": {
+      "name": "opacity/faint",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:54"
+        }
+      }
+    },
+    "VariableID:170:1457": {
+      "name": "opacity/overlay",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:56"
+        }
+      }
+    },
+    "VariableID:170:1458": {
+      "name": "opacity/disabled",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:59"
+        }
+      }
+    },
+    "VariableID:170:1459": {
+      "name": "opacity/placeholder",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:60"
+        }
+      }
+    },
+    "VariableID:170:1460": {
+      "name": "opacity/muted",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:62"
+        }
+      }
+    },
+    "VariableID:170:1461": {
+      "name": "opacity/subtle",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:64"
+        }
+      }
+    },
+    "VariableID:170:1462": {
+      "name": "opacity/soft",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:65"
+        }
+      }
+    },
+    "VariableID:170:1463": {
+      "name": "opacity/visible",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:67"
+        }
+      }
+    },
+    "VariableID:186:13930": {
+      "name": "elevations/L1/x-offset",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:20"
+        }
+      }
+    },
+    "VariableID:186:13931": {
+      "name": "elevations/L1/y-offset",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:21"
+        }
+      }
+    },
+    "VariableID:186:13932": {
+      "name": "elevations/L1/blur",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:42"
+        }
+      }
+    },
+    "VariableID:186:13933": {
+      "name": "elevations/L1/spread",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:44"
+        }
+      }
+    },
+    "VariableID:186:13934": {
+      "name": "elevations/L1/color",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:882",
+          "opacity": 6
+        }
+      }
+    },
+    "VariableID:186:14454": {
+      "name": "elevations/L2/x-offset",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:20"
+        }
+      }
+    },
+    "VariableID:186:14455": {
+      "name": "elevations/L2/y-offset",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:35"
+        }
+      }
+    },
+    "VariableID:186:14456": {
+      "name": "elevations/L2/blur",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:186:14461"
+        }
+      }
+    },
+    "VariableID:186:14457": {
+      "name": "elevations/L2/spread",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:44"
+        }
+      }
+    },
+    "VariableID:186:14458": {
+      "name": "elevations/L2/color",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:882",
+          "opacity": 3
+        }
+      }
+    },
+    "VariableID:186:14464": {
+      "name": "elevations/L3/x-offset",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:20"
+        }
+      }
+    },
+    "VariableID:186:14465": {
+      "name": "elevations/L3/y-offset",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:33"
+        }
+      }
+    },
+    "VariableID:186:14466": {
+      "name": "elevations/L3/blur",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:186:14463"
+        }
+      }
+    },
+    "VariableID:186:14467": {
+      "name": "elevations/L3/spread",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:44"
+        }
+      }
+    },
+    "VariableID:186:14468": {
+      "name": "elevations/L3/color",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:882",
+          "opacity": 1
+        }
+      }
+    },
+    "VariableID:252:31": {
+      "name": "size/control/lg",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:79"
+        }
+      }
+    },
+    "VariableID:252:32": {
+      "name": "size/control/md",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:77"
+        }
+      }
+    },
+    "VariableID:252:33": {
+      "name": "size/control/sm",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:76"
+        }
+      }
+    },
+    "VariableID:275:20501": {
+      "name": "color/indicator/active/surface",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:42:37"
+        }
+      }
+    },
+    "VariableID:275:20498": {
+      "name": "color/indicator/busy/surface",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:42:67"
+        }
+      }
+    },
+    "VariableID:275:20504": {
+      "name": "color/indicator/away/surface",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:42:57"
+        }
+      }
+    },
+    "VariableID:275:20507": {
+      "name": "color/indicator/offline/surface",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:877"
+        }
+      }
+    },
+    "VariableID:304:22719": {
+      "name": "color/button/primary/pressed/surface",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:56:346"
+        }
+      }
+    },
+    "VariableID:304:22720": {
+      "name": "color/button/primary/pressed/text",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:880"
+        }
+      }
+    },
+    "VariableID:304:22721": {
+      "name": "color/button/primary/pressed/border",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:880"
+        }
+      }
+    },
+    "VariableID:304:22743": {
+      "name": "color/button/primary/focus/surface",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:880"
+        }
+      }
+    },
+    "VariableID:304:22744": {
+      "name": "color/button/primary/focus/text",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:190"
+        }
+      }
+    },
+    "VariableID:309:208": {
+      "name": "color/button/primary/focus/focus",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:8"
+        }
+      }
+    },
+    "VariableID:311:22749": {
+      "name": "color/button/primary/inactive/surface",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:56:348"
+        }
+      }
+    },
+    "VariableID:311:22750": {
+      "name": "color/button/primary/inactive/text",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:875"
+        }
+      }
+    },
+    "VariableID:311:22764": {
+      "name": "color/button/secondary/hover/surface",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:880"
+        }
+      }
+    },
+    "VariableID:311:22765": {
+      "name": "color/button/secondary/hover/text",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:190"
+        }
+      }
+    },
+    "VariableID:311:22766": {
+      "name": "color/button/secondary/hover/border",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:880",
+          "opacity": 0
+        }
+      }
+    },
+    "VariableID:316:22767": {
+      "name": "color/button/secondary/pressed/surface",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:56:345"
+        }
+      }
+    },
+    "VariableID:316:22768": {
+      "name": "color/button/secondary/pressed/text",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:880"
+        }
+      }
+    },
+    "VariableID:316:22769": {
+      "name": "color/button/secondary/pressed/border",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:880"
+        }
+      }
+    },
+    "VariableID:316:22774": {
+      "name": "color/button/secondary/focus/surface",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:880",
+          "opacity": 0
+        }
+      }
+    },
+    "VariableID:316:22775": {
+      "name": "color/button/secondary/focus/text",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:880"
+        }
+      }
+    },
+    "VariableID:316:22776": {
+      "name": "color/button/secondary/focus/border",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:8"
+        }
+      }
+    },
+    "VariableID:316:22781": {
+      "name": "color/button/secondary/inactive/surface",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:56:348",
+          "opacity": 0
+        }
+      }
+    },
+    "VariableID:316:22782": {
+      "name": "color/button/secondary/inactive/text",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:56:348"
+        }
+      }
+    },
+    "VariableID:316:22783": {
+      "name": "color/button/secondary/inactive/border",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:56:348"
+        }
+      }
+    },
+    "VariableID:316:22790": {
+      "name": "color/button/danger/default/text",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:190"
+        }
+      }
+    },
+    "VariableID:316:22794": {
+      "name": "color/button/danger/hover/text",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:190"
+        }
+      }
+    },
+    "VariableID:324:22931": {
+      "name": "color/button/tertiary/default/surface",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:190",
+          "opacity": 0
+        }
+      }
+    },
+    "VariableID:324:22932": {
+      "name": "color/button/tertiary/default/text",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:880"
+        }
+      }
+    },
+    "VariableID:324:22944": {
+      "name": "color/button/tertiary/default/border",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:880",
+          "opacity": 0
+        }
+      }
+    },
+    "VariableID:324:22933": {
+      "name": "color/button/tertiary/hover/surface",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:190",
+          "opacity": 0
+        }
+      }
+    },
+    "VariableID:324:22934": {
+      "name": "color/button/tertiary/hover/text",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:880"
+        }
+      }
+    },
+    "VariableID:324:22935": {
+      "name": "color/button/tertiary/hover/border",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:880"
+        }
+      }
+    },
+    "VariableID:324:22936": {
+      "name": "color/button/tertiary/pressed/surface",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:190",
+          "opacity": 0
+        }
+      }
+    },
+    "VariableID:324:22937": {
+      "name": "color/button/tertiary/pressed/text",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:8"
+        }
+      }
+    },
+    "VariableID:324:22938": {
+      "name": "color/button/tertiary/pressed/border",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:8"
+        }
+      }
+    },
+    "VariableID:324:22939": {
+      "name": "color/button/tertiary/focus/surface",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:190",
+          "opacity": 0
+        }
+      }
+    },
+    "VariableID:324:22940": {
+      "name": "color/button/tertiary/focus/text",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:158:880"
+        }
+      }
+    },
+    "VariableID:324:22941": {
+      "name": "color/button/tertiary/focus/border",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:8"
+        }
+      }
+    },
+    "VariableID:324:22942": {
+      "name": "color/button/tertiary/inactive/surface",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:190",
+          "opacity": 0
+        }
+      }
+    },
+    "VariableID:324:22943": {
+      "name": "color/button/tertiary/inactive/text",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:56:348"
+        }
+      }
+    },
+    "VariableID:417:326": {
+      "name": "breakpoints/mobile",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:15"
+        }
+      }
+    },
+    "VariableID:417:327": {
+      "name": "breakpoints/tablet",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:17"
+        }
+      }
+    },
+    "VariableID:417:328": {
+      "name": "breakpoints/desktop",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:86:19"
+        }
+      }
+    },
+    "VariableID:110:874": {
+      "name": "display1/font-family",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:10"
+        },
+        "110:1": {
+          "alias": "VariableID:93:10"
+        },
+        "110:2": {
+          "alias": "VariableID:93:10"
+        }
+      }
+    },
+    "VariableID:110:875": {
+      "name": "display1/font-weight",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:18"
+        },
+        "110:1": {
+          "alias": "VariableID:93:18"
+        },
+        "110:2": {
+          "alias": "VariableID:93:18"
+        }
+      }
+    },
+    "VariableID:110:876": {
+      "name": "display1/font-size",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:96:3197"
+        },
+        "110:1": {
+          "alias": "VariableID:93:35"
+        },
+        "110:2": {
+          "alias": "VariableID:93:34"
+        }
+      }
+    },
+    "VariableID:110:877": {
+      "name": "display1/line-height",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:96:3199"
+        },
+        "110:1": {
+          "alias": "VariableID:93:48"
+        },
+        "110:2": {
+          "alias": "VariableID:93:47"
+        }
+      }
+    },
+    "VariableID:110:878": {
+      "name": "display1/letter-spacing",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:49"
+        },
+        "110:1": {
+          "alias": "VariableID:93:49"
+        },
+        "110:2": {
+          "alias": "VariableID:93:49"
+        }
+      }
+    },
+    "VariableID:110:879": {
+      "name": "display2/font-family",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:10"
+        },
+        "110:1": {
+          "alias": "VariableID:93:10"
+        },
+        "110:2": {
+          "alias": "VariableID:93:10"
+        }
+      }
+    },
+    "VariableID:110:880": {
+      "name": "display2/font-weight",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:18"
+        },
+        "110:1": {
+          "alias": "VariableID:93:18"
+        },
+        "110:2": {
+          "alias": "VariableID:93:18"
+        }
+      }
+    },
+    "VariableID:110:881": {
+      "name": "display2/font-size",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:96:3196"
+        },
+        "110:1": {
+          "alias": "VariableID:93:34"
+        },
+        "110:2": {
+          "alias": "VariableID:93:33"
+        }
+      }
+    },
+    "VariableID:110:882": {
+      "name": "display2/line-height",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:96:3198"
+        },
+        "110:1": {
+          "alias": "VariableID:93:47"
+        },
+        "110:2": {
+          "alias": "VariableID:93:46"
+        }
+      }
+    },
+    "VariableID:110:883": {
+      "name": "display2/letter-spacing",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:49"
+        },
+        "110:1": {
+          "alias": "VariableID:93:49"
+        },
+        "110:2": {
+          "alias": "VariableID:93:49"
+        }
+      }
+    },
+    "VariableID:110:884": {
+      "name": "display3/font-family",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:10"
+        },
+        "110:1": {
+          "alias": "VariableID:93:10"
+        },
+        "110:2": {
+          "alias": "VariableID:93:10"
+        }
+      }
+    },
+    "VariableID:110:885": {
+      "name": "display3/font-weight",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:18"
+        },
+        "110:1": {
+          "alias": "VariableID:93:18"
+        },
+        "110:2": {
+          "alias": "VariableID:93:18"
+        }
+      }
+    },
+    "VariableID:110:886": {
+      "name": "display3/font-size",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:35"
+        },
+        "110:1": {
+          "alias": "VariableID:93:33"
+        },
+        "110:2": {
+          "alias": "VariableID:93:32"
+        }
+      }
+    },
+    "VariableID:110:887": {
+      "name": "display3/line-height",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:48"
+        },
+        "110:1": {
+          "alias": "VariableID:93:46"
+        },
+        "110:2": {
+          "alias": "VariableID:93:45"
+        }
+      }
+    },
+    "VariableID:110:888": {
+      "name": "display3/letter-spacing",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:49"
+        },
+        "110:1": {
+          "alias": "VariableID:93:49"
+        },
+        "110:2": {
+          "alias": "VariableID:93:49"
+        }
+      }
+    },
+    "VariableID:110:889": {
+      "name": "h1/font-family",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:11"
+        },
+        "110:1": {
+          "alias": "VariableID:93:11"
+        },
+        "110:2": {
+          "alias": "VariableID:93:11"
+        }
+      }
+    },
+    "VariableID:110:890": {
+      "name": "h1/font-weight",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:18"
+        },
+        "110:1": {
+          "alias": "VariableID:93:18"
+        },
+        "110:2": {
+          "alias": "VariableID:93:18"
+        }
+      }
+    },
+    "VariableID:110:891": {
+      "name": "h1/font-size",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:115:868"
+        },
+        "110:1": {
+          "alias": "VariableID:93:34"
+        },
+        "110:2": {
+          "alias": "VariableID:93:32"
+        }
+      }
+    },
+    "VariableID:110:892": {
+      "name": "h1/line-height",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:115:872"
+        },
+        "110:1": {
+          "alias": "VariableID:93:47"
+        },
+        "110:2": {
+          "alias": "VariableID:93:45"
+        }
+      }
+    },
+    "VariableID:110:893": {
+      "name": "h1/letter-spacing",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:49"
+        },
+        "110:1": {
+          "alias": "VariableID:93:49"
+        },
+        "110:2": {
+          "alias": "VariableID:93:49"
+        }
+      }
+    },
+    "VariableID:110:894": {
+      "name": "h2/font-family",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:11"
+        },
+        "110:1": {
+          "alias": "VariableID:93:11"
+        },
+        "110:2": {
+          "alias": "VariableID:93:11"
+        }
+      }
+    },
+    "VariableID:110:895": {
+      "name": "h2/font-weight",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:18"
+        },
+        "110:1": {
+          "alias": "VariableID:93:18"
+        },
+        "110:2": {
+          "alias": "VariableID:93:18"
+        }
+      }
+    },
+    "VariableID:110:896": {
+      "name": "h2/font-size",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:115:867"
+        },
+        "110:1": {
+          "alias": "VariableID:93:33"
+        },
+        "110:2": {
+          "alias": "VariableID:115:866"
+        }
+      }
+    },
+    "VariableID:110:897": {
+      "name": "h2/line-height",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:115:871"
+        },
+        "110:1": {
+          "alias": "VariableID:93:46"
+        },
+        "110:2": {
+          "alias": "VariableID:115:870"
+        }
+      }
+    },
+    "VariableID:110:898": {
+      "name": "h2/letter-spacing",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:49"
+        },
+        "110:1": {
+          "alias": "VariableID:93:49"
+        },
+        "110:2": {
+          "alias": "VariableID:93:49"
+        }
+      }
+    },
+    "VariableID:110:899": {
+      "name": "h3/font-family",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:11"
+        },
+        "110:1": {
+          "alias": "VariableID:93:11"
+        },
+        "110:2": {
+          "alias": "VariableID:93:11"
+        }
+      }
+    },
+    "VariableID:115:921": {
+      "name": "h4/font-family",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:11"
+        },
+        "110:1": {
+          "alias": "VariableID:93:11"
+        },
+        "110:2": {
+          "alias": "VariableID:93:11"
+        }
+      }
+    },
+    "VariableID:115:922": {
+      "name": "h4/font-weight",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:18"
+        },
+        "110:1": {
+          "alias": "VariableID:93:18"
+        },
+        "110:2": {
+          "alias": "VariableID:93:18"
+        }
+      }
+    },
+    "VariableID:115:923": {
+      "name": "h4/font-size",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:115:866"
+        },
+        "110:1": {
+          "alias": "VariableID:93:31"
+        },
+        "110:2": {
+          "alias": "VariableID:93:29"
+        }
+      }
+    },
+    "VariableID:115:924": {
+      "name": "h4/line-height",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:115:870"
+        },
+        "110:1": {
+          "alias": "VariableID:93:44"
+        },
+        "110:2": {
+          "alias": "VariableID:93:42"
+        }
+      }
+    },
+    "VariableID:115:925": {
+      "name": "h4/letter-spacing",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:49"
+        },
+        "110:1": {
+          "alias": "VariableID:93:49"
+        },
+        "110:2": {
+          "alias": "VariableID:93:49"
+        }
+      }
+    },
+    "VariableID:115:926": {
+      "name": "h5/font-family",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:11"
+        },
+        "110:1": {
+          "alias": "VariableID:93:11"
+        },
+        "110:2": {
+          "alias": "VariableID:93:11"
+        }
+      }
+    },
+    "VariableID:115:927": {
+      "name": "h5/font-weight",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:18"
+        },
+        "110:1": {
+          "alias": "VariableID:93:18"
+        },
+        "110:2": {
+          "alias": "VariableID:93:18"
+        }
+      }
+    },
+    "VariableID:115:928": {
+      "name": "h5/font-size",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:30"
+        },
+        "110:1": {
+          "alias": "VariableID:93:29"
+        },
+        "110:2": {
+          "alias": "VariableID:93:28"
+        }
+      }
+    },
+    "VariableID:115:929": {
+      "name": "h5/line-height",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:43"
+        },
+        "110:1": {
+          "alias": "VariableID:93:42"
+        },
+        "110:2": {
+          "alias": "VariableID:115:869"
+        }
+      }
+    },
+    "VariableID:115:930": {
+      "name": "h5/letter-spacing",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:49"
+        },
+        "110:1": {
+          "alias": "VariableID:93:49"
+        },
+        "110:2": {
+          "alias": "VariableID:93:49"
+        }
+      }
+    },
+    "VariableID:115:931": {
+      "name": "h6/font-family",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:11"
+        },
+        "110:1": {
+          "alias": "VariableID:93:11"
+        },
+        "110:2": {
+          "alias": "VariableID:93:11"
+        }
+      }
+    },
+    "VariableID:115:932": {
+      "name": "h6/font-weight",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:18"
+        },
+        "110:1": {
+          "alias": "VariableID:93:18"
+        },
+        "110:2": {
+          "alias": "VariableID:93:18"
+        }
+      }
+    },
+    "VariableID:115:933": {
+      "name": "h6/font-size",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:28"
+        },
+        "110:1": {
+          "alias": "VariableID:93:28"
+        },
+        "110:2": {
+          "alias": "VariableID:93:27"
+        }
+      }
+    },
+    "VariableID:115:934": {
+      "name": "h6/line-height",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:115:869"
+        },
+        "110:1": {
+          "alias": "VariableID:115:869"
+        },
+        "110:2": {
+          "alias": "VariableID:93:41"
+        }
+      }
+    },
+    "VariableID:115:935": {
+      "name": "h6/letter-spacing",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:49"
+        },
+        "110:1": {
+          "alias": "VariableID:93:49"
+        },
+        "110:2": {
+          "alias": "VariableID:93:49"
+        }
+      }
+    },
+    "VariableID:115:936": {
+      "name": "h7/font-family",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:11"
+        },
+        "110:1": {
+          "alias": "VariableID:93:11"
+        },
+        "110:2": {
+          "alias": "VariableID:93:11"
+        }
+      }
+    },
+    "VariableID:115:937": {
+      "name": "h7/font-weight",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:18"
+        },
+        "110:1": {
+          "alias": "VariableID:93:18"
+        },
+        "110:2": {
+          "alias": "VariableID:93:18"
+        }
+      }
+    },
+    "VariableID:115:938": {
+      "name": "h7/font-size",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:27"
+        },
+        "110:1": {
+          "alias": "VariableID:93:27"
+        },
+        "110:2": {
+          "alias": "VariableID:93:26"
+        }
+      }
+    },
+    "VariableID:115:939": {
+      "name": "h7/line-height",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:41"
+        },
+        "110:1": {
+          "alias": "VariableID:93:41"
+        },
+        "110:2": {
+          "alias": "VariableID:93:40"
+        }
+      }
+    },
+    "VariableID:115:940": {
+      "name": "h7/letter-spacing",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:49"
+        },
+        "110:1": {
+          "alias": "VariableID:93:49"
+        },
+        "110:2": {
+          "alias": "VariableID:93:49"
+        }
+      }
+    },
+    "VariableID:110:900": {
+      "name": "h3/font-weight",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:18"
+        },
+        "110:1": {
+          "alias": "VariableID:93:18"
+        },
+        "110:2": {
+          "alias": "VariableID:93:18"
+        }
+      }
+    },
+    "VariableID:110:901": {
+      "name": "h3/font-size",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:33"
+        },
+        "110:1": {
+          "alias": "VariableID:93:32"
+        },
+        "110:2": {
+          "alias": "VariableID:93:31"
+        }
+      }
+    },
+    "VariableID:110:902": {
+      "name": "h3/line-height",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:46"
+        },
+        "110:1": {
+          "alias": "VariableID:93:45"
+        },
+        "110:2": {
+          "alias": "VariableID:93:44"
+        }
+      }
+    },
+    "VariableID:110:903": {
+      "name": "h3/letter-spacing",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:49"
+        },
+        "110:1": {
+          "alias": "VariableID:93:49"
+        },
+        "110:2": {
+          "alias": "VariableID:93:49"
+        }
+      }
+    },
+    "VariableID:110:929": {
+      "name": "body1/font-family",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:12"
+        },
+        "110:1": {
+          "alias": "VariableID:93:12"
+        },
+        "110:2": {
+          "alias": "VariableID:93:12"
+        }
+      }
+    },
+    "VariableID:110:930": {
+      "name": "body1/font-weight",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:16"
+        },
+        "110:1": {
+          "alias": "VariableID:93:16"
+        },
+        "110:2": {
+          "alias": "VariableID:93:16"
+        }
+      }
+    },
+    "VariableID:110:931": {
+      "name": "body1/font-size",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:28"
+        },
+        "110:1": {
+          "alias": "VariableID:93:28"
+        },
+        "110:2": {
+          "alias": "VariableID:128:866"
+        }
+      }
+    },
+    "VariableID:110:932": {
+      "name": "body1/line-height",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:42"
+        },
+        "110:1": {
+          "alias": "VariableID:93:42"
+        },
+        "110:2": {
+          "alias": "VariableID:115:869"
+        }
+      }
+    },
+    "VariableID:110:933": {
+      "name": "body1/letter-spacing",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:49"
+        },
+        "110:1": {
+          "alias": "VariableID:93:49"
+        },
+        "110:2": {
+          "alias": "VariableID:93:49"
+        }
+      }
+    },
+    "VariableID:110:934": {
+      "name": "body2/font-family",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:12"
+        },
+        "110:1": {
+          "alias": "VariableID:93:12"
+        },
+        "110:2": {
+          "alias": "VariableID:93:12"
+        }
+      }
+    },
+    "VariableID:110:935": {
+      "name": "body2/font-weight",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:16"
+        },
+        "110:1": {
+          "alias": "VariableID:93:16"
+        },
+        "110:2": {
+          "alias": "VariableID:93:16"
+        }
+      }
+    },
+    "VariableID:110:936": {
+      "name": "body2/font-size",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:128:866"
+        },
+        "110:1": {
+          "alias": "VariableID:128:866"
+        },
+        "110:2": {
+          "alias": "VariableID:93:27"
+        }
+      }
+    },
+    "VariableID:110:937": {
+      "name": "body2/line-height",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:115:869"
+        },
+        "110:1": {
+          "alias": "VariableID:115:869"
+        },
+        "110:2": {
+          "alias": "VariableID:115:869"
+        }
+      }
+    },
+    "VariableID:110:938": {
+      "name": "body2/letter-spacing",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:49"
+        },
+        "110:1": {
+          "alias": "VariableID:93:49"
+        },
+        "110:2": {
+          "alias": "VariableID:93:49"
+        }
+      }
+    },
+    "VariableID:110:939": {
+      "name": "body3/font-family",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:12"
+        },
+        "110:1": {
+          "alias": "VariableID:93:12"
+        },
+        "110:2": {
+          "alias": "VariableID:93:12"
+        }
+      }
+    },
+    "VariableID:110:940": {
+      "name": "body3/font-weight",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:16"
+        },
+        "110:1": {
+          "alias": "VariableID:93:16"
+        },
+        "110:2": {
+          "alias": "VariableID:93:16"
+        }
+      }
+    },
+    "VariableID:110:941": {
+      "name": "body3/font-size",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:27"
+        },
+        "110:1": {
+          "alias": "VariableID:93:27"
+        },
+        "110:2": {
+          "alias": "VariableID:93:27"
+        }
+      }
+    },
+    "VariableID:110:942": {
+      "name": "body3/line-height",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:115:869"
+        },
+        "110:1": {
+          "alias": "VariableID:115:869"
+        },
+        "110:2": {
+          "alias": "VariableID:115:869"
+        }
+      }
+    },
+    "VariableID:110:943": {
+      "name": "body3/letter-spacing",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:49"
+        },
+        "110:1": {
+          "alias": "VariableID:93:49"
+        },
+        "110:2": {
+          "alias": "VariableID:93:49"
+        }
+      }
+    },
+    "VariableID:110:944": {
+      "name": "body4/font-family",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:12"
+        },
+        "110:1": {
+          "alias": "VariableID:93:12"
+        },
+        "110:2": {
+          "alias": "VariableID:93:12"
+        }
+      }
+    },
+    "VariableID:110:945": {
+      "name": "body4/font-weight",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:16"
+        },
+        "110:1": {
+          "alias": "VariableID:93:16"
+        },
+        "110:2": {
+          "alias": "VariableID:93:16"
+        }
+      }
+    },
+    "VariableID:110:946": {
+      "name": "body4/font-size",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:26"
+        },
+        "110:1": {
+          "alias": "VariableID:93:26"
+        },
+        "110:2": {
+          "alias": "VariableID:93:26"
+        }
+      }
+    },
+    "VariableID:110:947": {
+      "name": "body4/line-height",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:41"
+        },
+        "110:1": {
+          "alias": "VariableID:93:41"
+        },
+        "110:2": {
+          "alias": "VariableID:93:41"
+        }
+      }
+    },
+    "VariableID:110:948": {
+      "name": "body4/letter-spacing",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:49"
+        },
+        "110:1": {
+          "alias": "VariableID:93:49"
+        },
+        "110:2": {
+          "alias": "VariableID:93:49"
+        }
+      }
+    },
+    "VariableID:110:949": {
+      "name": "body5/font-family",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:12"
+        },
+        "110:1": {
+          "alias": "VariableID:93:12"
+        },
+        "110:2": {
+          "alias": "VariableID:93:12"
+        }
+      }
+    },
+    "VariableID:128:867": {
+      "name": "body6/font-family",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:12"
+        },
+        "110:1": {
+          "alias": "VariableID:93:12"
+        },
+        "110:2": {
+          "alias": "VariableID:93:12"
+        }
+      }
+    },
+    "VariableID:128:868": {
+      "name": "body6/font-weight",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:16"
+        },
+        "110:1": {
+          "alias": "VariableID:93:16"
+        },
+        "110:2": {
+          "alias": "VariableID:93:16"
+        }
+      }
+    },
+    "VariableID:128:869": {
+      "name": "body6/font-size",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:24"
+        },
+        "110:1": {
+          "alias": "VariableID:93:24"
+        },
+        "110:2": {
+          "alias": "VariableID:93:24"
+        }
+      }
+    },
+    "VariableID:128:870": {
+      "name": "body6/line-height",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:121:866"
+        },
+        "110:1": {
+          "alias": "VariableID:121:866"
+        },
+        "110:2": {
+          "alias": "VariableID:121:866"
+        }
+      }
+    },
+    "VariableID:128:871": {
+      "name": "body6/letter-spacing",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:49"
+        },
+        "110:1": {
+          "alias": "VariableID:93:49"
+        },
+        "110:2": {
+          "alias": "VariableID:93:49"
+        }
+      }
+    },
+    "VariableID:110:950": {
+      "name": "body5/font-weight",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:16"
+        },
+        "110:1": {
+          "alias": "VariableID:93:16"
+        },
+        "110:2": {
+          "alias": "VariableID:93:16"
+        }
+      }
+    },
+    "VariableID:110:951": {
+      "name": "body5/font-size",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:25"
+        },
+        "110:1": {
+          "alias": "VariableID:93:25"
+        },
+        "110:2": {
+          "alias": "VariableID:93:25"
+        }
+      }
+    },
+    "VariableID:110:952": {
+      "name": "body5/line-height",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:40"
+        },
+        "110:1": {
+          "alias": "VariableID:93:40"
+        },
+        "110:2": {
+          "alias": "VariableID:93:40"
+        }
+      }
+    },
+    "VariableID:110:953": {
+      "name": "body5/letter-spacing",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:49"
+        },
+        "110:1": {
+          "alias": "VariableID:93:49"
+        },
+        "110:2": {
+          "alias": "VariableID:93:49"
+        }
+      }
+    },
+    "VariableID:128:872": {
+      "name": "body7/font-family",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:12"
+        },
+        "110:1": {
+          "alias": "VariableID:93:12"
+        },
+        "110:2": {
+          "alias": "VariableID:93:12"
+        }
+      }
+    },
+    "VariableID:128:873": {
+      "name": "body7/font-weight",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:16"
+        },
+        "110:1": {
+          "alias": "VariableID:93:16"
+        },
+        "110:2": {
+          "alias": "VariableID:93:16"
+        }
+      }
+    },
+    "VariableID:128:874": {
+      "name": "body7/font-size",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:23"
+        },
+        "110:1": {
+          "alias": "VariableID:93:23"
+        },
+        "110:2": {
+          "alias": "VariableID:93:23"
+        }
+      }
+    },
+    "VariableID:128:875": {
+      "name": "body7/line-height",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:39"
+        },
+        "110:1": {
+          "alias": "VariableID:93:39"
+        },
+        "110:2": {
+          "alias": "VariableID:93:39"
+        }
+      }
+    },
+    "VariableID:128:876": {
+      "name": "body7/letter-spacing",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:49"
+        },
+        "110:1": {
+          "alias": "VariableID:93:49"
+        },
+        "110:2": {
+          "alias": "VariableID:93:49"
+        }
+      }
+    },
+    "VariableID:121:867": {
+      "name": "button-xl/font-family",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:12"
+        },
+        "110:1": {
+          "alias": "VariableID:93:12"
+        },
+        "110:2": {
+          "alias": "VariableID:93:12"
+        }
+      }
+    },
+    "VariableID:121:868": {
+      "name": "button-xl/font-weight",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:18"
+        },
+        "110:1": {
+          "alias": "VariableID:93:18"
+        },
+        "110:2": {
+          "alias": "VariableID:93:18"
+        }
+      }
+    },
+    "VariableID:121:869": {
+      "name": "button-xl/font-size",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:28"
+        },
+        "110:1": {
+          "alias": "VariableID:93:28"
+        },
+        "110:2": {
+          "alias": "VariableID:93:27"
+        }
+      }
+    },
+    "VariableID:121:870": {
+      "name": "button-xl/line-height",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:115:869"
+        },
+        "110:1": {
+          "alias": "VariableID:115:869"
+        },
+        "110:2": {
+          "alias": "VariableID:93:41"
+        }
+      }
+    },
+    "VariableID:121:871": {
+      "name": "button-xl/letter-spacing",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:49"
+        },
+        "110:1": {
+          "alias": "VariableID:93:49"
+        },
+        "110:2": {
+          "alias": "VariableID:93:49"
+        }
+      }
+    },
+    "VariableID:110:974": {
+      "name": "button-lg/font-family",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:12"
+        },
+        "110:1": {
+          "alias": "VariableID:93:12"
+        },
+        "110:2": {
+          "alias": "VariableID:93:12"
+        }
+      }
+    },
+    "VariableID:110:975": {
+      "name": "button-lg/font-weight",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:18"
+        },
+        "110:1": {
+          "alias": "VariableID:93:18"
+        },
+        "110:2": {
+          "alias": "VariableID:93:18"
+        }
+      }
+    },
+    "VariableID:110:976": {
+      "name": "button-lg/font-size",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:27"
+        },
+        "110:1": {
+          "alias": "VariableID:93:27"
+        },
+        "110:2": {
+          "alias": "VariableID:93:26"
+        }
+      }
+    },
+    "VariableID:110:977": {
+      "name": "button-lg/line-height",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:41"
+        },
+        "110:1": {
+          "alias": "VariableID:93:41"
+        },
+        "110:2": {
+          "alias": "VariableID:93:40"
+        }
+      }
+    },
+    "VariableID:110:978": {
+      "name": "button-lg/letter-spacing",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:49"
+        },
+        "110:1": {
+          "alias": "VariableID:93:49"
+        },
+        "110:2": {
+          "alias": "VariableID:93:49"
+        }
+      }
+    },
+    "VariableID:110:979": {
+      "name": "button-md/font-family",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:12"
+        },
+        "110:1": {
+          "alias": "VariableID:93:12"
+        },
+        "110:2": {
+          "alias": "VariableID:93:12"
+        }
+      }
+    },
+    "VariableID:110:980": {
+      "name": "button-md/font-weight",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:18"
+        },
+        "110:1": {
+          "alias": "VariableID:93:18"
+        },
+        "110:2": {
+          "alias": "VariableID:93:18"
+        }
+      }
+    },
+    "VariableID:110:981": {
+      "name": "button-md/font-size",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:25"
+        },
+        "110:1": {
+          "alias": "VariableID:93:25"
+        },
+        "110:2": {
+          "alias": "VariableID:93:25"
+        }
+      }
+    },
+    "VariableID:110:982": {
+      "name": "button-md/line-height",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:40"
+        },
+        "110:1": {
+          "alias": "VariableID:93:40"
+        },
+        "110:2": {
+          "alias": "VariableID:93:40"
+        }
+      }
+    },
+    "VariableID:110:983": {
+      "name": "button-md/letter-spacing",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:49"
+        },
+        "110:1": {
+          "alias": "VariableID:93:49"
+        },
+        "110:2": {
+          "alias": "VariableID:93:49"
+        }
+      }
+    },
+    "VariableID:110:984": {
+      "name": "button-sm/font-family",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:12"
+        },
+        "110:1": {
+          "alias": "VariableID:93:12"
+        },
+        "110:2": {
+          "alias": "VariableID:93:12"
+        }
+      }
+    },
+    "VariableID:110:985": {
+      "name": "button-sm/font-weight",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:18"
+        },
+        "110:1": {
+          "alias": "VariableID:93:18"
+        },
+        "110:2": {
+          "alias": "VariableID:93:18"
+        }
+      }
+    },
+    "VariableID:110:986": {
+      "name": "button-sm/font-size",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:24"
+        },
+        "110:1": {
+          "alias": "VariableID:93:24"
+        },
+        "110:2": {
+          "alias": "VariableID:93:24"
+        }
+      }
+    },
+    "VariableID:110:987": {
+      "name": "button-sm/line-height",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:121:866"
+        },
+        "110:1": {
+          "alias": "VariableID:121:866"
+        },
+        "110:2": {
+          "alias": "VariableID:121:866"
+        }
+      }
+    },
+    "VariableID:110:988": {
+      "name": "button-sm/letter-spacing",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:49"
+        },
+        "110:1": {
+          "alias": "VariableID:93:49"
+        },
+        "110:2": {
+          "alias": "VariableID:93:49"
+        }
+      }
+    },
+    "VariableID:110:989": {
+      "name": "button-xs/font-family",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:12"
+        },
+        "110:1": {
+          "alias": "VariableID:93:12"
+        },
+        "110:2": {
+          "alias": "VariableID:93:12"
+        }
+      }
+    },
+    "VariableID:110:990": {
+      "name": "button-xs/font-weight",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:18"
+        },
+        "110:1": {
+          "alias": "VariableID:93:18"
+        },
+        "110:2": {
+          "alias": "VariableID:93:18"
+        }
+      }
+    },
+    "VariableID:110:991": {
+      "name": "button-xs/font-size",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:23"
+        },
+        "110:1": {
+          "alias": "VariableID:93:23"
+        },
+        "110:2": {
+          "alias": "VariableID:93:23"
+        }
+      }
+    },
+    "VariableID:110:992": {
+      "name": "button-xs/line-height",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:39"
+        },
+        "110:1": {
+          "alias": "VariableID:93:39"
+        },
+        "110:2": {
+          "alias": "VariableID:93:39"
+        }
+      }
+    },
+    "VariableID:110:993": {
+      "name": "button-xs/letter-spacing",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:49"
+        },
+        "110:1": {
+          "alias": "VariableID:93:49"
+        },
+        "110:2": {
+          "alias": "VariableID:93:49"
+        }
+      }
+    },
+    "VariableID:286:22194": {
+      "name": "tooltip/font-family",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:12"
+        },
+        "110:1": {
+          "alias": "VariableID:93:12"
+        },
+        "110:2": {
+          "alias": "VariableID:93:12"
+        }
+      }
+    },
+    "VariableID:286:22195": {
+      "name": "tooltip/font-weight",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:16"
+        },
+        "110:1": {
+          "alias": "VariableID:93:16"
+        },
+        "110:2": {
+          "alias": "VariableID:93:16"
+        }
+      }
+    },
+    "VariableID:286:22196": {
+      "name": "tooltip/font-size",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:23"
+        },
+        "110:1": {
+          "alias": "VariableID:93:23"
+        },
+        "110:2": {
+          "alias": "VariableID:93:23"
+        }
+      }
+    },
+    "VariableID:286:22197": {
+      "name": "tooltip/line-height",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:37"
+        },
+        "110:1": {
+          "alias": "VariableID:93:37"
+        },
+        "110:2": {
+          "alias": "VariableID:93:37"
+        }
+      }
+    },
+    "VariableID:286:22198": {
+      "name": "tooltip/letter-spacing",
+      "collection": "typography-semantics",
+      "values": {
+        "110:0": {
+          "alias": "VariableID:93:49"
+        },
+        "110:1": {
+          "alias": "VariableID:93:49"
+        },
+        "110:2": {
+          "alias": "VariableID:93:49"
+        }
+      }
+    },
+    "VariableID:380:2282": {
+      "name": "color/icon/context",
+      "collection": "icon-context",
+      "values": {
+        "380:0": {
+          "alias": "VariableID:162:1049"
+        },
+        "380:1": {
+          "alias": "VariableID:162:1052"
+        },
+        "380:2": {
+          "alias": "VariableID:162:1050"
+        },
+        "380:3": {
+          "alias": "VariableID:162:1054"
+        },
+        "380:4": {
+          "alias": "VariableID:162:1053"
+        },
+        "380:5": {
+          "alias": "VariableID:162:1055"
+        }
+      }
+    }
+  }
+}

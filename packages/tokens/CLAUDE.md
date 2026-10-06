@@ -22,6 +22,8 @@ A test enforces the reference rules. `dist/tier-map.json` records each CSS varia
 ## Output
 - `dist/tokens.css`: all variables with the `ds` prefix (`--ds-color-bg-surface`). Semantic tokens resolve to `var()` of their primitives.
 - Typography: the smallest breakpoint's values are on `:root`; larger breakpoints override them in `@media (min-width: ...)` queries. Components just use `var(--ds-type-...)` and get responsive type for free.
+- Icon contexts: `icon-context` has one mode file per context. `primary` is on `:root`; the others apply under `[data-icon-context="<mode>"]` (for example `inverse`, `brand`, `disabled`), so an icon reads `var(--ds-icon-color-icon-context)` and its container picks the context.
+- Aliases with an opacity in Figma carry `aliasOpacity` (percent) and output as `color-mix(in srgb, var(...) n%, transparent)`.
 - No theme switching today: `semantics` has one mode. A future theme mode maps to `[data-theme="<mode>"]`.
 - `breakpoints.json` holds the min-width of each breakpoint mode; it is exported from the package as `breakpoints`.
 

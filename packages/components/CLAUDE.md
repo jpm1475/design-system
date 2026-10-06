@@ -20,7 +20,7 @@ Reference component: `src/Button`. Match its structure exactly.
 - Focus is always visible, using the focus-ring token.
 - Never declare `@font-face` or import fonts in a component; fonts come from `@jpm1475/ds-fonts` at the app level.
 - Text uses `typography-semantics` tokens only (never `typography-primitives`). Don't add your own font-size media queries; the tokens already change per breakpoint.
-- Icons get color from `icon-context` tokens for their context (for example `--ds-icon-nav-default`), set as `color` with icons drawn in `currentColor`.
+- Icons get color from the `icon-context` token: `color: var(--ds-icon-color-icon-context)`, with icons drawn in `currentColor`. A component sets the context with `data-icon-context="<mode>"` on the element that owns the icon (for example `inverse` on a dark surface, `disabled` when disabled).
 - Never use `primitives` or `typography-primitives` variables; check `@jpm1475/ds-tokens/tier-map.json` if unsure.
 - Respect `prefers-reduced-motion` for any transition or animation.
 

@@ -1,0 +1,76 @@
+{
+  "Border-Width": {
+    "0": {
+      "$type": "dimension",
+      "$value": "0px",
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:9",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true
+        }
+      }
+    },
+    "25": {
+      "$type": "dimension",
+      "$value": "1px",
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:10",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true
+        }
+      }
+    },
+    "50": {
+      "$type": "dimension",
+      "$value": "2px",
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:11",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true
+        }
+      }
+    },
+    "100": {
+      "$type": "dimension",
+      "$value": "4px",
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:12",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true
+        }
+      }
+    },
+    "150": {
+      "$type": "dimension",
+      "$value": "6px",
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:13",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true
+        }
+      }
+    },
+    "200": {
+      "$type": "dimension",
+      "$value": "8px",
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:86:14",
+          "collection": "primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true
+        }
+      }
+    }
+  }
+}

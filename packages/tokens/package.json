@@ -1,0 +1,40 @@
+{
+  "name": "@jpm1475/ds-tokens",
+  "version": "0.1.0",
+  "description": "Design tokens for the jpm1475 design system: CSS variables, JS constants and a tier map.",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": [
+    "*.css"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./tokens.css": "./dist/tokens.css",
+    "./tokens.json": "./dist/tokens.json",
+    "./tier-map.json": "./dist/tier-map.json"
+  },
+  "scripts": {
+    "build": "node style-dictionary.config.js",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit -p .",
+    "figma-sync:check": "node scripts/check-figma-sync.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpm1475/design-system.git",
+    "directory": "packages/tokens"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "style-dictionary": "^5.6.0"
+  }
+}
