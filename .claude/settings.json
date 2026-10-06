@@ -1,0 +1,8 @@
+{
+  "extraKnownMarketplaces": {
+    "jpm1475-tools": {
+      "source": { "source": "github", "repo": "jpm1475/ds-claude-pipeline" }
+    }
+  },
+  "enabledPlugins": { "ds-pipeline@jpm1475-tools": true }
+}
