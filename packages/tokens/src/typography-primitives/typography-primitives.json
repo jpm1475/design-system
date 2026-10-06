@@ -166,7 +166,7 @@
     },
     "Thicc AF": {
       "$type": "fontWeight",
-      "$value": 900,
+      "$value": 950,
       "$description": "For possible future usage",
       "$extensions": {
         "com.figma": {

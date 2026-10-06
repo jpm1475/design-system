@@ -1,7 +1,7 @@
 {
   "fileKey": "5ENR2HqVuz9Nlf9Q4NmehH",
-  "syncedAt": "2026-10-06T17:29:59.316Z",
-  "sourceHash": "9a1ad2be63f9e97d6e571226a61745ee8f04e8f8b3683935b022da59a47b7bd6",
+  "syncedAt": "2026-10-06T17:43:50.448Z",
+  "sourceHash": "b4081684f74a6d3eba1e8e4df3f61708dc681a0234bdcc539d9161bb1a916b1f",
   "collections": {
     "primitives": {
       "id": "VariableCollectionId:1:2",
@@ -2673,7 +2673,7 @@
       "name": "Font-Weight/Thicc AF",
       "collection": "typography-primitives",
       "values": {
-        "93:0": "900"
+        "93:0": "950"
       }
     },
     "VariableID:93:22": {
@@ -4696,21 +4696,21 @@
         }
       }
     },
-    "VariableID:309:208": {
-      "name": "color/button/primary/focus/focus",
-      "collection": "semantics",
-      "values": {
-        "156:3": {
-          "alias": "VariableID:26:8"
-        }
-      }
-    },
     "VariableID:311:22749": {
       "name": "color/button/primary/inactive/surface",
       "collection": "semantics",
       "values": {
         "156:3": {
           "alias": "VariableID:56:348"
+        }
+      }
+    },
+    "VariableID:309:208": {
+      "name": "color/button/primary/focus/focus",
+      "collection": "semantics",
+      "values": {
+        "156:3": {
+          "alias": "VariableID:26:8"
         }
       }
     },
