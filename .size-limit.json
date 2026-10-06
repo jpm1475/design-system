@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Button only",
+    "path": "packages/components/dist/index.js",
+    "import": "{ Button }",
+    "limit": "3 kB"
+  }
+]
