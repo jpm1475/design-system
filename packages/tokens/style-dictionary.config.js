@@ -149,9 +149,12 @@ for (const mode of typeModes.slice(1)) {
   css.push(...changed.map((t) => decl(t, '    ')), '  }', '}');
 }
 
+// Every context gets a selector, including the default, so a nested
+// data-icon-context="primary" can reset an inherited context.
 const iconByMode = { [ICON_DEFAULT]: base };
-for (const mode of iconModes.filter((m) => m !== ICON_DEFAULT)) {
-  const d = await tokensFor({ typeMode: typeModes[0], iconMode: mode });
+for (const mode of [ICON_DEFAULT, ...iconModes.filter((m) => m !== ICON_DEFAULT)]) {
+  const d =
+    mode === ICON_DEFAULT ? base : await tokensFor({ typeMode: typeModes[0], iconMode: mode });
   iconByMode[mode] = d;
   css.push(
     '',

@@ -1,8 +1,11 @@
 [
   {
-    "name": "Button only",
-    "path": "packages/components/dist/index.js",
-    "import": "{ Button }",
+    "name": "Button (JS + CSS)",
+    "path": [
+      "packages/components/dist/Button/*.js",
+      "packages/components/dist/Button/*.css"
+    ],
+    "rolldown": false,
     "limit": "3 kB"
   }
 ]

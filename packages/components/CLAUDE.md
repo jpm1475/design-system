@@ -21,8 +21,10 @@ Reference component: `src/Button`. Match its structure exactly.
 - Never declare `@font-face` or import fonts in a component; fonts come from `@jpm1475/ds-fonts` at the app level.
 - Text uses `typography-semantics` tokens only (never `typography-primitives`). Don't add your own font-size media queries; the tokens already change per breakpoint.
 - Icons get color from the `icon-context` token: `color: var(--ds-icon-color-icon-context)`, with icons drawn in `currentColor`. A component sets the context with `data-icon-context="<mode>"` on the element that owns the icon (for example `inverse` on a dark surface, `disabled` when disabled).
+- Interactive states (`:hover`, `:active`) can't switch a data attribute, so for those the CSS sets `--ds-icon-color-icon-context` to a `--ds-color-icon-*` token on the icon wrapper element itself (not the root, because the unlayered `[data-icon-context]` rules in tokens.css win over layered rules on the same element). See Button.
 - Never use `primitives` or `typography-primitives` variables; check `@jpm1475/ds-tokens/tier-map.json` if unsure.
 - Respect `prefers-reduced-motion` for any transition or animation.
+- There are no motion tokens yet: durations are the one allowed raw value (Button's spinner uses `0.8s`). Switch to tokens once they exist in Figma.
 
 ## Behavior and accessibility (required per pattern)
 - Native elements first. Never put click handlers on a div.

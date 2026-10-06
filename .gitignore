@@ -6,3 +6,6 @@ coverage
 .DS_Store
 .ds-bootstrap/
 .playwright-mcp/
+
+# Local visual-check harness for components
+packages/components/.preview/

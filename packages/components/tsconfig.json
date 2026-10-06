@@ -1,5 +1,6 @@
 {
   "extends": "../../tsconfig.base.json",
   "compilerOptions": { "noEmit": true, "types": ["vite/client", "vitest/globals"] },
-  "include": ["src", "vitest.setup.ts", "vite.config.ts", "vitest-axe.d.ts"]
+  "include": ["src", "vitest.setup.ts", "vite.config.ts", "vitest-axe.d.ts"],
+  "exclude": ["**/*.stories.tsx"]
 }

@@ -28,6 +28,12 @@ export default defineConfig({
         preserveModules: true,
         preserveModulesRoot: 'src',
         entryFileNames: '[name].js',
+        // Emit `Button.css`, not `Button.module.css`: consumers' bundlers would treat an imported
+        // `*.module.css` as a CSS module again (re-scoping class names or dropping the import).
+        assetFileNames: (asset) =>
+          (asset.names[0] ?? '[name]').endsWith('.module.css')
+            ? asset.names[0].replace(/\.module\.css$/, '.css')
+            : '[name][extname]',
       },
     },
   },

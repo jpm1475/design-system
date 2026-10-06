@@ -2,7 +2,15 @@ import tseslint from 'typescript-eslint';
 import reactHooks from 'eslint-plugin-react-hooks';
 
 export default tseslint.config(
-  { ignores: ['**/dist/**', '**/storybook-static/**', '**/node_modules/**', '**/coverage/**'] },
+  {
+    ignores: [
+      '**/dist/**',
+      '**/storybook-static/**',
+      '**/node_modules/**',
+      '**/coverage/**',
+      '**/.preview/**',
+    ],
+  },
   ...tseslint.configs.recommended,
   {
     files: ['**/*.{ts,tsx}'],

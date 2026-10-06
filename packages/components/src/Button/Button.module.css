@@ -1,0 +1,313 @@
+@layer ds {
+  .root {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    border-radius: var(--ds-radius-pill);
+    background-color: transparent;
+    font-family: var(--ds-type-button-md-font-family);
+    font-weight: var(--ds-type-button-md-font-weight);
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    appearance: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .content {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icon {
+    display: inline-flex;
+    flex-shrink: 0;
+    color: var(--ds-icon-color-icon-context);
+  }
+
+  .icon > svg {
+    inline-size: 100%;
+    block-size: 100%;
+  }
+
+  /* Sizes (Figma `Size`). Figma strokes sit inside the box, so strokes below use an inset outline. */
+  .root[data-size='xl'] {
+    block-size: var(--ds-size-button-xl);
+    padding: var(--ds-spacing-xl) var(--ds-spacing-4xl);
+    font-family: var(--ds-type-button-xl-font-family);
+    font-size: var(--ds-type-button-xl-font-size);
+    font-weight: var(--ds-type-button-xl-font-weight);
+    line-height: var(--ds-type-button-xl-line-height);
+    letter-spacing: var(--ds-type-button-xl-letter-spacing);
+  }
+  .root[data-size='xl'] .content {
+    gap: var(--ds-spacing-md);
+  }
+  .root[data-size='xl'] .icon,
+  .root[data-size='xl'] .spinner {
+    inline-size: var(--ds-size-icon-xl);
+    block-size: var(--ds-size-icon-xl);
+  }
+
+  .root[data-size='lg'] {
+    block-size: var(--ds-size-button-lg);
+    padding: var(--ds-spacing-lg) var(--ds-spacing-2xl);
+    font-family: var(--ds-type-button-lg-font-family);
+    font-size: var(--ds-type-button-lg-font-size);
+    font-weight: var(--ds-type-button-lg-font-weight);
+    line-height: var(--ds-type-button-lg-line-height);
+    letter-spacing: var(--ds-type-button-lg-letter-spacing);
+  }
+  .root[data-size='lg'] .content {
+    gap: var(--ds-spacing-sm);
+  }
+  .root[data-size='lg'] .icon,
+  .root[data-size='lg'] .spinner {
+    inline-size: var(--ds-size-icon-lg);
+    block-size: var(--ds-size-icon-lg);
+  }
+
+  .root[data-size='md'] {
+    block-size: var(--ds-size-button-md);
+    padding: var(--ds-spacing-md) var(--ds-spacing-2xl);
+    font-size: var(--ds-type-button-md-font-size);
+    line-height: var(--ds-type-button-md-line-height);
+    letter-spacing: var(--ds-type-button-md-letter-spacing);
+  }
+  .root[data-size='md'] .content {
+    gap: var(--ds-spacing-sm);
+  }
+  .root[data-size='md'] .icon,
+  .root[data-size='md'] .spinner {
+    inline-size: var(--ds-size-icon-md);
+    block-size: var(--ds-size-icon-md);
+  }
+
+  .root[data-size='sm'] {
+    block-size: var(--ds-size-button-sm);
+    padding: var(--ds-spacing-md) var(--ds-spacing-2xl);
+    font-family: var(--ds-type-button-sm-font-family);
+    font-size: var(--ds-type-button-sm-font-size);
+    font-weight: var(--ds-type-button-sm-font-weight);
+    line-height: var(--ds-type-button-sm-line-height);
+    letter-spacing: var(--ds-type-button-sm-letter-spacing);
+  }
+  .root[data-size='sm'] .content {
+    gap: var(--ds-spacing-sm);
+  }
+  .root[data-size='sm'] .icon,
+  .root[data-size='sm'] .spinner {
+    inline-size: var(--ds-size-icon-sm);
+    block-size: var(--ds-size-icon-sm);
+  }
+
+  .root[data-size='xs'] {
+    block-size: var(--ds-size-button-xs);
+    padding: var(--ds-spacing-sm) var(--ds-spacing-xl);
+    font-family: var(--ds-type-button-xs-font-family);
+    font-size: var(--ds-type-button-xs-font-size);
+    font-weight: var(--ds-type-button-xs-font-weight);
+    line-height: var(--ds-type-button-xs-line-height);
+    letter-spacing: var(--ds-type-button-xs-letter-spacing);
+  }
+  .root[data-size='xs'] .content {
+    gap: var(--ds-spacing-xs);
+  }
+  .root[data-size='xs'] .icon,
+  .root[data-size='xs'] .spinner {
+    inline-size: var(--ds-size-icon-xs);
+    block-size: var(--ds-size-icon-xs);
+  }
+
+  /* Primary */
+  .root[data-variant='primary'] {
+    background-color: var(--ds-color-button-primary-default-surface);
+    color: var(--ds-color-button-primary-default-text);
+  }
+  .root[data-variant='primary']:disabled {
+    background-color: var(--ds-color-button-primary-inactive-surface);
+    color: var(--ds-color-button-primary-inactive-text);
+  }
+
+  /* Secondary */
+  .root[data-variant='secondary'] {
+    background-color: var(--ds-color-button-secondary-default-surface);
+    color: var(--ds-color-button-secondary-default-text);
+    outline: var(--ds-border-width-default) solid var(--ds-color-button-secondary-default-border);
+    outline-offset: calc(var(--ds-border-width-default) * -1);
+  }
+  .root[data-variant='secondary']:disabled {
+    background-color: var(--ds-color-button-secondary-inactive-surface);
+    color: var(--ds-color-button-secondary-inactive-text);
+    outline-color: var(--ds-color-button-secondary-inactive-border);
+  }
+
+  /* Danger */
+  .root[data-variant='danger'] {
+    background-color: var(--ds-color-button-danger-default-surface);
+    color: var(--ds-color-button-danger-default-text);
+  }
+  .root[data-variant='danger']:disabled {
+    background-color: var(--ds-color-button-danger-inactive-surface);
+    color: var(--ds-color-button-danger-inactive-text);
+  }
+
+  /* Tertiary: no surface or radius; hover and pressed underline the content. */
+  .root[data-variant='tertiary'] {
+    border-radius: var(--ds-radius-none);
+    background-color: var(--ds-color-button-tertiary-default-surface);
+    color: var(--ds-color-button-tertiary-default-text);
+  }
+  .root[data-variant='tertiary'] .content {
+    gap: var(--ds-spacing-md);
+  }
+  .root[data-variant='tertiary']:disabled {
+    background-color: var(--ds-color-button-tertiary-inactive-surface);
+    color: var(--ds-color-button-tertiary-inactive-text);
+  }
+
+  /* Focus surface and text (Figma State=Focus). Lower specificity than hover and pressed. */
+  .root[data-variant='primary']:focus-visible {
+    background-color: var(--ds-color-button-primary-default-surface);
+    color: var(--ds-color-button-primary-default-text);
+  }
+  .root[data-variant='secondary']:focus-visible {
+    background-color: var(--ds-color-button-secondary-focus-surface);
+    color: var(--ds-color-button-secondary-focus-text);
+  }
+  .root[data-variant='danger']:focus-visible {
+    background-color: var(--ds-color-button-danger-focus-surface);
+    color: var(--ds-color-button-danger-focus-text);
+  }
+  .root[data-variant='tertiary']:focus-visible {
+    background-color: var(--ds-color-button-tertiary-focus-surface);
+    color: var(--ds-color-button-tertiary-focus-text);
+  }
+
+  /* Hover (Figma State=Hover) */
+  .root[data-variant='primary']:hover:not(:disabled, [data-loading]) {
+    background-color: var(--ds-color-button-primary-hover-surface);
+    color: var(--ds-color-button-primary-hover-text);
+    outline: var(--ds-border-width-thin) solid var(--ds-color-button-primary-hover-border);
+    outline-offset: calc(var(--ds-border-width-thin) * -1);
+  }
+  .root[data-variant='secondary']:hover:not(:disabled, [data-loading]) {
+    background-color: var(--ds-color-button-secondary-hover-surface);
+    color: var(--ds-color-button-secondary-hover-text);
+    outline-color: var(--ds-color-button-secondary-hover-border);
+  }
+  .root[data-variant='danger']:hover:not(:disabled, [data-loading]) {
+    background-color: var(--ds-color-button-danger-hover-surface);
+    color: var(--ds-color-button-danger-hover-text);
+  }
+  .root[data-variant='tertiary']:hover:not(:disabled, [data-loading]) {
+    background-color: var(--ds-color-button-tertiary-hover-surface);
+    color: var(--ds-color-button-tertiary-hover-text);
+  }
+  .root[data-variant='tertiary']:hover:not(:disabled, [data-loading]) .content {
+    box-shadow: inset 0 calc(var(--ds-border-width-thin) * -1) 0 0
+      var(--ds-color-button-tertiary-hover-border);
+  }
+
+  /* Pressed (Figma State=Pressed) */
+  .root[data-variant='primary']:active:not(:disabled, [data-loading]) {
+    background-color: var(--ds-color-button-primary-pressed-surface);
+    color: var(--ds-color-button-primary-pressed-text);
+    outline: var(--ds-border-width-thin) solid var(--ds-color-button-primary-pressed-border);
+    outline-offset: calc(var(--ds-border-width-thin) * -1);
+  }
+  .root[data-variant='secondary']:active:not(:disabled, [data-loading]) {
+    background-color: var(--ds-color-button-secondary-pressed-surface);
+    color: var(--ds-color-button-secondary-pressed-text);
+    outline-color: var(--ds-color-button-secondary-pressed-border);
+  }
+  .root[data-variant='danger']:active:not(:disabled, [data-loading]) {
+    background-color: var(--ds-color-button-danger-pressed-surface);
+    color: var(--ds-color-button-danger-pressed-text);
+    outline: var(--ds-border-width-thin) solid var(--ds-color-button-danger-pressed-border);
+    outline-offset: calc(var(--ds-border-width-thin) * -1);
+  }
+  .root[data-variant='tertiary']:active:not(:disabled, [data-loading]) {
+    background-color: var(--ds-color-button-tertiary-pressed-surface);
+    color: var(--ds-color-button-tertiary-pressed-text);
+  }
+  .root[data-variant='tertiary']:active:not(:disabled, [data-loading]) .content {
+    box-shadow: inset 0 calc(var(--ds-border-width-thin) * -1) 0 0
+      var(--ds-color-button-tertiary-pressed-border);
+  }
+
+  /*
+   * Icon context for hover and pressed. The resting and disabled contexts are set with
+   * data-icon-context on the root; pseudo-class states can't be attributes, so the context
+   * variable is switched on the icon itself (an ancestor [data-icon-context] rule would
+   * otherwise win, since tokens.css is unlayered).
+   */
+  .root[data-variant='primary']:hover:not(:disabled, [data-loading]) .icon,
+  .root[data-variant='primary']:active:not(:disabled, [data-loading]) .icon,
+  .root[data-variant='secondary']:active:not(:disabled, [data-loading]) .icon {
+    --ds-icon-color-icon-context: var(--ds-color-icon-primary);
+  }
+  .root[data-variant='secondary']:hover:not(:disabled, [data-loading]):not(:active) .icon {
+    --ds-icon-color-icon-context: var(--ds-color-icon-inverse);
+  }
+  .root[data-variant='danger']:active:not(:disabled, [data-loading]) .icon {
+    --ds-icon-color-icon-context: var(--ds-color-icon-error);
+  }
+  .root[data-variant='tertiary']:active:not(:disabled, [data-loading]) .icon {
+    --ds-icon-color-icon-context: var(--ds-color-icon-brand);
+  }
+
+  /* Focus ring: thick inset stroke in the variant's focus color, replacing any state stroke. */
+  .root[data-variant]:focus-visible:not(:disabled) {
+    outline: var(--ds-border-width-thick) solid var(--ds-color-button-primary-focus-focus);
+    outline-offset: calc(var(--ds-border-width-thick) * -1);
+  }
+  .root[data-variant='secondary']:focus-visible:not(:disabled) {
+    outline-color: var(--ds-color-button-secondary-focus-border);
+  }
+  .root[data-variant='danger']:focus-visible:not(:disabled) {
+    outline-color: var(--ds-color-button-danger-focus-border);
+  }
+  .root[data-variant='tertiary']:focus-visible:not(:disabled) {
+    outline-color: var(--ds-color-button-tertiary-focus-border);
+  }
+
+  .root:disabled {
+    cursor: not-allowed;
+  }
+
+  /* Loading: label stays in the accessibility tree (opacity, not visibility) under the spinner. */
+  .root[data-loading] {
+    cursor: progress;
+  }
+  .root[data-loading] .content {
+    opacity: 0;
+  }
+  .spinner {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    box-sizing: border-box;
+    border: var(--ds-border-width-default) solid currentColor;
+    border-block-start-color: transparent;
+    border-radius: var(--ds-radius-full);
+    animation: spin 0.8s linear infinite;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .spinner {
+      animation: none;
+    }
+  }
+
+  @keyframes spin {
+    to {
+      transform: rotate(1turn);
+    }
+  }
+}
