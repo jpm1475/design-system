@@ -1,0 +1,98 @@
+/* THICCCBOI by Wonder Unit, SIL Open Font License 1.1 (OFL.txt). */
+
+@font-face {
+  font-family: "THICCCBOI";
+  src: url("./files/THICCCBOI-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "THICCCBOI";
+  src: url("./files/THICCCBOI-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "THICCCBOI";
+  src: url("./files/THICCCBOI-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "THICCCBOI";
+  src: url("./files/THICCCBOI-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "THICCCBOI";
+  src: url("./files/THICCCBOI-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "THICCCBOI";
+  src: url("./files/THICCCBOI-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "THICCCBOI";
+  src: url("./files/THICCCBOI-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "THICCCBOI";
+  src: url("./files/THICCCBOI-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* The TTF reports 900, the same as Black; 950 keeps both faces addressable. */
+@font-face {
+  font-family: "THICCCBOI";
+  src: url("./files/THICCCBOI-ThicccAF.woff2") format("woff2");
+  font-weight: 950;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Metric-adjusted fallback to reduce layout shift while THICCCBOI loads.
+   size-adjust matches rendered text widths against Arial (measured in Playwright);
+   ascent and descent come from THICCCBOI's hhea metrics (913 / 240 per 1000 em).
+   Regular and Bold Arial are matched separately because their width ratios differ. */
+@font-face {
+  font-family: "THICCCBOI Fallback";
+  src: local("Arial"), local("ArialMT"), local("Helvetica"), local("Helvetica Neue");
+  font-weight: 100 500;
+  size-adjust: 104.74%;
+  ascent-override: 87.17%;
+  descent-override: 22.91%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: "THICCCBOI Fallback";
+  src: local("Arial Bold"), local("Arial-BoldMT"), local("Helvetica Bold"), local("Helvetica Neue Bold");
+  font-weight: 600 1000;
+  size-adjust: 98.4%;
+  ascent-override: 92.78%;
+  descent-override: 24.39%;
+  line-gap-override: 0%;
+}

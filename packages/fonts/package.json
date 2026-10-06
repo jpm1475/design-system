@@ -1,0 +1,19 @@
+{
+  "name": "@jpm1475/ds-fonts",
+  "version": "0.1.0",
+  "description": "THICCCBOI web fonts (woff2) with @font-face declarations for the jpm1475 design system.",
+  "type": "module",
+  "files": ["files", "fonts.css", "OFL.txt"],
+  "sideEffects": ["*.css"],
+  "exports": {
+    "./fonts.css": "./fonts.css",
+    "./files/*": "./files/*"
+  },
+  "scripts": {
+    "build": "node -e \"\"",
+    "test": "node -e \"\""
+  },
+  "license": "OFL-1.1",
+  "repository": { "type": "git", "url": "git+https://github.com/jpm1475/design-system.git", "directory": "packages/fonts" },
+  "publishConfig": { "access": "public" }
+}
