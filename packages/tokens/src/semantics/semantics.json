@@ -2781,7 +2781,7 @@
       },
       "y-offset": {
         "$type": "dimension",
-        "$value": "{Elevation.X-Offset.25}",
+        "$value": "{Elevation.Y-Offset.25}",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:186:13931",
