@@ -1,0 +1,16 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { FoundationContent, IconContexts, varsWhere } from '../../../../.storybook/docs-blocks';
+
+<Meta title="Foundations/Icons" />
+
+# Icons
+
+<FoundationContent page="icons" />
+
+The icon gallery arrives with the Icon component in the components stage (`/ds-pipeline:component Icon`).
+
+## Icon colors
+
+The `icon-context` collection has one Figma variable with a mode per context. In code each mode is its own variable, `--ds-icon-<context>`. Icons are drawn in `currentColor`; the Icon component's `context` prop picks the color.
+
+<IconContexts names={varsWhere('--ds-icon-', 'icon-context')} />

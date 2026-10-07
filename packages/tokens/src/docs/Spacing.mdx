@@ -1,41 +1,12 @@
 import { Meta } from '@storybook/addon-docs/blocks';
-import { Bars, Values, groupBy, varsWhere } from './TokenDocs';
+import { FoundationContent, ScaleBars, varsWhere } from '../../../../.storybook/docs-blocks';
 
-<Meta title="Tokens/Spacing and Size" />
+<Meta title="Foundations/Spacing" />
 
-# Spacing and size
+# Spacing
 
-Semantic spacing, sizes, radii, border widths, opacity and elevation from the `semantics` collection.
+<FoundationContent page="spacing" />
 
-## Spacing
+Semantic spacing from the `semantics` collection, used for padding, gaps and margins.
 
-<Bars names={varsWhere('--ds-spacing-', 'semantics')} />
-
-## Sizes
-
-{[...groupBy(varsWhere('--ds-size-', 'semantics'), '--ds-size-')].map(([group, names]) => (
-  <section key={group}>
-    <h3>{group}</h3>
-    <Bars names={names} />
-  </section>
-))}
-
-## Radius
-
-<Bars as="radius" names={varsWhere('--ds-radius-', 'semantics')} />
-
-## Border width
-
-<Bars as="border" names={varsWhere('--ds-border-width-', 'semantics')} />
-
-## Opacity
-
-<Values names={varsWhere('--ds-opacity-', 'semantics')} />
-
-## Elevation
-
-<Values names={varsWhere('--ds-elevations-', 'semantics')} />
-
-## Breakpoints
-
-<Values names={varsWhere('--ds-breakpoints-', 'semantics')} />
+<ScaleBars names={varsWhere('--ds-spacing-', 'semantics')} />

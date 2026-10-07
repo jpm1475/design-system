@@ -1,0 +1,14 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { FoundationContent, BreakpointList, TokenTable, varsWhere } from '../../../../.storybook/docs-blocks';
+
+<Meta title="Foundations/Breakpoints" />
+
+# Breakpoints
+
+<FoundationContent page="breakpoints" />
+
+Breakpoints come from the `breakpoints/*` variables in `semantics`. The smallest one's type values sit on `:root`; each larger one overrides them in a min-width media query. Blocks use container queries at the same widths.
+
+<BreakpointList />
+
+<TokenTable names={varsWhere('--ds-breakpoints-', 'semantics')} />

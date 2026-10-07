@@ -1,0 +1,17 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { FoundationContent, ScaleBars, groupBy, varsWhere } from '../../../../.storybook/docs-blocks';
+
+<Meta title="Foundations/Size" />
+
+# Size
+
+<FoundationContent page="size" />
+
+Sizing tokens from the `semantics` collection, grouped by what they size.
+
+{[...groupBy(varsWhere('--ds-size-', 'semantics'), '--ds-size-')].map(([group, names]) => (
+  <section key={group}>
+    <h2>{group}</h2>
+    <ScaleBars names={names} />
+  </section>
+))}

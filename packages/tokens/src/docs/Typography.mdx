@@ -1,12 +1,18 @@
 import { Meta } from '@storybook/addon-docs/blocks';
-import { TypeScale } from './TokenDocs';
+import { FoundationContent, TypeScale, TokenTable, varsWhere } from '../../../../.storybook/docs-blocks';
 
-<Meta title="Tokens/Typography" />
+<Meta title="Foundations/Typography" />
 
 # Typography
 
-Type roles from the `typography-semantics` collection, rendered with the live variables. Resize the viewport (toolbar) to see each breakpoint: the values change through media queries in `tokens.css`, so components never need their own font-size media queries.
+<FoundationContent page="typography" />
+
+Type roles from the `typography-semantics` collection, set in THICCCBOI from `@jpm1475/ds-fonts`. Resize the viewport (toolbar) to see each breakpoint: the values change through media queries in `tokens.css`, so components never need their own font-size media queries.
 
 Each role has five variables: `--ds-type-<role>-font-family`, `-font-weight`, `-font-size`, `-line-height` and `-letter-spacing`. The line under each sample shows font size, line height and weight per breakpoint.
 
 <TypeScale />
+
+## Font family and weights
+
+<TokenTable names={[...varsWhere('--ds-font-family-', 'typography-primitives'), ...varsWhere('--ds-font-weight-', 'typography-primitives')]} />

@@ -1,16 +1,18 @@
 import { Meta } from '@storybook/addon-docs/blocks';
-import { Swatches, groupBy, varsWhere } from './TokenDocs';
+import { FoundationContent, ColorSwatches, groupBy, varsWhere } from '../../../../.storybook/docs-blocks';
 
-<Meta title="Tokens/Colors" />
+<Meta title="Foundations/Colors" />
 
 # Colors
 
-Semantic colors from the `semantics` collection. Components and blocks use these only; never the primitives below them.
+<FoundationContent page="colors" />
+
+Semantic colors from the `semantics` collection, grouped by role. Each swatch shows its value, the primitive it aliases, and its contrast against `text-primary` and `text-inverse`. Components and blocks use these only.
 
 {[...groupBy(varsWhere('--ds-color-', 'semantics'), '--ds-color-')].map(([group, names]) => (
   <section key={group}>
     <h2>{group}</h2>
-    <Swatches names={names} />
+    <ColorSwatches names={names} />
   </section>
 ))}
 
@@ -21,6 +23,6 @@ The raw palette the semantic colors point at. Not allowed in components or block
 {[...groupBy(varsWhere('--ds-color-', 'primitives'), '--ds-color-')].map(([group, names]) => (
   <section key={group}>
     <h3>{group}</h3>
-    <Swatches names={names} />
+    <ColorSwatches names={names} against={[]} />
   </section>
 ))}

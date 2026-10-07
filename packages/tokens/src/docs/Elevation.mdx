@@ -1,0 +1,16 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { FoundationContent, ShadowSamples, TokenTable, varsWhere } from '../../../../.storybook/docs-blocks';
+
+<Meta title="Foundations/Elevation" />
+
+# Elevation
+
+<FoundationContent page="elevation" />
+
+Each elevation level is composed from its Figma variables (x offset, y offset, blur, spread, color) into one `box-shadow` value, `--ds-elevation-l<n>`. Components use only these composites for shadows, and only `--ds-z-*` for stacking.
+
+<ShadowSamples levels={varsWhere('--ds-elevation-l', 'semantics')} zIndex={varsWhere('--ds-z-', 'primitives')} />
+
+## Level parts
+
+<TokenTable names={varsWhere('--ds-elevations-', 'semantics')} />

@@ -1,0 +1,12 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { FoundationContent, ScaleBars, varsWhere } from '../../../../.storybook/docs-blocks';
+
+<Meta title="Foundations/Border" />
+
+# Border
+
+<FoundationContent page="border" />
+
+Border width tokens from the `semantics` collection. Border widths stay in px.
+
+<ScaleBars as="border" names={varsWhere('--ds-border-width-', 'semantics')} />

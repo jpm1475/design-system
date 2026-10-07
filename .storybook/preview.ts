@@ -31,6 +31,9 @@ const preview: Preview = {
       },
     },
     viewport: { options: viewports },
+    options: {
+      storySort: { order: ['Foundations', 'Components', 'Patterns', 'Blocks'] },
+    },
     a11y: { test: 'error' },
   },
   // Load every THICCCBOI face before a story renders, so Storybook and Chromatic
