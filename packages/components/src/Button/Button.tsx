@@ -3,6 +3,7 @@
 import { forwardRef } from 'react';
 import type { ComponentPropsWithoutRef, MouseEvent, ReactNode } from 'react';
 import styles from './Button.module.css';
+import { ButtonContent, buttonIconContext } from './ButtonContent';
 
 /** Figma `Type`: Primary, Secondary, Danger, Tertiary. */
 export type ButtonVariant = 'primary' | 'secondary' | 'danger' | 'tertiary';
@@ -22,14 +23,6 @@ export interface ButtonProps extends ComponentPropsWithoutRef<'button'> {
   /** Icon shown after the label (Figma `Icon After`). Draw it in `currentColor`. */
   iconAfter?: ReactNode;
 }
-
-// Resting icon context per variant. Hover and pressed contexts are switched in CSS.
-const iconContext: Record<ButtonVariant, string | undefined> = {
-  primary: 'inverse',
-  secondary: undefined,
-  danger: 'inverse',
-  tertiary: undefined,
-};
 
 const disabledIconContext: Record<ButtonVariant, string> = {
   primary: 'disabled',
@@ -72,24 +65,14 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(function Button
       data-variant={variant}
       data-size={size}
       data-loading={loading || undefined}
-      data-icon-context={disabled ? disabledIconContext[variant] : iconContext[variant]}
+      data-icon-context={disabled ? disabledIconContext[variant] : buttonIconContext[variant]}
       className={className ? `${styles.root} ${className}` : styles.root}
       onClick={handleClick}
       {...rest}
     >
-      <span className={styles.content}>
-        {iconBefore != null && (
-          <span className={styles.icon} aria-hidden="true">
-            {iconBefore}
-          </span>
-        )}
-        <span className={styles.label}>{children}</span>
-        {iconAfter != null && (
-          <span className={styles.icon} aria-hidden="true">
-            {iconAfter}
-          </span>
-        )}
-      </span>
+      <ButtonContent iconBefore={iconBefore} iconAfter={iconAfter}>
+        {children}
+      </ButtonContent>
       {loading && <span className={styles.spinner} aria-hidden="true" />}
     </button>
   );

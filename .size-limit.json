@@ -1,9 +1,30 @@
 [
   {
     "name": "Button (JS + CSS)",
+    "path": ["packages/components/dist/Button/*.js", "packages/components/dist/Button/*.css"],
+    "rolldown": false,
+    "limit": "3 kB"
+  },
+  {
+    "name": "Heading (JS + CSS)",
+    "path": ["packages/components/dist/Heading/*.js", "packages/components/dist/Heading/*.css"],
+    "rolldown": false,
+    "limit": "1 kB"
+  },
+  {
+    "name": "Text (JS + CSS)",
+    "path": ["packages/components/dist/Text/*.js", "packages/components/dist/Text/*.css"],
+    "rolldown": false,
+    "limit": "1 kB"
+  },
+  {
+    "name": "ButtonLink (JS + CSS, with the Button styles it imports)",
     "path": [
-      "packages/components/dist/Button/*.js",
-      "packages/components/dist/Button/*.css"
+      "packages/components/dist/ButtonLink/*.js",
+      "packages/components/dist/ButtonLink/*.css",
+      "packages/components/dist/Button/Button.module.js",
+      "packages/components/dist/Button/Button.css",
+      "packages/components/dist/Button/ButtonContent.js"
     ],
     "rolldown": false,
     "limit": "3 kB"

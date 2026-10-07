@@ -1,0 +1,67 @@
+@layer ds {
+  .root {
+    margin: 0;
+  }
+
+  /* Type roles (typography-semantics). Sizes change per breakpoint inside the tokens. */
+  .root[data-variant='body1'] {
+    font-family: var(--ds-type-body1-font-family);
+    font-size: var(--ds-type-body1-font-size);
+    font-weight: var(--ds-type-body1-font-weight);
+    line-height: var(--ds-type-body1-line-height);
+    letter-spacing: var(--ds-type-body1-letter-spacing);
+  }
+  .root[data-variant='body2'] {
+    font-family: var(--ds-type-body2-font-family);
+    font-size: var(--ds-type-body2-font-size);
+    font-weight: var(--ds-type-body2-font-weight);
+    line-height: var(--ds-type-body2-line-height);
+    letter-spacing: var(--ds-type-body2-letter-spacing);
+  }
+  .root[data-variant='body3'] {
+    font-family: var(--ds-type-body3-font-family);
+    font-size: var(--ds-type-body3-font-size);
+    font-weight: var(--ds-type-body3-font-weight);
+    line-height: var(--ds-type-body3-line-height);
+    letter-spacing: var(--ds-type-body3-letter-spacing);
+  }
+  .root[data-variant='body4'] {
+    font-family: var(--ds-type-body4-font-family);
+    font-size: var(--ds-type-body4-font-size);
+    font-weight: var(--ds-type-body4-font-weight);
+    line-height: var(--ds-type-body4-line-height);
+    letter-spacing: var(--ds-type-body4-letter-spacing);
+  }
+  .root[data-variant='body5'] {
+    font-family: var(--ds-type-body5-font-family);
+    font-size: var(--ds-type-body5-font-size);
+    font-weight: var(--ds-type-body5-font-weight);
+    line-height: var(--ds-type-body5-line-height);
+    letter-spacing: var(--ds-type-body5-letter-spacing);
+  }
+  .root[data-variant='body6'] {
+    font-family: var(--ds-type-body6-font-family);
+    font-size: var(--ds-type-body6-font-size);
+    font-weight: var(--ds-type-body6-font-weight);
+    line-height: var(--ds-type-body6-line-height);
+    letter-spacing: var(--ds-type-body6-letter-spacing);
+  }
+  .root[data-variant='body7'] {
+    font-family: var(--ds-type-body7-font-family);
+    font-size: var(--ds-type-body7-font-size);
+    font-weight: var(--ds-type-body7-font-weight);
+    line-height: var(--ds-type-body7-line-height);
+    letter-spacing: var(--ds-type-body7-letter-spacing);
+  }
+
+  /* Tones */
+  .root[data-tone='primary'] {
+    color: var(--ds-color-text-primary);
+  }
+  .root[data-tone='secondary'] {
+    color: var(--ds-color-text-secondary);
+  }
+  .root[data-tone='inverse'] {
+    color: var(--ds-color-text-inverse);
+  }
+}

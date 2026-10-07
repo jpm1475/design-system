@@ -1,0 +1,12 @@
+/*
+ * Anchor-only additions. Everything visual (variants, sizes, hover, pressed, focus) comes from
+ * Button.module.css, applied through the same classes and data attributes as Button.
+ */
+@layer ds {
+  .root,
+  .root:hover,
+  .root:active,
+  .root:visited {
+    text-decoration: none;
+  }
+}

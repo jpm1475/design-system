@@ -1,2 +1,8 @@
 export { Button } from './Button';
 export type { ButtonProps, ButtonSize, ButtonVariant } from './Button';
+export { ButtonLink } from './ButtonLink';
+export type { ButtonLinkProps } from './ButtonLink';
+export { Heading } from './Heading';
+export type { HeadingLevel, HeadingProps, HeadingVariant } from './Heading';
+export { Text } from './Text';
+export type { TextElement, TextProps, TextTone, TextVariant } from './Text';
