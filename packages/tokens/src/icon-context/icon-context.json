@@ -1,0 +1,106 @@
+{
+  "icon": {
+    "primary": {
+      "$type": "color",
+      "$value": "{color.icon.primary}",
+      "$description": "Context-aware monochrome icon color. Set the icon-context collection mode on a consuming component to Primary, Inverse, Secondary, Brand, Disabled, or Error.",
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:380:2282",
+          "collection": "icon-context",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR"
+          ],
+          "modeId": "380:0"
+        }
+      }
+    },
+    "inverse": {
+      "$type": "color",
+      "$value": "{color.icon.inverse}",
+      "$description": "Context-aware monochrome icon color. Set the icon-context collection mode on a consuming component to Primary, Inverse, Secondary, Brand, Disabled, or Error.",
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:380:2282",
+          "collection": "icon-context",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR"
+          ],
+          "modeId": "380:1"
+        }
+      }
+    },
+    "secondary": {
+      "$type": "color",
+      "$value": "{color.icon.secondary}",
+      "$description": "Context-aware monochrome icon color. Set the icon-context collection mode on a consuming component to Primary, Inverse, Secondary, Brand, Disabled, or Error.",
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:380:2282",
+          "collection": "icon-context",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR"
+          ],
+          "modeId": "380:2"
+        }
+      }
+    },
+    "brand": {
+      "$type": "color",
+      "$value": "{color.icon.brand}",
+      "$description": "Context-aware monochrome icon color. Set the icon-context collection mode on a consuming component to Primary, Inverse, Secondary, Brand, Disabled, or Error.",
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:380:2282",
+          "collection": "icon-context",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR"
+          ],
+          "modeId": "380:3"
+        }
+      }
+    },
+    "disabled": {
+      "$type": "color",
+      "$value": "{color.icon.disabled}",
+      "$description": "Context-aware monochrome icon color. Set the icon-context collection mode on a consuming component to Primary, Inverse, Secondary, Brand, Disabled, or Error.",
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:380:2282",
+          "collection": "icon-context",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR"
+          ],
+          "modeId": "380:4"
+        }
+      }
+    },
+    "error": {
+      "$type": "color",
+      "$value": "{color.icon.error}",
+      "$description": "Context-aware monochrome icon color. Set the icon-context collection mode on a consuming component to Primary, Inverse, Secondary, Brand, Disabled, or Error.",
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:380:2282",
+          "collection": "icon-context",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR"
+          ],
+          "modeId": "380:5"
+        }
+      }
+    }
+  }
+}

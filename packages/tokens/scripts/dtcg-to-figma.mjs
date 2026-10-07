@@ -7,7 +7,8 @@
 // are returned under `added` instead, keyed by code path.
 //
 // `collections` is figma-sync.json's "collections" block: { <name>: { id, defaultModeId, modes: { <modeId>: <modeName> } } }.
-// Mode files map to modes by lowercased mode name; single-mode collections use their only mode.
+// Mode files map to modes by lowercased mode name; single-mode collections use their only mode;
+// tokens with $extensions["com.figma"].modeId (icon-context) use that mode.
 //
 // CLI: node scripts/dtcg-to-figma.mjs [figma-sync.json]
 //   compares src/ (converted back) with the snapshot's variables, prints the diff, exits 1 on any diff.
@@ -110,7 +111,8 @@ export function dtcgToFigma(srcDir, collections) {
   for (const t of tokens) {
     const ext = t.token.$extensions?.['com.figma'] ?? {};
     const collection = ext.collection ?? t.collectionDir;
-    const modeId = modeIdFor(collection, t.modeFile);
+    // icon-context tokens carry their mode id (one token per mode of one variable).
+    const modeId = ext.modeId ?? modeIdFor(collection, t.modeFile);
     const value = tokenToFigmaValue(t.token, pathToId);
     if (ext.variableId) (values[ext.variableId] ??= {})[modeId] = value;
     else (added[t.path] ??= { collection, values: {} }).values[modeId] = value;

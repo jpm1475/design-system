@@ -3,7 +3,7 @@
     "X-Offset": {
       "0": {
         "$type": "dimension",
-        "$value": "0rem",
+        "$value": "0px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:20",
@@ -15,7 +15,7 @@
       },
       "25": {
         "$type": "dimension",
-        "$value": "0.0625rem",
+        "$value": "1px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:21",
@@ -27,7 +27,7 @@
       },
       "50": {
         "$type": "dimension",
-        "$value": "0.125rem",
+        "$value": "2px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:22",
@@ -39,7 +39,7 @@
       },
       "100": {
         "$type": "dimension",
-        "$value": "0.25rem",
+        "$value": "4px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:23",
@@ -51,7 +51,7 @@
       },
       "150": {
         "$type": "dimension",
-        "$value": "0.375rem",
+        "$value": "6px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:24",
@@ -63,7 +63,7 @@
       },
       "200": {
         "$type": "dimension",
-        "$value": "0.5rem",
+        "$value": "8px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:25",
@@ -75,7 +75,7 @@
       },
       "250": {
         "$type": "dimension",
-        "$value": "0.625rem",
+        "$value": "10px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:26",
@@ -87,7 +87,7 @@
       },
       "300": {
         "$type": "dimension",
-        "$value": "0.75rem",
+        "$value": "12px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:27",
@@ -101,7 +101,7 @@
     "Y-Offset": {
       "0": {
         "$type": "dimension",
-        "$value": "0rem",
+        "$value": "0px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:28",
@@ -113,7 +113,7 @@
       },
       "25": {
         "$type": "dimension",
-        "$value": "0.0625rem",
+        "$value": "1px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:29",
@@ -125,7 +125,7 @@
       },
       "50": {
         "$type": "dimension",
-        "$value": "0.125rem",
+        "$value": "2px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:30",
@@ -137,7 +137,7 @@
       },
       "100": {
         "$type": "dimension",
-        "$value": "0.25rem",
+        "$value": "4px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:31",
@@ -149,7 +149,7 @@
       },
       "150": {
         "$type": "dimension",
-        "$value": "0.375rem",
+        "$value": "6px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:32",
@@ -161,7 +161,7 @@
       },
       "200": {
         "$type": "dimension",
-        "$value": "0.5rem",
+        "$value": "8px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:33",
@@ -173,7 +173,7 @@
       },
       "250": {
         "$type": "dimension",
-        "$value": "0.625rem",
+        "$value": "10px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:34",
@@ -185,7 +185,7 @@
       },
       "300": {
         "$type": "dimension",
-        "$value": "1rem",
+        "$value": "16px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:35",
@@ -199,7 +199,7 @@
     "Blur": {
       "0": {
         "$type": "dimension",
-        "$value": "0rem",
+        "$value": "0px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:36",
@@ -211,7 +211,7 @@
       },
       "25": {
         "$type": "dimension",
-        "$value": "0.0625rem",
+        "$value": "1px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:37",
@@ -223,7 +223,7 @@
       },
       "50": {
         "$type": "dimension",
-        "$value": "0.125rem",
+        "$value": "2px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:38",
@@ -235,7 +235,7 @@
       },
       "100": {
         "$type": "dimension",
-        "$value": "0.25rem",
+        "$value": "4px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:39",
@@ -247,7 +247,7 @@
       },
       "150": {
         "$type": "dimension",
-        "$value": "0.375rem",
+        "$value": "6px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:40",
@@ -259,7 +259,7 @@
       },
       "200": {
         "$type": "dimension",
-        "$value": "0.5rem",
+        "$value": "8px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:41",
@@ -271,7 +271,7 @@
       },
       "250": {
         "$type": "dimension",
-        "$value": "0.625rem",
+        "$value": "10px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:42",
@@ -283,7 +283,7 @@
       },
       "300": {
         "$type": "dimension",
-        "$value": "1rem",
+        "$value": "16px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:43",
@@ -295,7 +295,7 @@
       },
       "350": {
         "$type": "dimension",
-        "$value": "1.5rem",
+        "$value": "24px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:186:14459",
@@ -307,7 +307,7 @@
       },
       "400": {
         "$type": "dimension",
-        "$value": "2rem",
+        "$value": "32px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:186:14460",
@@ -319,7 +319,7 @@
       },
       "450": {
         "$type": "dimension",
-        "$value": "2.5rem",
+        "$value": "40px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:186:14461",
@@ -331,7 +331,7 @@
       },
       "500": {
         "$type": "dimension",
-        "$value": "3.125rem",
+        "$value": "50px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:186:14462",
@@ -343,7 +343,7 @@
       },
       "550": {
         "$type": "dimension",
-        "$value": "3.75rem",
+        "$value": "60px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:186:14463",
@@ -357,7 +357,7 @@
     "Spread": {
       "0": {
         "$type": "dimension",
-        "$value": "0rem",
+        "$value": "0px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:44",
@@ -369,7 +369,7 @@
       },
       "25": {
         "$type": "dimension",
-        "$value": "0.0625rem",
+        "$value": "1px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:45",
@@ -381,7 +381,7 @@
       },
       "50": {
         "$type": "dimension",
-        "$value": "0.125rem",
+        "$value": "2px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:46",
@@ -393,7 +393,7 @@
       },
       "100": {
         "$type": "dimension",
-        "$value": "0.25rem",
+        "$value": "4px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:47",
@@ -405,7 +405,7 @@
       },
       "150": {
         "$type": "dimension",
-        "$value": "0.375rem",
+        "$value": "6px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:48",
@@ -417,7 +417,7 @@
       },
       "200": {
         "$type": "dimension",
-        "$value": "0.5rem",
+        "$value": "8px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:49",
@@ -429,7 +429,7 @@
       },
       "250": {
         "$type": "dimension",
-        "$value": "0.625rem",
+        "$value": "10px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:50",
@@ -441,7 +441,7 @@
       },
       "300": {
         "$type": "dimension",
-        "$value": "0.75rem",
+        "$value": "12px",
         "$extensions": {
           "com.figma": {
             "variableId": "VariableID:86:51",

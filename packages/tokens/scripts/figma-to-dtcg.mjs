@@ -72,6 +72,8 @@ export function colorToCss(c) {
 /** Code path segments for a variable (namespacing per packages/tokens/CLAUDE.md). */
 export function codePath(name, collection) {
   const segs = name.split('/');
+  // Z-Index/* primitives become --ds-z-* (docs/figma-conventions.md section 4).
+  if (collection === 'primitives' && /^z-index$/i.test(segs[0])) return ['z', ...segs.slice(1)];
   const ns = NAMESPACE[collection];
   if (!ns) return segs;
   if (collection === 'icon-context' && segs[0] === 'icon') return segs;
@@ -90,12 +92,14 @@ export function kindOf(v) {
   }
   if (v.resolvedType === 'BOOLEAN') return 'boolean';
   if (/^(border-width|stroke)/i.test(root)) return 'px';
+  // Elevation offsets, blur and spread stay px (docs/figma-conventions.md section 5).
+  if (/^elevations?$/i.test(root)) return 'px';
   if (/breakpoint|screen/i.test(root)) return 'px';
   if (/^opacity$/i.test(root)) return 'percent';
   if (/^z-index$/i.test(root)) return 'number';
   if (/^font-weight$/i.test(root)) return 'number';
   if (
-    /^(radius|sizing-scale|spacing-scale|elevation|font-size|line-height|letter-spacing|paragraph-spacing|paragraph-indent)$/i.test(
+    /^(radius|sizing-scale|spacing-scale|font-size|line-height|letter-spacing|paragraph-spacing|paragraph-indent)$/i.test(
       root,
     )
   )
@@ -144,10 +148,20 @@ function convertRaw(kind, val) {
 }
 
 function fileFor(v, collection, mode) {
+  if (collection.name === 'icon-context') return 'icon-context/icon-context.json';
   if (collection.name === 'primitives')
     return `primitives/${v.name.split('/')[0].toLowerCase()}.json`;
   if (collection.modes.length > 1) return `${collection.name}/${mode.name.toLowerCase()}.json`;
   return `${collection.name}/${collection.name}.json`;
+}
+
+/**
+ * icon-context code path for one mode: icon.<mode> when the collection has one variable,
+ * icon.<variable>.<mode> when it has several (docs/figma-conventions.md section 4).
+ */
+export function iconModePath(variableName, modeName, variableCount) {
+  const mode = kebab([modeName]);
+  return variableCount === 1 ? ['icon', mode] : ['icon', kebab(variableName.split('/')), mode];
 }
 
 const kebab = (segs) =>
@@ -248,10 +262,16 @@ export function figmaToDtcg(raw) {
   for (const cn of COLLECTIONS) {
     const c = raw.collections.find((x) => x.name === cn);
     if (!c) continue;
+    const isIcon = cn === 'icon-context';
     for (const id of c.variableIds) {
       const v = varById[id];
       const segs = codePath(v.name, cn);
-      (cssNames[kebab(segs)] ??= []).push(`${cn}:${v.name}`);
+      if (isIcon)
+        for (const mode of c.modes)
+          (cssNames[kebab(iconModePath(v.name, mode.name, c.variableIds.length))] ??= []).push(
+            `${cn}:${v.name} (${mode.name})`,
+          );
+      else (cssNames[kebab(segs)] ??= []).push(`${cn}:${v.name}`);
       snapshotVars[v.id] = {
         name: v.name,
         collection: cn,
@@ -273,6 +293,7 @@ export function figmaToDtcg(raw) {
         const val = v.valuesByMode[mode.modeId];
         const a = aliasOf(val);
         const ext = { variableId: v.id, collection: cn, scopes: v.scopes };
+        if (isIcon) ext.modeId = mode.modeId;
         if (v.hiddenFromPublishing) ext.hiddenFromPublishing = true;
         let $type;
         let $value;
@@ -297,7 +318,11 @@ export function figmaToDtcg(raw) {
         const tok = { $type, $value };
         if (v.description) tok.$description = v.description;
         tok.$extensions = { 'com.figma': ext };
-        put(fileFor(v, c, mode), segs, tok);
+        put(
+          fileFor(v, c, mode),
+          isIcon ? iconModePath(v.name, mode.name, c.variableIds.length) : segs,
+          tok,
+        );
       }
     }
   }
@@ -308,7 +333,7 @@ export function figmaToDtcg(raw) {
   // Every mode file of a multi-mode collection must have the same token paths.
   const paths = (o, p = '') =>
     Object.entries(o).flatMap(([k, x]) => ('$value' in x ? [p + k] : paths(x, `${p}${k}.`)));
-  for (const c of raw.collections.filter((x) => x.modes.length > 1)) {
+  for (const c of raw.collections.filter((x) => x.modes.length > 1 && x.name !== 'icon-context')) {
     const fs = Object.keys(files).filter((f) => f.startsWith(`${c.name}/`));
     const base = JSON.stringify(paths(files[fs[0]]).sort());
     for (const f of fs)

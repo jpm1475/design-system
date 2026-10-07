@@ -13,7 +13,7 @@ const ALLOWED_REFS: Record<string, string[]> = {
   'typography-semantics': ['typography-primitives'],
   'icon-context': ['semantics', 'primitives'],
 };
-const MODE_FOLDERS = ['typography-semantics', 'icon-context'];
+const MODE_FOLDERS = ['typography-semantics'];
 
 function listJson(dir: string): string[] {
   return readdirSync(dir, { withFileTypes: true }).flatMap((e) => {
@@ -120,6 +120,22 @@ describe('token tiers', () => {
       .map((t) => Number(valueOf.get(refOf(t.value) ?? '')));
     expect(usedWeights.length).toBeGreaterThan(0);
     for (const w of new Set(usedWeights)) expect(weights, `weight ${w}`).toContain(w);
+  });
+
+  it('icon-context has one token per Figma mode, each with its mode id', () => {
+    const sync = JSON.parse(readFileSync(join(root, 'figma-sync.json'), 'utf8'));
+    const modeIds = Object.keys(sync.collections['icon-context'].modes).sort();
+    const icon = JSON.parse(readFileSync(join(src, 'icon-context', 'icon-context.json'), 'utf8'));
+    const ids: string[] = [];
+    const collect = (o: Record<string, unknown>) => {
+      for (const v of Object.values(o) as Record<string, unknown>[]) {
+        if ('$value' in v)
+          ids.push((v.$extensions as Record<string, { modeId: string }>)['com.figma'].modeId);
+        else collect(v);
+      }
+    };
+    collect(icon);
+    expect(ids.sort()).toEqual(modeIds);
   });
 
   it('CSS names are unique', () => {
