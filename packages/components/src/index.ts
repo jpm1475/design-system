@@ -6,3 +6,6 @@ export { Heading } from './Heading';
 export type { HeadingLevel, HeadingProps, HeadingVariant } from './Heading';
 export { Text } from './Text';
 export type { TextElement, TextProps, TextTone, TextVariant } from './Text';
+export { VisuallyHidden } from './VisuallyHidden';
+export type { VisuallyHiddenProps } from './VisuallyHidden';
+export * from './patterns';

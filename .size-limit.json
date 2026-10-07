@@ -1,5 +1,14 @@
 [
   {
+    "name": "VisuallyHidden (JS + CSS)",
+    "path": [
+      "packages/components/dist/VisuallyHidden/*.js",
+      "packages/components/dist/VisuallyHidden/*.css"
+    ],
+    "rolldown": false,
+    "limit": "1 kB"
+  },
+  {
     "name": "Button (JS + CSS)",
     "path": ["packages/components/dist/Button/*.js", "packages/components/dist/Button/*.css"],
     "rolldown": false,

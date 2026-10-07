@@ -32,10 +32,10 @@ describe('ButtonLink', () => {
   it('uses the same classes, attributes and markup as Button', () => {
     render(
       <>
-        <Button variant="secondary" size="lg" iconAfter={<svg />}>
+        <Button variant="secondary" size="lg" iconEnd={<svg />}>
           Same
         </Button>
-        <ButtonLink href="/same" variant="secondary" size="lg" iconAfter={<svg />}>
+        <ButtonLink href="/same" variant="secondary" size="lg" iconEnd={<svg />}>
           Same
         </ButtonLink>
       </>,
@@ -80,8 +80,8 @@ describe('ButtonLink', () => {
     render(
       <ButtonLink
         href="/next"
-        iconBefore={<svg data-testid="before" />}
-        iconAfter={<svg data-testid="after" />}
+        iconStart={<svg data-testid="before" />}
+        iconEnd={<svg data-testid="after" />}
       >
         Next
       </ButtonLink>,
@@ -117,7 +117,7 @@ describe('ButtonLink', () => {
     const { container } = render(
       <div>
         <ButtonLink href="/a">Primary</ButtonLink>
-        <ButtonLink href="/b" variant="secondary" iconAfter={<svg />}>
+        <ButtonLink href="/b" variant="secondary" iconEnd={<svg />}>
           Secondary
         </ButtonLink>
         <ButtonLink href="/c" variant="danger">

@@ -13,16 +13,16 @@ export interface ButtonLinkProps extends Omit<ComponentPropsWithoutRef<'a'>, 'hr
   /** Height, padding, type role and icon size, identical to Button. Maps to Figma `Size`. */
   size?: ButtonSize;
   /** Icon shown before the label (Figma `Icon Before`). Draw it in `currentColor`. */
-  iconBefore?: ReactNode;
+  iconStart?: ReactNode;
   /** Icon shown after the label (Figma `Icon After`). Draw it in `currentColor`. */
-  iconAfter?: ReactNode;
+  iconEnd?: ReactNode;
 }
 
 const rootClassName = `${buttonStyles.root} ${styles.root}`;
 
 /** A link styled as a Button. Shares Button's stylesheet, so the two always look the same. */
 export const ButtonLink = forwardRef<HTMLAnchorElement, ButtonLinkProps>(function ButtonLink(
-  { variant = 'primary', size = 'md', iconBefore, iconAfter, className, children, ...rest },
+  { variant = 'primary', size = 'md', iconStart, iconEnd, className, children, ...rest },
   ref,
 ) {
   return (
@@ -34,7 +34,7 @@ export const ButtonLink = forwardRef<HTMLAnchorElement, ButtonLinkProps>(functio
       className={className ? `${rootClassName} ${className}` : rootClassName}
       {...rest}
     >
-      <ButtonContent iconBefore={iconBefore} iconAfter={iconAfter}>
+      <ButtonContent iconStart={iconStart} iconEnd={iconEnd}>
         {children}
       </ButtonContent>
     </a>

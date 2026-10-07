@@ -14,24 +14,24 @@ export const buttonIconContext: Record<ButtonVariant, string | undefined> = {
 };
 
 export interface ButtonContentProps {
-  iconBefore?: ReactNode;
-  iconAfter?: ReactNode;
+  iconStart?: ReactNode;
+  iconEnd?: ReactNode;
   children?: ReactNode;
 }
 
 /** Label with the optional icon slots, hidden from assistive tech. */
-export function ButtonContent({ iconBefore, iconAfter, children }: ButtonContentProps) {
+export function ButtonContent({ iconStart, iconEnd, children }: ButtonContentProps) {
   return (
     <span className={styles.content}>
-      {iconBefore != null && (
+      {iconStart != null && (
         <span className={styles.icon} aria-hidden="true">
-          {iconBefore}
+          {iconStart}
         </span>
       )}
       <span className={styles.label}>{children}</span>
-      {iconAfter != null && (
+      {iconEnd != null && (
         <span className={styles.icon} aria-hidden="true">
-          {iconAfter}
+          {iconEnd}
         </span>
       )}
     </span>

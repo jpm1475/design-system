@@ -25,8 +25,8 @@ const meta = {
   argTypes: {
     variant: { control: 'inline-radio', options: variants },
     size: { control: 'inline-radio', options: sizes },
-    iconBefore: { control: false },
-    iconAfter: { control: false },
+    iconStart: { control: false },
+    iconEnd: { control: false },
   },
 } satisfies Meta<typeof Button>;
 
@@ -56,7 +56,7 @@ export const Loading: Story = { args: { loading: true } };
 
 // Icon slots (Figma `Icon Before` / `Icon After`)
 export const WithIcons: Story = {
-  args: { iconBefore: <Arrow />, iconAfter: <Arrow /> },
+  args: { iconStart: <Arrow />, iconEnd: <Arrow /> },
 };
 
 export const AllVariants: Story = {
@@ -73,8 +73,8 @@ export const AllVariants: Story = {
                 {...args}
                 variant={variant}
                 size={size}
-                iconBefore={<Arrow />}
-                iconAfter={<Arrow />}
+                iconStart={<Arrow />}
+                iconEnd={<Arrow />}
               />
               <Button {...args} variant={variant} size={size} disabled />
               <Button {...args} variant={variant} size={size} loading />

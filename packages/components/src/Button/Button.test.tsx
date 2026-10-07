@@ -102,7 +102,7 @@ describe('Button', () => {
 
   it('renders icon slots hidden from assistive tech', () => {
     render(
-      <Button iconBefore={<svg data-testid="before" />} iconAfter={<svg data-testid="after" />}>
+      <Button iconStart={<svg data-testid="before" />} iconEnd={<svg data-testid="after" />}>
         Next
       </Button>,
     );
@@ -141,7 +141,7 @@ describe('Button', () => {
     const { container } = render(
       <div>
         <Button>Primary</Button>
-        <Button variant="secondary" iconAfter={<svg />}>
+        <Button variant="secondary" iconEnd={<svg />}>
           Secondary
         </Button>
         <Button variant="danger" disabled>

@@ -27,7 +27,24 @@
   .icon {
     display: inline-flex;
     flex-shrink: 0;
-    color: var(--ds-icon-color-icon-context);
+    color: var(--ds-icon-primary);
+  }
+
+  /* Resting and disabled icon context (Figma icon-context mode), set as data-icon-context on the root. */
+  .root[data-icon-context='inverse'] .icon {
+    color: var(--ds-icon-inverse);
+  }
+  .root[data-icon-context='secondary'] .icon {
+    color: var(--ds-icon-secondary);
+  }
+  .root[data-icon-context='brand'] .icon {
+    color: var(--ds-icon-brand);
+  }
+  .root[data-icon-context='disabled'] .icon {
+    color: var(--ds-icon-disabled);
+  }
+  .root[data-icon-context='error'] .icon {
+    color: var(--ds-icon-error);
   }
 
   .icon > svg {
@@ -242,24 +259,22 @@
   }
 
   /*
-   * Icon context for hover and pressed. The resting and disabled contexts are set with
-   * data-icon-context on the root; pseudo-class states can't be attributes, so the context
-   * variable is switched on the icon itself (an ancestor [data-icon-context] rule would
-   * otherwise win, since tokens.css is unlayered).
+   * Icon context for hover and pressed. Pseudo-class states can't be attributes, so these
+   * rules pick the icon-context token directly; they outrank the data-icon-context rules above.
    */
   .root[data-variant='primary']:hover:not(:disabled, [data-loading]) .icon,
   .root[data-variant='primary']:active:not(:disabled, [data-loading]) .icon,
   .root[data-variant='secondary']:active:not(:disabled, [data-loading]) .icon {
-    --ds-icon-color-icon-context: var(--ds-color-icon-primary);
+    color: var(--ds-icon-primary);
   }
   .root[data-variant='secondary']:hover:not(:disabled, [data-loading]):not(:active) .icon {
-    --ds-icon-color-icon-context: var(--ds-color-icon-inverse);
+    color: var(--ds-icon-inverse);
   }
   .root[data-variant='danger']:active:not(:disabled, [data-loading]) .icon {
-    --ds-icon-color-icon-context: var(--ds-color-icon-error);
+    color: var(--ds-icon-error);
   }
   .root[data-variant='tertiary']:active:not(:disabled, [data-loading]) .icon {
-    --ds-icon-color-icon-context: var(--ds-color-icon-brand);
+    color: var(--ds-icon-brand);
   }
 
   /* Focus ring: thick inset stroke in the variant's focus color, replacing any state stroke. */

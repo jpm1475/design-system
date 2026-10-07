@@ -19,9 +19,9 @@ export interface ButtonProps extends ComponentPropsWithoutRef<'button'> {
   /** Shows a spinner, sets `aria-busy`, and ignores clicks. The label stays in the accessible name. */
   loading?: boolean;
   /** Icon shown before the label (Figma `Icon Before`). Draw it in `currentColor`. */
-  iconBefore?: ReactNode;
+  iconStart?: ReactNode;
   /** Icon shown after the label (Figma `Icon After`). Draw it in `currentColor`. */
-  iconAfter?: ReactNode;
+  iconEnd?: ReactNode;
 }
 
 const disabledIconContext: Record<ButtonVariant, string> = {
@@ -37,8 +37,8 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(function Button
     size = 'md',
     loading = false,
     disabled = false,
-    iconBefore,
-    iconAfter,
+    iconStart,
+    iconEnd,
     type = 'button',
     className,
     children,
@@ -70,7 +70,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(function Button
       onClick={handleClick}
       {...rest}
     >
-      <ButtonContent iconBefore={iconBefore} iconAfter={iconAfter}>
+      <ButtonContent iconStart={iconStart} iconEnd={iconEnd}>
         {children}
       </ButtonContent>
       {loading && <span className={styles.spinner} aria-hidden="true" />}

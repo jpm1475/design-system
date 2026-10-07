@@ -25,8 +25,8 @@ const meta = {
   argTypes: {
     variant: { control: 'inline-radio', options: variants },
     size: { control: 'inline-radio', options: sizes },
-    iconBefore: { control: false },
-    iconAfter: { control: false },
+    iconStart: { control: false },
+    iconEnd: { control: false },
   },
 } satisfies Meta<typeof ButtonLink>;
 
@@ -55,7 +55,7 @@ export const Focus: Story = { parameters: { pseudo: { focusVisible: true } } };
 
 // Icon slots (Button's Figma `Icon Before` / `Icon After`)
 export const WithIcons: Story = {
-  args: { iconBefore: <Arrow />, iconAfter: <Arrow /> },
+  args: { iconStart: <Arrow />, iconEnd: <Arrow /> },
 };
 
 // Opens in a new tab: target and rel pass through to the anchor.
@@ -64,7 +64,7 @@ export const External: Story = {
     href: 'https://example.com',
     target: '_blank',
     rel: 'noopener noreferrer',
-    iconAfter: <Arrow />,
+    iconEnd: <Arrow />,
   },
 };
 
@@ -76,10 +76,10 @@ export const ComparedWithButton: Story = {
     <div style={{ display: 'grid', gap: 12 }}>
       {variants.map((variant) => (
         <div key={variant} style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
-          <Button variant={variant} size={args.size} iconAfter={<Arrow />}>
+          <Button variant={variant} size={args.size} iconEnd={<Arrow />}>
             {args.children}
           </Button>
-          <ButtonLink {...args} variant={variant} iconAfter={<Arrow />} />
+          <ButtonLink {...args} variant={variant} iconEnd={<Arrow />} />
         </div>
       ))}
     </div>
@@ -100,8 +100,8 @@ export const AllVariants: Story = {
                 {...args}
                 variant={variant}
                 size={size}
-                iconBefore={<Arrow />}
-                iconAfter={<Arrow />}
+                iconStart={<Arrow />}
+                iconEnd={<Arrow />}
               />
             </div>
           ))}
