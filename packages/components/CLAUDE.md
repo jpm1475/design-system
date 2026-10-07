@@ -1,6 +1,8 @@
 # Components
 
-Reference component: `src/Button`. Match its structure exactly.
+Reference component: `src/Button`, approved 2026-10-07. Every later component matches its structure exactly.
+
+Patterns live in `src/patterns/<Name>/` with the same anatomy and rules, built only from components in this package. Figma properties map to props with the naming map in `docs/figma-conventions.md`.
 
 ## File anatomy
 `Name/Name.tsx`, `Name.module.css`, `Name.stories.tsx`, `Name.test.tsx`, `index.ts`, and an export line in `src/index.ts`.
@@ -20,8 +22,8 @@ Reference component: `src/Button`. Match its structure exactly.
 - Focus is always visible, using the focus-ring token.
 - Never declare `@font-face` or import fonts in a component; fonts come from `@jpm1475/ds-fonts` at the app level.
 - Text uses `typography-semantics` tokens only (never `typography-primitives`). Don't add your own font-size media queries; the tokens already change per breakpoint.
-- Icons get color from the `icon-context` token: `color: var(--ds-icon-color-icon-context)`, with icons drawn in `currentColor`. A component sets the context with `data-icon-context="<mode>"` on the element that owns the icon (for example `inverse` on a dark surface, `disabled` when disabled).
-- Interactive states (`:hover`, `:active`) can't switch a data attribute, so for those the CSS sets `--ds-icon-color-icon-context` to a `--ds-color-icon-*` token on the icon wrapper element itself (not the root, because the unlayered `[data-icon-context]` rules in tokens.css win over layered rules on the same element). See Button.
+- Icons get color from `icon-context` tokens through the Icon component's `context` prop (`--ds-icon-primary`, `--ds-icon-brand` and so on), set as `color` with icons drawn in `currentColor`.
+- Shadows use only `var(--ds-elevation-*)`; stacking uses only `var(--ds-z-*)`.
 - Never use `primitives` or `typography-primitives` variables; check `@jpm1475/ds-tokens/tier-map.json` if unsure.
 - Respect `prefers-reduced-motion` for any transition or animation.
 - There are no motion tokens yet: durations are the one allowed raw value (Button's spinner uses `0.8s`). Switch to tokens once they exist in Figma.
@@ -41,4 +43,4 @@ Reference component: `src/Button`. Match its structure exactly.
 - One axe check per component with no violations.
 
 ## Stories
-One story per variant, size and state, plus an "All variants" story. Use args so controls work.
+Title `Components/<Name>` (or `Patterns/<Name>` for patterns). One story per variant and size, a states story using the pseudo-states addon for hover, active and focus-visible, and an "All variants" story. Use args so controls work. The docs intro comes from the Figma component set description.

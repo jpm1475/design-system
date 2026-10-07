@@ -18,6 +18,18 @@ Personal design system: four npm packages in one pnpm monorepo.
 ## Rules
 - Every change to a package's published code needs a changeset (patch, minor or major).
 - Never publish manually. Releases happen by merging the "chore: version packages" PR.
-- Use the ds-pipeline agents: component-builder for components, block-builder for blocks, token-sync for Figma variables, design-system-check before every commit.
+- Build in stages with the ds-pipeline skills, in this order: `/ds-pipeline:tokens`, then `/ds-pipeline:component <Name>`, then `/ds-pipeline:pattern <Name>`, then `/ds-pipeline:block <Name>`. Each stops and points to the earlier stage when something it needs is missing.
+- Agents behind them: token-sync, component-builder, pattern-builder, block-builder; run design-system-check before every commit.
+- The Figma file (web-ds) is a work in progress. Follow `docs/figma-conventions.md`: skip pages marked ⚒️, `_deprecated/` items, `_Archive`, and `Elements/` parts as standalone outputs; map Figma properties to props with its naming map.
 - Commit and open PRs only through /ds-pipeline:commit and /ds-pipeline:pr.
 - Storybook is published to Chromatic on every push; the latest main build is the repo homepage.
+
+## Storybook structure
+| Section | Title prefix | Lives in |
+| --- | --- | --- |
+| Foundations | `Foundations/` | `packages/tokens/src/docs/` (one MDX page per foundation) |
+| Components | `Components/` | `packages/components/src/<Name>/` |
+| Patterns | `Patterns/` | `packages/components/src/patterns/<Name>/` |
+| Blocks | `Blocks/` | `packages/blocks/src/<Name>/` |
+
+Every story file sets `title` explicitly. Foundations values are rendered from the built tokens; written guidance is pulled from the Figma foundation pages into `packages/tokens/src/docs/content/`.
