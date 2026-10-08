@@ -174,7 +174,7 @@
     color: var(--ds-color-button-danger-inactive-text);
   }
 
-  /* Tertiary: no surface or radius; hover and pressed underline the content. */
+  /* Tertiary: no surface or radius; hover and pressed underline the label. */
   .root[data-variant='tertiary'] {
     border-radius: var(--ds-radius-none);
     background-color: var(--ds-color-button-tertiary-default-surface);
@@ -182,6 +182,18 @@
   }
   .root[data-variant='tertiary'] .content {
     gap: var(--ds-spacing-md);
+  }
+  /*
+   * Hover and pressed underline the label (Figma bottom stroke). It is a real text decoration,
+   * so forced-colors mode keeps it (the browser forces text-decoration-color).
+   * No underline thickness or offset tokens exist: thickness uses the border width the Figma
+   * stroke is bound to, and the line sits below descenders via text-underline-position.
+   */
+  .root[data-variant='tertiary']:hover:not(:disabled, [data-loading]) .label,
+  .root[data-variant='tertiary']:active:not(:disabled, [data-loading]) .label {
+    text-decoration-line: underline;
+    text-decoration-thickness: var(--ds-border-width-thin);
+    text-underline-position: under;
   }
   .root[data-variant='tertiary']:disabled {
     background-color: var(--ds-color-button-tertiary-inactive-surface);
@@ -226,9 +238,8 @@
     background-color: var(--ds-color-button-tertiary-hover-surface);
     color: var(--ds-color-button-tertiary-hover-text);
   }
-  .root[data-variant='tertiary']:hover:not(:disabled, [data-loading]) .content {
-    box-shadow: inset 0 calc(var(--ds-border-width-thin) * -1) 0 0
-      var(--ds-color-button-tertiary-hover-border);
+  .root[data-variant='tertiary']:hover:not(:disabled, [data-loading]) .label {
+    text-decoration-color: var(--ds-color-button-tertiary-hover-border);
   }
 
   /* Pressed (Figma State=Pressed) */
@@ -253,9 +264,8 @@
     background-color: var(--ds-color-button-tertiary-pressed-surface);
     color: var(--ds-color-button-tertiary-pressed-text);
   }
-  .root[data-variant='tertiary']:active:not(:disabled, [data-loading]) .content {
-    box-shadow: inset 0 calc(var(--ds-border-width-thin) * -1) 0 0
-      var(--ds-color-button-tertiary-pressed-border);
+  .root[data-variant='tertiary']:active:not(:disabled, [data-loading]) .label {
+    text-decoration-color: var(--ds-color-button-tertiary-pressed-border);
   }
 
   /*
