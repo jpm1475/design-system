@@ -1,6 +1,6 @@
 {
-  "Color": {
-    "White": {
+  "color": {
+    "white": {
       "500": {
         "$type": "color",
         "$value": "#ffffff",
@@ -8,15 +8,13 @@
           "com.figma": {
             "variableId": "VariableID:26:190",
             "collection": "primitives",
-            "scopes": [
-              "ALL_SCOPES"
-            ],
+            "scopes": [],
             "hiddenFromPublishing": true
           }
         }
       }
     },
-    "Blue": {
+    "blue": {
       "50": {
         "$type": "color",
         "$value": "#e6f0ff",
@@ -138,7 +136,7 @@
         }
       }
     },
-    "Blue-Black": {
+    "blue-black": {
       "50": {
         "$type": "color",
         "$value": "#f9fafb",
@@ -260,7 +258,7 @@
         }
       }
     },
-    "Black": {
+    "black": {
       "50": {
         "$type": "color",
         "$value": "#f9f9f9",
@@ -372,7 +370,7 @@
         }
       }
     },
-    "Midnight": {
+    "midnight": {
       "100": {
         "$type": "color",
         "$value": "#f9fafb",
@@ -486,7 +484,7 @@
         }
       }
     },
-    "Indigo": {
+    "indigo": {
       "50": {
         "$type": "color",
         "$value": "#e9ddfd",
@@ -608,7 +606,7 @@
         }
       }
     },
-    "Pink": {
+    "pink": {
       "50": {
         "$type": "color",
         "$value": "#ffddee",
@@ -730,7 +728,7 @@
         }
       }
     },
-    "Purple": {
+    "purple": {
       "50": {
         "$type": "color",
         "$value": "#e9ddff",
@@ -852,7 +850,7 @@
         }
       }
     },
-    "Cyan": {
+    "cyan": {
       "50": {
         "$type": "color",
         "$value": "#dafbff",
@@ -974,7 +972,7 @@
         }
       }
     },
-    "Teal": {
+    "teal": {
       "50": {
         "$type": "color",
         "$value": "#dcfff5",
@@ -1096,7 +1094,7 @@
         }
       }
     },
-    "Green": {
+    "green": {
       "50": {
         "$type": "color",
         "$value": "#dcf4e1",
@@ -1218,7 +1216,7 @@
         }
       }
     },
-    "Yellow": {
+    "yellow": {
       "50": {
         "$type": "color",
         "$value": "#fbf0cd",
@@ -1340,7 +1338,7 @@
         }
       }
     },
-    "Orange": {
+    "orange": {
       "50": {
         "$type": "color",
         "$value": "#ffead8",
@@ -1462,7 +1460,7 @@
         }
       }
     },
-    "Red": {
+    "red": {
       "50": {
         "$type": "color",
         "$value": "#ffe0e3",

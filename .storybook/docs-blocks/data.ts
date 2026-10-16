@@ -25,8 +25,11 @@ export const cssName = (path: string[]) =>
   ['--ds', ...path.map((s) => s.toLowerCase().replace(/\s+/g, '-'))].join('-');
 
 const info = new Map<string, Omit<TokenInfo, 'name' | 'collection'>>();
+// Source $value by dotted path, for raw values the build output no longer shows (Figma px).
+const sourceValue = new Map<string, unknown>();
 const walk = (node: Node, path: string[]) => {
   if ('$value' in node) {
+    if (!sourceValue.has(path.join('.'))) sourceValue.set(path.join('.'), node.$value);
     const name = cssName(path);
     if (info.has(name)) return;
     const ref = typeof node.$value === 'string' && node.$value.match(/^\{([^}]+)\}$/)?.[1];
@@ -79,3 +82,22 @@ export const live = (name: string) =>
   typeof document === 'undefined'
     ? ''
     : getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+
+const modeSource = (mode: string) =>
+  Object.entries(sources).find(([f]) => f.endsWith(`/typography-semantics/${mode}.json`))?.[1];
+
+/**
+ * Figma px of a role's letter spacing in one typography mode. The source keeps the px alias;
+ * the build outputs em, so the docs read the px from the source.
+ */
+export function letterSpacingPx(mode: string, role: string) {
+  const roles = (modeSource(mode)?.type ?? {}) as Record<string, Node>;
+  const node = (roles[role] ??
+    role
+      .split('-')
+      .reduce<Node | undefined>((acc, seg) => acc?.[seg] as Node | undefined, roles)) as
+    Node | undefined;
+  const v = (node?.['letter-spacing'] as Node | undefined)?.$value;
+  const ref = typeof v === 'string' ? v.match(/^\{([^}]+)\}$/)?.[1] : undefined;
+  return String(ref ? sourceValue.get(ref) : (v ?? ''));
+}

@@ -7,7 +7,7 @@
     box-sizing: border-box;
     display: grid;
     gap: var(--ds-spacing-5xl);
-    max-inline-size: var(--ds-breakpoints-desktop);
+    max-inline-size: var(--ds-breakpoint-desktop);
     margin-inline: auto;
     padding-block: var(--ds-spacing-6xl);
     padding-inline: var(--ds-spacing-xl);
@@ -33,7 +33,7 @@
     block-size: auto;
   }
 
-  /* 834px = `tablet` in packages/tokens/breakpoints.json (--ds-breakpoints-tablet).
+  /* 834px = `tablet` in packages/tokens/breakpoints.json (--ds-breakpoint-tablet).
      Container queries cannot read custom properties, so the width is written out. */
   @container (min-width: 834px) {
     .inner {
@@ -44,7 +44,7 @@
 
     /* Without an image, keep the line length readable instead of spanning the full width. */
     .inner:not([data-has-image]) .content {
-      max-inline-size: var(--ds-breakpoints-tablet);
+      max-inline-size: var(--ds-breakpoint-tablet);
     }
 
     .inner[data-has-image] {
@@ -53,7 +53,7 @@
     }
   }
 
-  /* 1440px = `desktop` in packages/tokens/breakpoints.json (--ds-breakpoints-desktop). */
+  /* 1440px = `desktop` in packages/tokens/breakpoints.json (--ds-breakpoint-desktop). */
   @container (min-width: 1440px) {
     .inner {
       gap: var(--ds-spacing-7xl);

@@ -7,8 +7,8 @@ import { FoundationContent, BreakpointList, TokenTable, varsWhere } from '../../
 
 <FoundationContent page="breakpoints" />
 
-Breakpoints come from the `breakpoints/*` variables in `semantics`. The smallest one's type values sit on `:root`; each larger one overrides them in a min-width media query. Blocks use container queries at the same widths.
+Breakpoints come from the `breakpoint/*` variables in `semantics`. The smallest one's type values sit on `:root`; each larger one overrides them in a min-width media query. Blocks use container queries at the same widths.
 
 <BreakpointList />
 
-<TokenTable names={varsWhere('--ds-breakpoints-', 'semantics')} />
+<TokenTable names={varsWhere('--ds-breakpoint-', 'semantics')} />

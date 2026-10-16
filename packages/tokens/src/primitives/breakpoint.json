@@ -1,5 +1,5 @@
 {
-  "Breakpoint": {
+  "breakpoint": {
     "100": {
       "$type": "dimension",
       "$value": "440px",

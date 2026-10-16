@@ -4,7 +4,7 @@
 import type { CSSProperties, ReactNode } from 'react';
 import { Markdown } from '@storybook/addon-docs/blocks';
 import { breakpoints, typography } from '@jpm1475/ds-tokens';
-import { live, token } from './data';
+import { letterSpacingPx, live, token } from './data';
 
 export { groupBy, varsWhere } from './data';
 
@@ -281,10 +281,15 @@ const roleStyle = (role: string): CSSProperties =>
   );
 
 type Tree = Record<string, unknown>;
+// Roles are flat keys (button-xl) or nested groups (button.xl).
 const at = (tree: Tree, role: string) =>
-  role.split('-').reduce<Tree>((acc, seg) => (acc?.[seg] as Tree) ?? acc, tree);
+  (tree[role] as Tree | undefined) ??
+  role.split('-').reduce<Tree>((acc, seg) => (acc?.[seg] as Tree) ?? {}, tree);
 
-/** Each type role rendered with the live variables, with its values at every breakpoint. */
+/**
+ * Each type role rendered with the live variables, with its values at every breakpoint:
+ * font size / line height / weight / letter spacing as Figma px = code em.
+ */
 export function TypeScale({
   sample = 'The quick brown fox jumps over the lazy dog',
 }: {
@@ -315,7 +320,8 @@ export function TypeScale({
             {typeModes
               .map((mode) => {
                 const v = at(typography[mode] as Tree, role);
-                return `${mode}: ${v['font-size']} / ${v['line-height']} / ${v['font-weight']}`;
+                const ls = `${letterSpacingPx(mode, role)} = ${v['letter-spacing']}`;
+                return `${mode}: ${v['font-size']} / ${v['line-height']} / ${v['font-weight']} / ${ls}`;
               })
               .join('  ·  ')}
           </div>

@@ -1,3 +1,4 @@
+import { execFileSync } from 'node:child_process';
 import { readFileSync, readdirSync } from 'node:fs';
 import { join, relative, sep } from 'node:path';
 import { describe, expect, it } from 'vitest';
@@ -106,7 +107,7 @@ describe('token tiers', () => {
     );
 
     const familyTokens = tokens.filter(
-      (t) => t.collection === 'typography-primitives' && t.path.startsWith('Font-Family.'),
+      (t) => t.collection === 'typography-primitives' && /^font-family\./i.test(t.path),
     );
     expect(familyTokens.length).toBeGreaterThan(0);
     for (const t of familyTokens) {
@@ -136,6 +137,26 @@ describe('token tiers', () => {
     };
     collect(icon);
     expect(ids.sort()).toEqual(modeIds);
+  });
+
+  it('semantic letter spacing has a font size in every mode and builds to em', () => {
+    const ls = tokens.filter(
+      (t) => t.collection === 'typography-semantics' && t.path.endsWith('.letter-spacing'),
+    );
+    expect(ls.length).toBeGreaterThan(0);
+    const paths = new Set(tokens.map((t) => `${t.file} ${t.path}`));
+    for (const t of ls) {
+      const size = t.path.replace(/letter-spacing$/, 'font-size');
+      expect(paths.has(`${t.file} ${size}`), `${t.file} ${t.path} has no font-size`).toBe(true);
+    }
+
+    execFileSync('node', ['style-dictionary.config.js'], { cwd: root, stdio: 'pipe' });
+    const css = readFileSync(join(root, 'dist', 'tokens.css'), 'utf8');
+    const decls = [...css.matchAll(/--ds-type-[\w-]+-letter-spacing:\s*([^;]+);/g)].map(
+      (m) => m[1],
+    );
+    expect(decls.length).toBeGreaterThanOrEqual(new Set(ls.map((t) => t.path)).size);
+    for (const v of decls) expect(v).toMatch(/^(0|-?\d*\.?\d+em)$/);
   });
 
   it('CSS names are unique', () => {

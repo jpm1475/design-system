@@ -1,6 +1,6 @@
 {
-  "Elevation": {
-    "X-Offset": {
+  "elevation": {
+    "x-offset": {
       "0": {
         "$type": "dimension",
         "$value": "0px",
@@ -98,7 +98,7 @@
         }
       }
     },
-    "Y-Offset": {
+    "y-offset": {
       "0": {
         "$type": "dimension",
         "$value": "0px",
@@ -196,7 +196,7 @@
         }
       }
     },
-    "Blur": {
+    "blur": {
       "0": {
         "$type": "dimension",
         "$value": "0px",
@@ -354,7 +354,7 @@
         }
       }
     },
-    "Spread": {
+    "spread": {
       "0": {
         "$type": "dimension",
         "$value": "0px",

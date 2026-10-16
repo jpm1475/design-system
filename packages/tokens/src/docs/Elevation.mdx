@@ -9,8 +9,8 @@ import { FoundationContent, ShadowSamples, TokenTable, varsWhere } from '../../.
 
 Each elevation level is composed from its Figma variables (x offset, y offset, blur, spread, color) into one `box-shadow` value, `--ds-elevation-l<n>`. Components use only these composites for shadows, and only `--ds-z-*` for stacking.
 
-<ShadowSamples levels={varsWhere('--ds-elevation-l', 'semantics')} zIndex={varsWhere('--ds-z-', 'primitives')} />
+<ShadowSamples levels={varsWhere('--ds-elevation-l', 'semantics').filter((n) => /^--ds-elevation-l\d+$/.test(n))} zIndex={varsWhere('--ds-z-', 'primitives')} />
 
 ## Level parts
 
-<TokenTable names={varsWhere('--ds-elevations-', 'semantics')} />
+<TokenTable names={varsWhere('--ds-elevation-l', 'semantics').filter((n) => !/^--ds-elevation-l\d+$/.test(n))} />

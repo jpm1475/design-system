@@ -90,6 +90,41 @@ export function tokenToFigmaValue(token, pathToId) {
   }
 }
 
+const pxOf = (v) =>
+  typeof v === 'string' && v.endsWith('rem') ? parseFloat(v) * 16 : parseFloat(v);
+
+/**
+ * A semantic letter spacing edited in code as em (or 0) goes back to Figma as an alias:
+ * px = em x the role's font-size px in the same mode, matched to a typography-primitives
+ * letter-spacing variable (docs/figma-conventions.md section 5). Throws when none matches.
+ */
+export function emToAlias(t, tokens) {
+  const v = String(t.token.$value);
+  const em = v === '0' ? 0 : v.endsWith('em') && !v.endsWith('rem') ? parseFloat(v) : NaN;
+  if (Number.isNaN(em)) return null;
+  const byPath = (path, modeFile) =>
+    tokens.find((x) => x.path === path && (modeFile === undefined || x.modeFile === modeFile));
+  const sizePath = t.path.replace(/[^.]+$/, 'font-size');
+  let size = byPath(sizePath, t.modeFile);
+  if (!size) throw new Error(`${t.path} (${t.modeFile}) has letter spacing but no font-size`);
+  while (/^\{[^}]+\}$/.test(size.token.$value)) size = byPath(size.token.$value.slice(1, -1));
+  const fontPx = pxOf(size.token.$value);
+  const px = em * fontPx;
+  // em is rounded to 4 decimals, so allow that much error once scaled back to px.
+  const tolerance = 0.00005 * fontPx + 1e-6;
+  const hit = tokens.find(
+    (x) =>
+      x.token.$extensions?.['com.figma']?.collection === 'typography-primitives' &&
+      /^letter-spacing\./i.test(x.path) &&
+      Math.abs(pxOf(x.token.$value) - px) <= tolerance,
+  );
+  if (!hit)
+    throw new Error(
+      `${t.path} (${t.modeFile}): ${v} is ${px}px, and no typography-primitives letter spacing has that value`,
+    );
+  return { ...t.token, $value: `{${hit.path}}` };
+}
+
 export function dtcgToFigma(srcDir, collections) {
   const tokens = readTokens(srcDir);
   const pathToId = {};
@@ -113,7 +148,9 @@ export function dtcgToFigma(srcDir, collections) {
     const collection = ext.collection ?? t.collectionDir;
     // icon-context tokens carry their mode id (one token per mode of one variable).
     const modeId = ext.modeId ?? modeIdFor(collection, t.modeFile);
-    const value = tokenToFigmaValue(t.token, pathToId);
+    const token =
+      t.token.$extensions?.ds?.unit === 'em-from-px' ? (emToAlias(t, tokens) ?? t.token) : t.token;
+    const value = tokenToFigmaValue(token, pathToId);
     if (ext.variableId) (values[ext.variableId] ??= {})[modeId] = value;
     else (added[t.path] ??= { collection, values: {} }).values[modeId] = value;
   }

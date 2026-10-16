@@ -1,5 +1,5 @@
 {
-  "Font-Family": {
+  "font-family": {
     "display": {
       "$type": "fontFamily",
       "$value": "\"THICCCBOI\", sans-serif",
@@ -37,7 +37,7 @@
       }
     }
   },
-  "Font-Weight": {
+  "font-weight": {
     "Thin": {
       "$type": "fontWeight",
       "$value": 100,
@@ -179,7 +179,7 @@
       }
     }
   },
-  "Font-Size": {
+  "font-size": {
     "11": {
       "$type": "dimension",
       "$value": "0.6875rem",
@@ -418,7 +418,7 @@
       }
     }
   },
-  "Line-Height": {
+  "line-height": {
     "1": {
       "$type": "dimension",
       "$value": "0.0625rem",
@@ -655,10 +655,10 @@
       }
     }
   },
-  "Letter-Spacing": {
+  "letter-spacing": {
     "0": {
       "$type": "dimension",
-      "$value": "0rem",
+      "$value": "0px",
       "$extensions": {
         "com.figma": {
           "variableId": "VariableID:93:49",
@@ -668,21 +668,9 @@
         }
       }
     },
-    "25": {
-      "$type": "dimension",
-      "$value": "0.0025rem",
-      "$extensions": {
-        "com.figma": {
-          "variableId": "VariableID:93:50",
-          "collection": "typography-primitives",
-          "scopes": [],
-          "hiddenFromPublishing": true
-        }
-      }
-    },
     "100": {
       "$type": "dimension",
-      "$value": "0.01rem",
+      "$value": "1px",
       "$extensions": {
         "com.figma": {
           "variableId": "VariableID:93:51",
@@ -692,21 +680,9 @@
         }
       }
     },
-    "125": {
-      "$type": "dimension",
-      "$value": "0.0125rem",
-      "$extensions": {
-        "com.figma": {
-          "variableId": "VariableID:93:52",
-          "collection": "typography-primitives",
-          "scopes": [],
-          "hiddenFromPublishing": true
-        }
-      }
-    },
     "200": {
       "$type": "dimension",
-      "$value": "0.02rem",
+      "$value": "2px",
       "$extensions": {
         "com.figma": {
           "variableId": "VariableID:93:53",
@@ -716,9 +692,21 @@
         }
       }
     },
-    "225": {
+    "300": {
       "$type": "dimension",
-      "$value": "0.0225rem",
+      "$value": "3px",
+      "$extensions": {
+        "com.figma": {
+          "variableId": "VariableID:495:14457",
+          "collection": "typography-primitives",
+          "scopes": [],
+          "hiddenFromPublishing": true
+        }
+      }
+    },
+    "400": {
+      "$type": "dimension",
+      "$value": "4px",
       "$extensions": {
         "com.figma": {
           "variableId": "VariableID:93:54",
@@ -729,7 +717,7 @@
       }
     }
   },
-  "Paragraph-Spacing": {
+  "paragraph-spacing": {
     "0": {
       "$type": "dimension",
       "$value": "0rem",
@@ -791,7 +779,7 @@
       }
     }
   },
-  "Paragraph-Indent": {
+  "paragraph-indent": {
     "0": {
       "$type": "dimension",
       "$value": "0rem",

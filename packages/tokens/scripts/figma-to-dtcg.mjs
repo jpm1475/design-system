@@ -95,11 +95,13 @@ export function kindOf(v) {
   // Elevation offsets, blur and spread stay px (docs/figma-conventions.md section 5).
   if (/^elevations?$/i.test(root)) return 'px';
   if (/breakpoint|screen/i.test(root)) return 'px';
+  // Primitive letter spacing stays px; semantic roles output em (docs/figma-conventions.md section 5).
+  if (/^letter-spacing$/i.test(root)) return 'px';
   if (/^opacity$/i.test(root)) return 'percent';
   if (/^z-index$/i.test(root)) return 'number';
   if (/^font-weight$/i.test(root)) return 'number';
   if (
-    /^(radius|sizing-scale|spacing-scale|font-size|line-height|letter-spacing|paragraph-spacing|paragraph-indent)$/i.test(
+    /^(radius|sizing-scale|spacing-scale|font-size|line-height|paragraph-spacing|paragraph-indent)$/i.test(
       root,
     )
   )
@@ -318,6 +320,9 @@ export function figmaToDtcg(raw) {
         const tok = { $type, $value };
         if (v.description) tok.$description = v.description;
         tok.$extensions = { 'com.figma': ext };
+        // Semantic letter spacing keeps its px alias; the build outputs it in em.
+        if (cn === 'typography-semantics' && /letter-spacing$/i.test(v.name))
+          tok.$extensions.ds = { unit: 'em-from-px' };
         put(
           fileFor(v, c, mode),
           isIcon ? iconModePath(v.name, mode.name, c.variableIds.length) : segs,
