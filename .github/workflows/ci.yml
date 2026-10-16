@@ -15,8 +15,9 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm lint
-      - run: pnpm typecheck
+      # blocks typechecks against the built components types, so build first.
       - run: pnpm build
+      - run: pnpm typecheck
       - run: pnpm test
       - run: pnpm size
       - run: pnpm --filter @jpm1475/ds-tokens figma-sync:check
