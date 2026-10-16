@@ -1,0 +1,24 @@
+name: CI
+on:
+  pull_request:
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm lint
+      - run: pnpm typecheck
+      - run: pnpm build
+      - run: pnpm test
+      - run: pnpm size
+      - run: pnpm --filter @jpm1475/ds-tokens figma-sync:check
+      - run: pnpm exec storybook build
+      - run: pnpm changeset status --since=origin/main
