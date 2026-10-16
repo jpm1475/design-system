@@ -17,7 +17,7 @@ Patterns live in `src/patterns/<Name>/` with the same anatomy and rules, built o
 
 ## Styling
 - CSS Modules. Every rule inside `@layer ds { }`.
-- Only `var(--ds-*)` values. Never raw colors, sizes or shadows.
+- Only `var(--ds-*)` values. Never raw colors, sizes, letter spacing or shadows.
 - Style states with real selectors: `:hover`, `:focus-visible`, `:disabled`, `[aria-invalid="true"]`, `[data-loading]`.
 - Focus is always visible, using the focus-ring token.
 - Never declare `@font-face` or import fonts in a component; fonts come from `@jpm1475/ds-fonts` at the app level.

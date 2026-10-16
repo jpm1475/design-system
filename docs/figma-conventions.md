@@ -57,7 +57,7 @@ One Storybook page per foundation, each titled `Foundations/<Name>`:
 - **Collections:** `primitives`, `semantics`, `typography-primitives`, `typography-semantics`, `icon-context`. Expect exactly these five.
 - **Casing:** group names are lowercased and kebab-cased in code (`Border-Width/2` and `border-width/2` both become `--ds-border-width-2`). If two Figma variables would produce the same CSS name, stop and report both.
 - **`icon-context`:** one variable (currently `color/icon/context`) with one mode per context (currently Primary, Inverse, Secondary, Brand, Disabled, Error). In code, each mode becomes its own variable named after the mode: `--ds-icon-primary`, `--ds-icon-inverse`, and so on. The Icon component takes a `context` prop that picks one. Sync maps each `--ds-icon-<mode>` back to that mode of the single Figma variable. If the collection later has several variables, name them `--ds-icon-<variable>-<mode>`.
-- **Elevation:** semantic level variables (currently `elevations/L1` to `L3`, each with `x-offset`, `y-offset`, `blur`, `spread`, `color`) are combined into one composite per level, `--ds-elevation-l1` and so on. Match the group case-insensitively as `elevation` or `elevations`. If a level has `layer-1`, `layer-2` subgroups, combine them into one comma-separated `box-shadow`. Effect styles named `Elevation/*` must have every property bound to variables; report any unbound property as a warning.
+- **Elevation:** semantic level variables (currently `elevation/l1` to `l3`, each with `x-offset`, `y-offset`, `blur`, `spread`, `color`) are combined into one composite per level, `--ds-elevation-l1` and so on. Match the group case-insensitively as `elevation` or `elevations`. If a level has `layer-1`, `layer-2` subgroups, combine them into one comma-separated `box-shadow`. Effect styles named `Elevation/*` must have every property bound to variables; report any unbound property as a warning.
 - **Z-index:** `Z-Index/*` primitives become unitless `--ds-z-*` tokens.
 
 ## 5. Units
@@ -68,10 +68,24 @@ One Storybook page per foundation, each titled `Foundations/<Name>`:
 | Border width, elevation offsets, blur, spread | px |
 | Breakpoints | px |
 | Line height | unitless if Figma gives a percent, rem if px |
+| Letter spacing (`typography-semantics`) | em, computed per role and per breakpoint mode (see below) |
+| Letter spacing (`typography-primitives`) | px, for reference only |
 | Opacity | 0 to 1 (divide by 100 if Figma stores 0 to 100) |
 | Z-index, font weight | unitless numbers |
 
 The reverse conversion must restore Figma's exact values, so a pull followed by a dry-run push reports no changes.
+
+### Letter spacing
+
+Figma letter-spacing variables are px (Figma applies a bound number variable as pixels). In CSS, letter spacing should scale with the text it sits on, so semantic letter spacing is output in `em`:
+
+- For each `typography-semantics` role (for example `section`) and each breakpoint mode, `em = letter-spacing px / font-size px` of **that role in that same mode**, rounded to 4 decimals and trailing zeros removed. Example: `section/letter-spacing` 4px with `section/font-size` 14px gives `0.2857em`.
+- `0` stays `0` (no unit).
+- If a role has letter spacing but no font size, stop and report it (the tier test enforces this).
+- If a text style uses an unbound percent letter spacing, report it as a warning; `percent / 100` is the em value.
+- The DTCG source keeps the Figma shape: the semantic token's `$value` is still the alias to the `typography-primitives` px token. The em conversion happens only in the Style Dictionary output (a custom transform), so sync compares like with like and the round trip stays exact. Record `"$extensions": { "ds": { "unit": "em-from-px" } }` on these tokens so the transform and the Foundations page know.
+- Because the em value is computed, the CSS output for semantic letter spacing is a literal (`--ds-type-section-letter-spacing: 0.2857em;`), not `var()` of the primitive. Primitives still output as px (`--ds-letter-spacing-400: 4px;`) for reference; components never use them.
+- **Reverse conversion:** none needed for normal syncs, since the source already holds the px alias. If someone edits a semantic letter-spacing token in code to an em value, push converts it back with `px = em × that role's font-size px` in the same mode, then aliases the `typography-primitives` letter-spacing variable with that exact px value. If no primitive has that value, stop and ask whether to create one; never write a raw value into `typography-semantics`.
 
 ## 6. Component property naming map
 

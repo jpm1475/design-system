@@ -28,8 +28,9 @@ A test enforces the reference rules. `dist/tier-map.json` records each CSS varia
 
 ## Special collections
 - `icon-context` is one Figma variable with one mode per context (Primary, Inverse, Secondary, Brand, Disabled, Error). Each mode becomes `--ds-icon-<mode>`; the Icon component's `context` prop picks one.
-- Elevation levels (`elevations/L1` to `L3` in Figma) are composed into `--ds-elevation-l1` to `l3` (full `box-shadow` values). Edit shadows through their variables only; effect styles are never synced. Pair levels with `--ds-z-*` as documented on the Foundations/Elevation page.
+- Elevation levels (`elevation/l1` to `l3` in Figma) are composed into `--ds-elevation-l1` to `l3` (full `box-shadow` values). Edit shadows through their variables only; effect styles are never synced. Pair levels with `--ds-z-*` as documented on the Foundations/Elevation page.
 - Units follow `docs/figma-conventions.md` section 5 (rem for spacing and type, px for borders, shadows and breakpoints, unitless z-index and weights, opacity 0 to 1).
+- Letter spacing: Figma stores px. The source keeps the px alias; the build outputs each semantic role's letter spacing in `em` (px divided by that role's font size in the same breakpoint mode), so tracking scales with the text. Never hand-edit the em values in `dist/`; change letter spacing in Figma or the source and rebuild.
 
 ## Foundations pages
 - One MDX page per foundation in `src/docs/`, titled `Foundations/<Name>`. Values come from the built tokens; never paste values by hand.
